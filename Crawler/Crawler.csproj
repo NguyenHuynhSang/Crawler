@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Curl\" />
+    <Folder Include="Output\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
+
 </Project>
