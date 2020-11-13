@@ -1,0 +1,15 @@
+﻿curl 'https://itviec.com' \
+  -H 'authority: itviec.com' \
+  -H 'cache-control: max-age=0' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'referer: https://itviec.com/it-jobs' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: recent_searches=; last_city_searched=ho-chi-minh-hcm; cvmissing=value; _ga=GA1.2.2034041526.1604906217; _gid=GA1.2.1935885602.1604906217; _gcl_au=1.1.1980217552.1604906217; G_ENABLED_IDPS=google; _fbp=fb.1.1604906216924.1589729746; auto_jr_lightbox=true; viewed_jobs=senior-ios-engineer-pycogroup-0949%7Cbridge-project-manager-bridge-engineer-vitalify-asia-1722; _gat=1; _dc_gtm_UA-42033311-2=1; _dc_gtm_UA-42033311-4=1; _ITViec_session=YjdkRkRjTVFoS2xrWWF3d2RqK1VNdlQ0ck0yNEhzRjllaTNPdEw3RUFEL2Y0T1BBOGtlWFZnZk96R2tWeGtFNGM0S0JEZ0RYZTMxWHkwckVRVkpQZHUvWXYvaWJjQ3NURU5Ec3ZBMDMvY0ljYndNZVFSMFZyUysyMDA1NFhKakF4ck5QVEtkblBSRDBGS1lXUlZrd3FRPT0tLXU5SnFIOGdBckg1blhLN2VKZ3BqeXc9PQ%3D%3D--401dfc3de721972b4fb47ffc64c80dab911e7d86' \
+  -H 'if-none-match: W/"58869102c2423e2e1d5c9ea14b4e67e8"' \
+  --compressed

@@ -1,0 +1,14 @@
+﻿curl 'https://careerbuilder.vn/vi/tim-viec-lam/to-truong-to-ky-thuat-ban-du-an-digital-banking.35B51798.html' \
+  -H 'authority: careerbuilder.vn' \
+  -H 'cache-control: max-age=0' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'referer: https://careerbuilder.vn/viec-lam/cntt-phan-mem-c1-vi.html' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: jobseeker=8ek0fkdo5padha0dd4r96p8lb0; clientKey=5facafc4f10c1; strSearchJobRecent=%7B%22_1%22%3A%22eyJJTkRVU1RSWSI6IjEiLCJzaW1pbGFyIjowLCJTRUFSQ0giOjEsIk9XTkVSIjoia2llbXZpZWMiLCJDT1VOVF9TRUFSQ0giOnRydWV9%22%7D; __stp={"visit":"new","uuid":"21b77937-8108-41e7-8672-33dc9629aae5"}; __stdf=0; _hjid=4b352174-7181-4e12-bf6f-1fd4dc4f1c99; _hjFirstSeen=1; _gcl_au=1.1.1727805161.1605152711; __stbpnenable=1; _hjIncludedInSessionSample=1; _hjAbsoluteSessionInProgress=0; _ga=GA1.2.146128521.1605152711; _gid=GA1.2.61389640.1605152711; __stat="BLOCK"; CBbyeIQBox=1-Thu Nov 12 2020; __sts={"sid":1605152709849,"tx":1605153504105,"url":"https%3A%2F%2Fcareerbuilder.vn%2Fvi%2Ftim-viec-lam%2Fto-truong-to-ky-thuat-ban-du-an-digital-banking.35B51798.html","pet":1605153504105,"set":1605152709849,"pUrl":"https%3A%2F%2Fcareerbuilder.vn%2Fviec-lam%2Fcntt-phan-mem-c1-vi.html","pPet":1605152709849,"pTx":1605152709849}; _gat_UA-29093916-1=1; _gat=1; __stgeo="granted"' \
+  --compressed
