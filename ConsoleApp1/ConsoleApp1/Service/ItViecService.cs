@@ -22,9 +22,9 @@ namespace ConsoleApp1
 {
     public class ItViecService
     {
+
         public readonly string email = @"nguyentuoc123789a@gmail.com";
         public readonly string passWord = @"abc123456";
-
 
         private IWebDriver _driver;
         public readonly string itViet_url = @"https://itviec.com";

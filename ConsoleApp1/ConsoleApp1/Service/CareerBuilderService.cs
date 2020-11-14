@@ -22,6 +22,10 @@ namespace ConsoleApp1.Service
     /// 
     /// 
     /// </summary>
+    /// 
+
+
+
     public class CareerBuilderService
     {
 
@@ -58,6 +62,7 @@ namespace ConsoleApp1.Service
             Thread_ExtractData = new Thread(Extractor);
             thread_CrawData.Start();
             Thread_ExtractData.Start();
+            
         }
 
 
@@ -69,6 +74,12 @@ namespace ConsoleApp1.Service
 
 
         private static int pageIndex = 1;
+
+
+        /// <summary>
+        /// To-do: nhấn next page liên tục do đến hết
+        /// web paging dạng cuộn 
+        /// </summary>
         private void NextPage()
         {
             try
@@ -81,7 +92,6 @@ namespace ConsoleApp1.Service
                 var btnNextPage = _driver.FindElement(By.ClassName("next-page"));
                 if (btnNextPage.Displayed)
                 {
-
                     btnNextPage.Click();
                     pageIndex++;
                 }
@@ -114,7 +124,6 @@ namespace ConsoleApp1.Service
                 counter++;
             }
 
-            var a = 2;
         }
 
 
@@ -147,28 +156,29 @@ namespace ConsoleApp1.Service
             return result;
         }
 
+
+
+
         public void Extractor()
         {
 
-            while (true)
+            do
             {
                 while (pageSourceList.Count != 0)
                 {
+
                     var result = Regex.Match(pageSourceList[0], @"(?<='dispatch', 'p_detail_page',).*?(?<=})", RegexOptions.Singleline).Value;
                     var job = JsonConvert.DeserializeObject<CareerBuilderModel>(result);
+
                     careerBuilderModels.Add(job);
                     pageSourceList.RemoveAt(0);
                     Console.WriteLine("Extractor");
 
                 }
-
-                if (!thread_CrawData.IsAlive)
-                {
-                    Console.WriteLine("FINISH");
-                    break;
-                }
-            }
+            } while (thread_CrawData.IsAlive);
+  
         }
 
+     
     }
 }

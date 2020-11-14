@@ -7,8 +7,8 @@ namespace ConsoleApp1.Service
    public  interface IBaseCrawlService
     {
         public void Process();
-        internal void CrawlData();
-        internal void ExtractContent();
+        protected void CrawlData();
+        protected void ExtractContent();
 
 
     }

@@ -338,11 +338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\Crawler\\log\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "D:\\Git\\Crawler\\log\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "D:\\Git\\Crawler\\Crawler\\ConsoleApp1\\ConsoleApp1\\Crawler.csproj",
+      "projectName": "Crawler",
+      "projectPath": "D:\\Git\\Crawler\\Crawler\\ConsoleApp1\\ConsoleApp1\\Crawler.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\Crawler\\log\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "D:\\Git\\Crawler\\Crawler\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

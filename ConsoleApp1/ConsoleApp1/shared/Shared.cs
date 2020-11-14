@@ -19,12 +19,11 @@ namespace ConsoleApp1.shared
 
                 Console.WriteLine("Element does't exitst by: ", by.ToString());
             }
-
-
             return false;
-
-
         }
+
+        
+
 
     }
 }
