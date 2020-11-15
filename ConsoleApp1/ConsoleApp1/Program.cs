@@ -43,11 +43,11 @@ namespace ConsoleApp1
         
         static void Main(string[] args)
         {
-            //itViecService = new ItViecService();
-              vietNamWorkService = new VietNamWorkService();
+            itViecService = new ItViecService();
+            //  vietNamWorkService = new VietNamWorkService();
            // careerBuilderService = new CareerBuilderService();
-          //  itViecService.Process();
-            vietNamWorkService.CrawlData();
+          itViecService.Process();
+          //  vietNamWorkService.CrawlData();
       
       
 

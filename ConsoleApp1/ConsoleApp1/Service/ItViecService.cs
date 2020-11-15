@@ -91,8 +91,9 @@ namespace ConsoleApp1
                 {
                     var a = _wait.Until(
                        d => ((IJavaScriptExecutor)d).ExecuteScript("return document.readyState").Equals("complete"));
-
-                    var itemLinks = _driver.FindElements(By.XPath(@"//*[starts-with(@class, ""job"")]/div/div[2]/div[1]/div/h2/a"));
+                  
+                    var item = _driver.FindElements(By.XPath(@"//*[starts-with(@class, ""job"")]/div/div[2]/div[1]/div/h2/a"));
+                    var salary= _driver.FindElements(By.XPath(@"//*[starts-with(@class, ""job"")]/div/div[2]/div[1]/div/div[1]/span[2]"));
                     Console.WriteLine("current page:" + currentPage);
                     //foreach (var item in itemLinksDiv)
                     //{
@@ -100,18 +101,19 @@ namespace ConsoleApp1
                     //}
 
                     //   var itemLinks = Regex.Matches(_driver.PageSource, @"(?<=<h2 class=""title"")(.*?)(?=</h2>)", RegexOptions.Singleline);
-                    for (int i = counter; i < itemLinks.Count; i++)
+                    for (int i = counter; i < item.Count; i++)
                     {
                         Container c = new Container();
-                        var link = itemLinks[i].GetAttribute("href");
-                        c.link = link;
                         
+                        var link = item[i].GetAttribute("href");
+                        c.link = link;
+                        c.salary = salary[i].Text;
                         pageLinkList.Enqueue(c);
                         counter++;
 
                     }
                     Console.WriteLine("total recond:" + counter);
-                    Console.WriteLine("actual recond:" + itemLinks.Count);
+                    Console.WriteLine("actual recond:" + item.Count);
                     var btnNextPage = _driver.FindElement(By.XPath(@"//*[@id=""show_more""]/a"));
                     btnNextPage.Click();
                     currentPage++;
@@ -174,7 +176,6 @@ namespace ConsoleApp1
 
 
         private int extractCounter = 1;
-        bool checkIfComplete = true;
         private void ExtractPage()
         {
 
@@ -209,28 +210,19 @@ namespace ConsoleApp1
 
                         var skillAndExperience = Regex.Matches(skillsAndExperienceDiv.Value, @"(?<=<li>).*?(?=</li>)", RegexOptions.Singleline).ToList();
 
-                        var salary = Regex.Match(pageSource, @"(?<=span class='salary-text'>).*?(?=</span>)", RegexOptions.Singleline).Value;
+                    
                         companyJob.id = processCounter;
                         companyJob.JobName = jobName;
                         companyJob.CompanyName = companyName;
-                        companyJob.Salary = salary;
-                        foreach (var item2 in skills)
-                        {
-                            companyJob.Skills.Add(item2.Value);
-                            Console.Write(item2 + "-");
-                        }
+                        companyJob.Salary =item.salary;
 
-                        foreach (var item3 in skillAndExperience)
-                        {
-                            companyJob.SkillsExperience.Add(item3.ToString());
-                            Console.WriteLine("- " + item3);
-                        }
+                        Console.WriteLine("-----" );
+                        Console.WriteLine(companyName);
+                        Console.WriteLine(jobName);
+                        Console.WriteLine(item.salary);
                         this.itWorkModels.Add(companyJob);
-                        if (extractCounter>200)
-                        {
-                            checkIfComplete = false;
-                            break;
-                        }
+                        Console.WriteLine("=====");
+
 
                     }
                     catch (Exception)
@@ -242,7 +234,7 @@ namespace ConsoleApp1
                 }
 
 
-            } while (crawlThread.IsAlive && checkIfComplete);
+            } while (crawlThread.IsAlive);
 
             Console.WriteLine("All finish");
 
