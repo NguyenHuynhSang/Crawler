@@ -35,25 +35,18 @@ namespace ConsoleApp1
     class Program
     {
   
-      
-
-        public static List<ItWorkModel> ItWorkModels;
-        public static HttpClient client;
-
         public static ItViecService itViecService;
         public static VietNamWorkService vietNamWorkService;
         public static CareerBuilderService careerBuilderService;
 
 
-        public static IWebDriver _driver;
         
         static void Main(string[] args)
         {
-          //  _driver = new ChromeDriver();
-            //itViecService = new ItViecService(_driver);
+            itViecService = new ItViecService();
       //    //  vietNamWorkService = new VietNamWorkService();
-            careerBuilderService = new CareerBuilderService();
-           // itViecService.CrawItViec();
+           // careerBuilderService = new CareerBuilderService();
+            itViecService.Process();
             //vietNamWorkService.CrawlData();
       
       

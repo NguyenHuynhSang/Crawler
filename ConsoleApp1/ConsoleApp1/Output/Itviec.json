@@ -1,0 +1,4447 @@
+[
+  {
+    "id": 1,
+    "CompanyName": "Ngân Hàng Á Châu | ACB",
+    "JobName": "IT - Senior Mobile Developer (JAVA)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "Agile",
+      "Kotlin"
+    ],
+    "SkillsExperience": [
+      "BS/MS degree in computer science, software engineering, or a related technical field",
+      "5+ years of experience in <strong>Java backend development</strong>",
+      "Good understanding of OOP, design patterns, multithreading/concurrency programming, data structure and algorithms",
+      "Experience in React Native programming",
+      "Understand or experience in <strong>Kotlin (Android)/Swift(iOS)</strong> is a big plus",
+      "Experience in RESTful APIs to connect Android and iOS applications to backend services",
+      "Strong knowledge of <strong>Android/iOS</strong> UI design principles, patterns",
+      "Understanding of gyroscope and accelerometer sensors",
+      "Experience in push notification services",
+      "Benchmarking, optimization experience and knowledge of offline storage, threading, and performance tuning are big pluses",
+      "Understanding of CI/CD software development environments",
+      "Experience in agile development teams, such as Scrum, Kanban",
+      "Interested in dealing with technical challenges and keen on exploring new things",
+      "Good problem-solving skills and teamwork spirit",
+      "Strong communication skills to effectively collaborate with other developers and stakeholders",
+      "Good English communication"
+    ],
+    "Level": null
+  },
+  {
+    "id": 2,
+    "CompanyName": "Ngân Hàng Á Châu | ACB",
+    "JobName": "Solution Architect - Banking Domain",
+    "Salary": "",
+    "Skills": [
+      "Software Architect",
+      "Agile"
+    ],
+    "SkillsExperience": [
+      "BS, MS, and/or Ph.D. degree in computer science, software engineering, or a related technical field",
+      "3+ years of experience in solution/software architect and software development",
+      "Strong knowledge of OOP, design patterns, multithreading/concurrency programming, data structure and algorithms",
+      "Very strong problem solving with deep system knowhow cross all layers",
+      "Experience in frameworks, such as Spring boot, Hibernate, Spring Data, Spring Security, and/or .Netcore, Angular, React",
+      "Experience in one or more programming languages, such as Java, Go, C/C++,&nbsp;C#,&nbsp;JavaScript, TypeScript, Python, Ruby or PHP, Kotlin, Swift.",
+      "Experience in and good foundation of SQL and NoSQL databases, such as Oracle, PostgreSQL, Couchbase, MongoDB",
+      "Experience of distributed storage &amp; messaging systems (RabbitMQ, Active, Kafka…), microservices, ELK, and mobile development",
+      "Experience with event-driven applications using queues, service bus and other related patterns",
+      "Knowledge of Keycloak/Redhat SSO is a big plus",
+      "Experience defining the architecture of cloud deployed applications (AWS/Azure preferred).",
+      "Experience with containerized applications using Docker, Kubernetes or other similar tooling.",
+      "Experience defining and driving SecDevOps best practices within large teams",
+      "Experience establishing legacy modernization and migration roadmaps for large scale applications.",
+      "Understanding of CI/CD software development environments",
+      "Experience in agile development teams, such as Scrum, Kanban",
+      "Interested in dealing with technical challenges and keen on exploring new things",
+      "Good problem-solving skills and teamwork spirit",
+      "Strong communication skills to effectively collaborate with other developers and stakeholders",
+      "Good English communication"
+    ],
+    "Level": null
+  },
+  {
+    "id": 3,
+    "CompanyName": "ARIS Vietnam",
+    "JobName": "2 Fullstack Devs (Java, PHP, JavaScript)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "JavaScript",
+      "PHP"
+    ],
+    "SkillsExperience": [
+      "Developing web applications using Java or PHP technologies.",
+      "At least 3 years' experience in web application development.",
+      "Good knowledge in web service - RESTful, JSON, GraphQL.",
+      "Good knowledge about distributed system architect/microservices.",
+      "Comfortable with SQL databases (MySQL, POSTGRE, MSSQL, etc.).",
+      "Ability to write clear documentation and specifications.",
+      "Eager to learn new things and up-to-date with the latest technology and development trends.",
+      "Good Diploma/Degree in Computer Science/Information Technologies.",
+      "Java EE development experience (Java Core, Java EE, Spring boot, ...).",
+      "Good working experience with RESTFull API.",
+      "Comfortable with SQL databases (MySQL, POSTGRE, MSSQL, etc.).",
+      "Familiar with Agile and Continuous Integration and Continuous Delivery(Deployment).",
+      "Ability to write clear documentation and specifications.",
+      "Experience on Front-end development, such as Angular, React, Flux, NodeJS, JavaScript.",
+      "Experienced with Linux, DevOps, Microservices is a plus.",
+      "Eager to learn new things and up-to-date with the latest technology and development trends.",
+      "Strong interpersonal and communications skills, both oral and written.",
+      "Good analytic thinking, good problem-solving skill.",
+      "Having Experience of mobile app development is an added advantage."
+    ],
+    "Level": null
+  },
+  {
+    "id": 4,
+    "CompanyName": "ARIS Vietnam",
+    "JobName": "02 Java Developers (Spring, MySQL)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "MySQL",
+      "Spring"
+    ],
+    "SkillsExperience": [
+      "Technical Skills:<ul><li>At least 3 years of experience in implementing projects on the Java platform.",
+      "Proficiency in database management systems such as MySQL, SQL Server, Oracle, PostgreSQL.",
+      "Experience with Framework such as Struts, Spring, Ibatis, MyBatis, Hibernate.",
+      "Have knowledge and experience in HTML5 / CSS3, JavaScript, jQuery, Bootstrap.",
+      "Have knowledge and experience in Maven, Gradle.",
+      "Have knowledge of Apache Server, Apache Tomcat, ...",
+      "Skills:<ul><li>Ability to analyze requirements.",
+      "Ability to write clean, simple and easy-to-understand code.",
+      "Ability to gather information and generate reports.",
+      "Ability to work independently and with teammates.&nbsp;",
+      "Quick learner, easy to adapt to new technologies.",
+      "Professional working style with strong sense of responsibility.",
+      "Good English communication skills (both verbal and written).",
+      "Other details will be discussed during the interview.",
+      "Good Japanese communication skills is a plus.",
+      "Knowledge and hand-on experience with other programming languages such as PHP, C#... is a plus"
+    ],
+    "Level": null
+  },
+  {
+    "id": 5,
+    "CompanyName": "SSI Securities Corporation",
+    "JobName": "System Admin (Linux)",
+    "Salary": "",
+    "Skills": [
+      "System Admin",
+      "Linux",
+      "English"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 6,
+    "CompanyName": "Titan Technology Corporation",
+    "JobName": "Business Analyst",
+    "Salary": "",
+    "Skills": [
+      "Business Analyst",
+      "Agile",
+      "English"
+    ],
+    "SkillsExperience": [
+      "Bachelor's degree in&nbsp;Computer Science,&nbsp;IT or equivalent",
+      "At least&nbsp;3 years of&nbsp;relevant&nbsp;experience",
+      "Experienced in&nbsp;writing&nbsp;technical documents, procedures, workflows",
+      "Experienced in analyzing requirements",
+      "Good English skills (reading, writing, speaking &amp; listening)",
+      "Excellent communication&nbsp;and interpersonal&nbsp;skills",
+      "Detail-oriented and cautious",
+      "Highly responsible in work, proactive, self-organized and good teamwork spirit",
+      "Able to join meeting at night"
+    ],
+    "Level": null
+  },
+  {
+    "id": 7,
+    "CompanyName": "Yojee",
+    "JobName": "Fullstack Engineer (JS/Python/Elixir)",
+    "Salary": "",
+    "Skills": [
+      "JavaScript",
+      "Python",
+      "ReactJS"
+    ],
+    "SkillsExperience": [
+      "Minimum Bachelor Degree in Computer Engineering or its equivalent related experience.",
+      "Minimum&nbsp;2 years of experience in development of various complex&nbsp;products.",
+      "Experienced and proficient in working with at least two languages, preferably JavaScript, TypeScript, Ruby, Python or Elixir.",
+      "Experience with frontend technologies like React.js,&nbsp;Angular.js or vue.js.",
+      "Experience working with relational database systems (preferably PostgreSQL).",
+      "DevOps experience with AWS or Azure, Docker.",
+      "Production experience with Elixir &amp; Phoenix.",
+      "Scripting (Python, Lambda, Bash)."
+    ],
+    "Level": null
+  },
+  {
+    "id": 8,
+    "CompanyName": "DT ADT JSC",
+    "JobName": "Jr. Product Owner (UI-UX, BA)",
+    "Salary": "",
+    "Skills": [
+      "Business Analyst",
+      "Agile",
+      "UI-UX"
+    ],
+    "SkillsExperience": [
+      "At least 1 year experience at the same position",
+      "Bachelor degree in any discipline or practical experience in project management/planning",
+      "Able to use wireframing tools (Balsamiq, Draw.io, etc.)",
+      "Fluency in English",
+      "Understand the product life cycle from development to release",
+      "Good communication skill to collaborate with colleagues and cross-functional teams",
+      "Possess good product sense, strong logical thinking &amp; researching skills;",
+      "Good time management, presentation and problem-solving skills",
+      "Real experience on development of any product line.",
+      "Experience with agile scrum development is a plus",
+      "Experience in Business Analyst is a plus;"
+    ],
+    "Level": null
+  },
+  {
+    "id": 9,
+    "CompanyName": "DT ADT JSC",
+    "JobName": "Senior Mobile Developer (React Native)",
+    "Salary": "",
+    "Skills": [
+      "React Native",
+      "MySQL",
+      "JavaScript"
+    ],
+    "SkillsExperience": [
+      "Yêu cầu 2 năm kinh nghiệm trở lên với React Native",
+      "Hiểu biết về OOP và Design Pattern.",
+      "Hiểu rõ về Javascript, ES6+, React Hooks (hoặc component-life-cycle nếu bạn đã quen thuộc với các thành phần dựa trên Class) và hệ sinh thái React (Redux, React Navigation, Redux Thunk, Redux Saga,...)",
+      "Kinh nghiệm với Authentication, Push Notification, Animation, Camera, Maps, WebSocket …",
+      "Kinh nghiệm triển khai ứng dụng trên AppStore (iOS) và PlayStore (Android)",
+      "Có kinh nghiệm làm việc với REST APIs.",
+      "Kinh nghiệm tích hợp Apollo Client (GraphQL) là 1 lợi thế",
+      "Có khả năng tích hợp module native lập trình cho Android hoặc iOS là 1 lợi thế"
+    ],
+    "Level": null
+  },
+  {
+    "id": 10,
+    "CompanyName": "Swiss Post Solutions Vietnam",
+    "JobName": "Security Engineer",
+    "Salary": "",
+    "Skills": [
+      "System Engineer",
+      "MySQL",
+      "Database"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 11,
+    "CompanyName": "Bigin",
+    "JobName": ".Net Developer - Mid Level (ASP.Net)",
+    "Salary": "",
+    "Skills": [
+      ".NET",
+      "OOP",
+      "ASP.NET"
+    ],
+    "SkillsExperience": [
+      "At least 2+ year of experience in web application development using asp.net or asp.net core",
+      "Strong experiences with Web technologies (.NET Core, Web&nbsp;api). ",
+      "Strong understand of OOP. ",
+      "Knowledge in&nbsp; at least web frontend: ReactJs,.... ",
+      "Fair/Good at English reading and writing. (Verbal communication is a plus)"
+    ],
+    "Level": null
+  },
+  {
+    "id": 12,
+    "CompanyName": "FinOS Technology",
+    "JobName": "Lead DevOps and IT Operations Engineer",
+    "Salary": "",
+    "Skills": [
+      "DevOps",
+      "Linux",
+      "AWS"
+    ],
+    "SkillsExperience": [
+      "Very fast learner",
+      "Experience with CI/CD tools (Jenkins is prefefed) and infstrastructure as code (AWS Cloudformation, Terraform, Ansible)",
+      "Experience on Kubernetes, Rancher, Microservices",
+      "Experience in managing Git or other Git on cloud services",
+      "A deep understanding of the Linux operating systems.",
+      "Ability to debug and solve configuration, performance and reliability problems quickly; sometimes under pressure if there are issues that are directly affecting product users.",
+      "Knowledge of standard methodologies: configuration management, monitoring, alerting, metrics.",
+      "Knowledge of networks basis and work of TCP/IP.",
+      "Knowledge of database administration (Postgres, Elastic search)",
+      "3+ years of operational experience as System Administrator or System Engineer or DevOps engineer.",
+      "Scripting and/or development skills to automate everything.",
+      "Ability to automate routine processes using Python, Bash.",
+      "Good service attitude and&nbsp;proactive",
+      "Proficient English",
+      "Experience in Java/Spring Cloud/Spring Boot programing is prefered."
+    ],
+    "Level": null
+  },
+  {
+    "id": 13,
+    "CompanyName": "M_Service (MoMo)",
+    "JobName": "Senior Java Developers (J2EE, Database)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "Database",
+      "J2EE"
+    ],
+    "SkillsExperience": [
+      "Degree in Computer Science or related fields with at least <strong>2 years working experience in Java and J2EE</strong> (Servlets, JSPs, JSFs, JPA, JMS, Web Services...) related area.",
+      "Very strong at Java core, Object Oriented Programming and algorithm.",
+      "Experience in database systems (MS-SQL/Oracle/No-SQL…).",
+      "Experience in web server framework (Vertx, Spring…)."
+    ],
+    "Level": null
+  },
+  {
+    "id": 14,
+    "CompanyName": "InnomizeTech",
+    "JobName": "Leader / Senior Full Stack Engineers",
+    "Salary": "",
+    "Skills": [
+      "Team Leader",
+      "ERP",
+      "AWS"
+    ],
+    "SkillsExperience": [
+      "Bachelor’s Degree",
+      "5+ years of experience on full stack development",
+      "Full-Stack software development experience preferred with an emphasis on Front End architecting and building robust distributed systems that scale well",
+      "Working understanding of HTML, CSS, JavaScript/ TypeScript",
+      "Experience in developing unit tests",
+      "Strong problem solving skills",
+      "Ability to architect and design SaaS products",
+      "Ability to writing reusable libraries",
+      "Working experience with one or more of the following: .Net Core, Java, NodeJs, PHP, Go",
+      "Strong in cloud computing with one or more of the following: AWS, Azure, Google Cloud",
+      "Experience with Azure, PowerPI, PowerApps",
+      "eCommerce experience with Magento / PrestaShop / Odoo <strong>is a Big Plus</strong>",
+      "Knowledge of and skills in Swagger, Microservices (Docker)",
+      "Good <strong>English </strong>communication"
+    ],
+    "Level": null
+  },
+  {
+    "id": 15,
+    "CompanyName": "Oxford University Clinical Research Unit | OUCRU",
+    "JobName": "Mobile Developer (Android, OOP)",
+    "Salary": "",
+    "Skills": [
+      "Android",
+      "OOP",
+      "Java"
+    ],
+    "SkillsExperience": [
+      "Bachelors degree in computer science, or equivalent",
+      "2+ years experience working with Android SDK, Android Studio (Editor, Layout builder, Debugging tools, …)",
+      "Have knowledge of OOP, Java/Kotlin programming language. Kotlin is a plus",
+      "Have knowledge of Android components (Activity, Fragment, Thread, Service, Broadcast Receiver, Content Providers), UI Building.",
+      "Experience with dealing with different screen sizes and different versions of Android devices.",
+      "Experience with programming communication between mobile and server via RESTful API.",
+      "Familiar with offline storage / databases such as SharedPreferences, SQLite. Room Database is a plus.",
+      "Basic knowledge about design patterns (MVC, MVVM, MVP)",
+      "Experience with SVN / Git version control system.",
+      "Having knowledge about RxJava, RxAndroid, UI/UX design principles and guidelines is an advantage.",
+      "Experience working with customers and partners",
+      "Excellent written and verbal communication skills",
+      "Ability to work in a dynamic, fast moving and growing environment",
+      "IELTS equivalent 5.0",
+      "Experience publishing a high quality mobile application to the Play Store and App store",
+      "Experience with communication and messaging applications",
+      "Experience with security software and solutions",
+      "Contracted salary:Negotiate (depending on actual experience and education).",
+      "Optional insurance : In-patient and out-patient medical coverage; Personal accident insurance coverage",
+      "Two months salary for annual bonus and clothes",
+      "Annual leave 18 days/year for the first year, a maximum of 30 days",
+      "Other responsibilities and benefits are based on Viet Nam Labor Law"
+    ],
+    "Level": null
+  },
+  {
+    "id": 16,
+    "CompanyName": "Lecle Vietnam",
+    "JobName": "Cloud Engineer (AWS, Linux)",
+    "Salary": "",
+    "Skills": [
+      "AWS",
+      "Linux",
+      "Cloud"
+    ],
+    "SkillsExperience": [
+      "At least 1.5 years of experience in managing infrastructure in AWS service.",
+      "Experience in Linux System Administrator and Bash/Python Scripting",
+      "Experience in software VPN technologies in multiple configurations (client access, site-to-site tunneling, NIC tunnel mesh)",
+      "Experience in infrastructure security practices",
+      "Intermediate English communication level to work with foreign partners",
+      "Understanding and/or experience in DevOps culture, best practices, implementation",
+      "The 5 Pillars of the AWS Well-Architected Framework mindset",
+      "Knowledge of Serverless"
+    ],
+    "Level": null
+  },
+  {
+    "id": 17,
+    "CompanyName": "Nakivo",
+    "JobName": "Automation Tester - Hot Signin Bonus",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "Java",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "At least two (02) years of experience in automation test",
+      "Knowledge of object-oriented programming (Java or any equivalent)",
+      "Knowledge of Unix scripting (Shell scripting) and CI/CD",
+      "Ability to develop reliable test scripts, conduct regression test and performance test, maintain and improve test script",
+      "Ability to effectively manage time and individually prioritize multiple tasks of competing priority",
+      "Strong capacity to learn new techniques and systems",
+      "Good logical thinking, communication and analysis skills",
+      "Intermediate English skills",
+      "Bachelor Degree of Computer Science/ Technical Fields",
+      "Experience with Java and object-oriented programming, Selenium, TestNG, Jenkins",
+      "Knowledge of Computer Network, Cloud Computing, Virtualization, Linux"
+    ],
+    "Level": null
+  },
+  {
+    "id": 18,
+    "CompanyName": "Sendo.vn",
+    "JobName": "Backend Developer (Golang/.NET/PHP)",
+    "Salary": "",
+    "Skills": [
+      "Golang",
+      "PHP",
+      ".NET"
+    ],
+    "SkillsExperience": [
+      "Possess at least <strong>3 years</strong> of working experience in software development",
+      "Have knowledge in the following technologies: Linux, Docker, Kubernetes, Nginx, Git, Jenkins",
+      "Experience with one or more general-purpose programming languages, including but not limited to: <strong>Golang/PHP/.NET</strong>",
+      "Experience working on both relational and non-relational databases (MySQL, MongoDB) and comfortable with writing and maintaining performant SQL queries.",
+      "Experience working on Redis for caching/speeding up apps performance.",
+      "Excellent working attitude, problem-solving skill, critical thinking, and communication skill.",
+      "Previous success developing and shipping a large-scale application with a user-empathetic mindset",
+      "Enjoy technical challenges and are eager to explore new technologies"
+    ],
+    "Level": null
+  },
+  {
+    "id": 19,
+    "CompanyName": "Seesaa vietnam",
+    "JobName": "Web Dev (Ruby on Rails,HTML5,JavaScript)",
+    "Salary": "",
+    "Skills": [
+      "Ruby on Rails",
+      "HTML5",
+      "JavaScript"
+    ],
+    "SkillsExperience": [
+      "Tốt nghiệp đại học trở lên",
+      "Có kinh nghiệm phát triển Web từ 3 năm trở lên",
+      "Có kinh nghiệm phát triển ứng dụng Web sử dụng Ruby on Rails",
+      "Có kinh nghiệm thiết kế /cấu trúc của API base REST",
+      "Có kiến thức cơ bản liên quan đến HTTP /HTML5 /CSS3 /JavaScript",
+      "Có kiến thức cơ bản liên quan đến RDBMS",
+      "Có kinh nghiệm thiết kế database",
+      "Có kinh nghiệm thao tác các dòng lệnh của Linux/Unix",
+      "Có kinh nghiệm liên quan về lập trình hướng đối tượng",
+      "Có tinh thần teamwork và giúp đỡ lẫn nhau",
+      "Có kinh nghiệm sử dụng, ứng dụng AWS",
+      "Có kinh nghiệm phát triển ứng dụng Web sử dụng PHP, Python",
+      "Có kinh nghiệm phát triển ứng dụng mobile sử dụng Swift,Kotlin",
+      "Có tinh thần học hỏi kỹ năng mới, cải thiện kĩ năng",
+      "Có thể nói được tiếng Nhật (có trợ cấp tuỳ theo năng lực tiếng Nhật)"
+    ],
+    "Level": null
+  },
+  {
+    "id": 20,
+    "CompanyName": "Robert Bosch Engineering And Business Solutions",
+    "JobName": "Full Stack Java Developer",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "Spring",
+      "Angular"
+    ],
+    "SkillsExperience": [
+      "Have 2-5 years of experience in software development",
+      "Strong experience in Back-end: <strong>Spring, Springboot, SQL, Maven, Gradle</strong>",
+      "Strong experience in Front-end such as: <strong>HTML, CSS, JavaScript, Bootstrap, Angular</strong>",
+      "Experienced on <strong>Oracle SQL</strong>",
+      "Process knowledge: <strong>Scrum or Kanban</strong>",
+      "Ability to work independently and to be a good team player",
+      "Customer-focused attitude and desire to interface directly with end-user clients",
+      "Strong team player with passion for constantly improving product, productivity, code quality and code re-factoring",
+      "Good <strong>English</strong> communication skills"
+    ],
+    "Level": null
+  },
+  {
+    "id": 21,
+    "CompanyName": "Nissho Electronics",
+    "JobName": "Python Developer (Linux, Windows Server)",
+    "Salary": "",
+    "Skills": [
+      "Python",
+      "Linux"
+    ],
+    "SkillsExperience": [
+      "Yêu cầu chính:",
+      "Yêu cầu ưu tiên (Không bắt buộc):",
+      "Các yêu cầu khác:"
+    ],
+    "Level": null
+  },
+  {
+    "id": 22,
+    "CompanyName": "Ifinancial VN",
+    "JobName": "Senior Automation Tester(QA QC, English)",
+    "Salary": "",
+    "Skills": [
+      "Tester",
+      "C#",
+      "SQL"
+    ],
+    "SkillsExperience": [
+      "5+ years of experience in writing Automation Test script.",
+      "Relevant technical experience, in particular - Selenium, Robot, Test Complete, SVN, Git",
+      "Good at logical thinking, critical thinking.",
+      "Good spoken and written English",
+      "Target driven",
+      "A good communicator",
+      "Team player",
+      "Inquisitive and willing to challenge",
+      "Prepared to accept responsibility for your own actions",
+      "Knowledge on Banking systems and processes would be a plus"
+    ],
+    "Level": null
+  },
+  {
+    "id": 23,
+    "CompanyName": "Netcompany",
+    "JobName": "Fullstack Developer",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "SQL",
+      ".NET"
+    ],
+    "SkillsExperience": [
+      "Bachelor's or&nbsp;Master's&nbsp;degree within a relevant IT specialization",
+      "<strong>Good English skills </strong>both in writing and&nbsp;verbally.",
+      "At least 2-4 years of working experience.",
+      "Strong understanding of object-oriented programming and data modelling.",
+      "Experience in&nbsp;various design and architectural patterns, as well as modern system development",
+      "Open to quickly learning new technologies.",
+      "Ability to work both independently and collaboratively as part of an international team",
+      "Professional pro-active attitude, taking responsibility and showing initiative.",
+      "Effectively estimate work and produce deliverables on time."
+    ],
+    "Level": null
+  },
+  {
+    "id": 24,
+    "CompanyName": "Edulive",
+    "JobName": "Lập trình Android tham gia Startup",
+    "Salary": "",
+    "Skills": [
+      "Android",
+      "Java"
+    ],
+    "SkillsExperience": [
+      "TƯ DUY LOGIC TỐT",
+      "Đam mê kỹ thuật",
+      "Mong muốn làm trong môi trường startup tiềm năng",
+      "Mong muốn làm việc cường độ cao với người giỏi, học hỏi để hoàn thiện bản thân trong các vấn đề kỹ thuật",
+      "Khả năng tự nghiên cứu các vấn đề mới NHANH",
+      "Đang code các ứng dụng Android"
+    ],
+    "Level": null
+  },
+  {
+    "id": 25,
+    "CompanyName": "Restaff",
+    "JobName": ".NET/SharePoint developer",
+    "Salary": "",
+    "Skills": [
+      "Sharepoint",
+      ".NET"
+    ],
+    "SkillsExperience": [
+      "At least 3 years experience working with <i>SharePoint</i>, <i>.NET</i> MVC and Microsoft 365 services.",
+      "Good English communication, ability to explain and discuss technical issues.",
+      "Good experience in <i>SharePoint</i> OOB, ASP<i>.NET</i> MVC, Web API, CSOM, JSOM, REST API, JavaScript, jQuery.",
+      "Good experience in using source control, familiar with Scrum methodology.",
+      "Experience in any of the following <i>SharePoint</i> technologies: <i>SharePoint</i> Online search, site taxonomies, web parts, event receivers, timer jobs.",
+      "Experience in any of these Azure services: Azure Active Directory, Azure Functions, Azure Automation, Microsoft identity platform.",
+      "Experience in any of these Microsoft 365 services: Power Apps, Power Automate, Power BI.",
+      "Experience in any of these systems: Customer Relationship Management, IT Service Management, Project documentation, Quality system.",
+      "Customer focused, strong team player, analytical and critical thinking, open-minded, pays attention to details.",
+      "Willing to learn/research new techniques.",
+      "Experience in doing migration to <i>SharePoint</i> online from any sources.",
+      "Experience in developing <i>SharePoint</i> client web part using SPFx.",
+      "Experience in developing Office app/add-in using React or Angular.",
+      "Have ability to do multitasking."
+    ],
+    "Level": null
+  },
+  {
+    "id": 26,
+    "CompanyName": "Live group",
+    "JobName": "Quality Control Engineer (QA QC, SQL)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "SQL",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "Fluency in English",
+      "Self-starter – willing to contribute wherever needed",
+      "Commitment to quality",
+      "Attention to detail",
+      "Strong analytical skills",
+      "People-oriented",
+      "Experience working with Agile Methodologies and Agile tools (Jira, Confluence)",
+      "Experience working in a matrix organization/comfortable working with a cross functional team.",
+      "Skills in SQL and scripting languages are preferable",
+      "Experience in automated testing platforms like Selenium is highly valued",
+      "Strong communication skills. Must be able to conduct requirement gathering sessions, construct and lead presentations"
+    ],
+    "Level": null
+  },
+  {
+    "id": 27,
+    "CompanyName": "TOMOSIA Việt Nam",
+    "JobName": "Android Developers (Java/ Kotlin)",
+    "Salary": "",
+    "Skills": [
+      "Android",
+      "Java",
+      "Kotlin"
+    ],
+    "SkillsExperience": [
+      "<strong>Ít nhất 1 năm kinh nghiệm làm việc với Android.</strong>",
+      "Ngôn ngữ：Java / Kotlin",
+      "Có tư duy lập trình OOP tốt.",
+      "Có kinh nghiệm trong việc xây dựng một ứng dụng Android app từ đầu đến lúc kết thúc",
+      "Có kinh nghiệm thiết kế tài liệu (tài liệu thiết kế chi tiết, tài liệu test case.).",
+      "Có kinh nghiệm làm việc trong các dự án theo mô hình Agile.",
+      "Có kinh nghiệm làm thiết kế với UML.",
+      "Có kinh nghiệm làm UI, thread, service, broadcast receiver, custom views...",
+      "Có khả năng đọc hiểu nắm bắt flow dự án và nắm bắt code của người khác nhanh.",
+      "Kỹ năng đọc/viết tài liệu kỹ thuật bằng tiếng Anh."
+    ],
+    "Level": null
+  },
+  {
+    "id": 28,
+    "CompanyName": "Telio",
+    "JobName": "Automation QA Engineer (Tester, QA QC)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "English",
+      "AWS"
+    ],
+    "SkillsExperience": [
+      "Experience in developing and implementing automated test cases for web applications.",
+      "Exceptional ability to develop maintainable test automation solutions using , Selenium, Appium or similar technologies.",
+      "Hands on with various types of testing such as system, functional and regression",
+      "Demonstrated knowledge of testing one or more of the following: API interfaces, databases/data stores, analytics",
+      "Experience in a Linux environment",
+      "Experience with and the testing frameworks (like Mocha, Cucumber, Protractor, Apache Jmeter etc.)",
+      "Experience debugging and capturing backend failures and network issues",
+      "Experience in Stress testing or performance testing.",
+      "Good analyytical and communication skills (English and Vietnamese)",
+      "Demonstrated competence and ability to be self-motivated when analyzing problems",
+      "Be active at work, withstand high pressure",
+      "Experience with Agile, continuous integration, and dealing with ambiguity",
+      "Experience with cloud infrastructure (AWS) is an added bonus"
+    ],
+    "Level": null
+  },
+  {
+    "id": 29,
+    "CompanyName": "Dashbit Interactive",
+    "JobName": "2 Unity Game Developers",
+    "Salary": "",
+    "Skills": [
+      "Unity",
+      "C#",
+      "Android"
+    ],
+    "SkillsExperience": [
+      "Kinh nghiệm với Unity từ 1 năm trở lên",
+      "Có tư duy tốt, chủ động trong công việc, có tinh thần trách nhiệm cao",
+      "Có khả năng đọc hiểu tiếng Anh.",
+      "Đã có ít nhất 1 sản phẩm sử dụng Unity trên bất kì nền tảng nào",
+      "Có kinh nghiệm sử dụng Git.",
+      "Có kinh nghiệm sử dụng các plugins.",
+      "Đã từng làm multiplayer, hoặc có hiểu biết về realtime multiplayer",
+      "Có sản phẩm tham gia cùng nhiều thành viên khác trên Google Play / App Store"
+    ],
+    "Level": null
+  },
+  {
+    "id": 30,
+    "CompanyName": "Telio",
+    "JobName": "Team Leader (JavaScript ReactJS Golang)",
+    "Salary": "",
+    "Skills": [
+      "JavaScript",
+      "ReactJS",
+      "Golang"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 31,
+    "CompanyName": "Home Credit Vietnam ",
+    "JobName": "Senior Business Analyst",
+    "Salary": "",
+    "Skills": [
+      "Business Analyst",
+      "JSON",
+      "SQL"
+    ],
+    "SkillsExperience": [
+      "Bachelors degree in business administration, computer science or related field",
+      "Experience in Integration Analyst",
+      "Good experience in web services: REST, SOAP",
+      "Familiar to Microservice",
+      "Familiar to Development Tools/Platforms: Visual Studio Code, POSTMAN, SOAP-UI, Git, Maven,... or relevant tools/platforms",
+      "Good communication in English",
+      "Strong analytical ability",
+      "Strong teamwork spirit with a problem-solving attitude"
+    ],
+    "Level": null
+  },
+  {
+    "id": 32,
+    "CompanyName": "Binh Anh Electronics",
+    "JobName": "05 Backend Developer (.NET, ASP.NET, C#)",
+    "Salary": "",
+    "Skills": [
+      ".NET",
+      "C#",
+      "ASP.NET"
+    ],
+    "SkillsExperience": [
+      "Tốt nghiệp Đại học/Cao Đẳng Công nghệ Thông tin, Viễn Thông, Toán Tin",
+      "Thành thạo các kỹ thuật cơ bản trong công nghệ backend <strong>.NET: C#, ASP.Net MVC, Web API, LINQ, WinForms, …</strong>",
+      "Ưu tiên ứng viên có khả năng làm việc theo mô hình Agile, Scrum.",
+      "Ưu tiên ứng viên có kinh nghiệm về Cloud, Big Data, Mobile."
+    ],
+    "Level": null
+  },
+  {
+    "id": 33,
+    "CompanyName": "Hybrid Technologies",
+    "JobName": "[HN] 01 Android Developer ( Up to $1500)",
+    "Salary": "",
+    "Skills": [
+      "Android",
+      "Database",
+      "Kotlin"
+    ],
+    "SkillsExperience": [
+      "Ít nhất 3 năm kinh nghiệm làm việc với Android",
+      "Thành thạo việc sử dụng IDE để phát triển (Eclipse hoặc Android Studio)",
+      "Kinh nghiệm tích hợp các RESTful API, Web service, Web socket và các SDK, thư viện trong quá trình phát triển ứng dụng",
+      "Có kiến thức về: Database (Realm, SQ Lite), Design Pattern, OOP",
+      "Nắm được cơ bản các Android Framework, các nguyên tắc khi phát triển ứng dụng Android",
+      "Thành thạo sử dụng Git để quản lý mã nguồn",
+      "<i>Kinh nghiệm sử dụng Kotlin, Flutter</i>"
+    ],
+    "Level": null
+  },
+  {
+    "id": 34,
+    "CompanyName": "CloudStorm",
+    "JobName": "Ruby On Rails Developer (up to $4000)",
+    "Salary": "",
+    "Skills": [
+      "Ruby on Rails",
+      "Ruby",
+      "English"
+    ],
+    "SkillsExperience": [
+      "Minimum 2 years experience with Ruby on Rails",
+      "Strong insight into Ruby syntax and its nuances",
+      "Solid understanding of object-oriented programming",
+      "Ability to work as part of a team, understand the problems&nbsp; of other team members, and when necessary, go above and beyond the job description to work towards a broader team goal",
+      "English: Intermediate level or above"
+    ],
+    "Level": null
+  },
+  {
+    "id": 35,
+    "CompanyName": "LHV Software",
+    "JobName": "QA Manager - Enterprise Platform",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "Manager",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "Analytical, problem solving abilities are your strengths.",
+      "Experience working on multitasking and prioritizing.",
+      "Able to work independently and collaboratively.",
+      "Know how to negotiate, make decisions, explanation and presentation.",
+      "Strong leadership, know how to motivate team members.",
+      "Open-minded, agile and persistent in dealing with difficulties.",
+      "8+ years experience in software development: product specification, design, implementation, testing, release, and maintenance.",
+      "Hands-on experience in design, implement and execute automated tests such as functional, performance, load and longevity tests.",
+      "Have development experience with Java/C and are willing to learn other programming languages (Perl, Kotlin, Ruby,...)",
+      "Hands-on programming experience with one of the following: Spring framework, JavaScript, Kotlin, Ruby, Perl, C, shell scripting.",
+      "Experience in REST API design, distributed systems, enterprise application, cloud based solutions.",
+      "Experienced with performance and load testing",
+      "Experience with CI/CD Jenkins, Docker containers, Splunk and GIT.",
+      "Experience with deploying and testing microservices on Kubernetes infrastructure."
+    ],
+    "Level": null
+  },
+  {
+    "id": 36,
+    "CompanyName": "Propolife Việt Nam",
+    "JobName": "4 PHP Backend Devs (Python/WordPress)",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "Python",
+      "Wordpress"
+    ],
+    "SkillsExperience": [
+      "Có 2 năm kinh nghiệm trở lên",
+      "Thông thạo 2 trong 4 ngôn ngữ: PHP, C++, Java, Python",
+      "Có kinh nghiệm làm việc với Linux/Centos",
+      "Kiến thức tốt về OOP, Resful api",
+      "Ưu tiên cho ứng viên biết thêm về Python: Flask, Canvas, SVG, OpenGL, WebGL, Java3D, VRML3D, VPython, AngularJs, ReactJS, VueJS, LESS, SASS, Bootstrap",
+      "Server: AWS, nginx, apache, php-fpm, loadbalancer …",
+      "Database: mysql, mongodb, redis …"
+    ],
+    "Level": null
+  },
+  {
+    "id": 37,
+    "CompanyName": "Gsoft",
+    "JobName": "12 PHP Developers (OOP, UI-UX)",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "OOP",
+      "UI-UX"
+    ],
+    "SkillsExperience": [
+      "Nắm vững kiến thức căn bản và nâng cao về PHP và OOP",
+      "Có kinh nghiệm với 1 trong các framework: Laravel, CakePHP, Symfony, Magento",
+      "Ưu tiên có kiến thức về CI/CD, Docker",
+      "Có kinh nghiệm trong việc tối ưu hóa mã cho các trang web có lưu lượng truy cập cao",
+      "Có thể viết mã có cấu trúc tốt, có thể bảo trì",
+      "Làm quen với việc viết unit test trong PHPUnit.",
+      "Các kỹ năng nâng cao trong việc triển khai kiến ​​trúc Dịch vụ API (SOAP, REST) ​​và OAuth 2.0",
+      "Có kinh nghiệm trong các hệ thống bộ nhớ cache khác nhau của cơ sở dữ liệu quan hệ",
+      "Ưu tiên kinh nghiệm làm việc với Amazon Web Services",
+      "Hiểu biết sâu sắc về toàn bộ quy trình phát triển web (thiết kế, thử nghiệm, phát triển và triển khai).",
+      "Nắm được các kiến thức cơ bản về UI: HTML, CSS, JS, JavaScript",
+      "Có kiến thức SVN, Git",
+      "Có khả năng tiếp cận ngôn ngữ lập trình mới nhanh. Khả năng nghiên cứu, giải quyết vấn đề tốt và kiểm soát công việc, thời gian theo đúng tiến độ.",
+      "Có khả năng làm việc với cường độ cao, khả năng nghiên cứu tốt, say mê công việc",
+      "Có khả năng làm độc lập hoặc làm việc theo nhóm.",
+      "Cao đẳng, Đại học chuyên ngành Công nghệ thông tin hoặc các chuyên ngành liên quan.",
+      "Tối thiểu 3 năm kinh nghiệm với PHP"
+    ],
+    "Level": null
+  },
+  {
+    "id": 38,
+    "CompanyName": "PTF",
+    "JobName": "Business Analyst (Tester, QA QC)",
+    "Salary": "",
+    "Skills": [
+      "Business Analyst",
+      "Tester",
+      "QA QC"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 39,
+    "CompanyName": "DAC Tech Việt Nam",
+    "JobName": "PHP Dev (Laravel, MySQL)~Signing bonus",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "MySQL",
+      "Laravel"
+    ],
+    "SkillsExperience": [
+      "2+ years experience coding in PHP",
+      "Strong knowledge of OOP and Design Patterns.",
+      "Experience with MySQL, database design, query profiling and optimization",
+      "Experience with at least one of the PHP frameworks (Laravel, cakePHP...)",
+      "Know React is a plus",
+      "Being rigorous, cooperative and responsible while working in group",
+      "Being hard-working and able to handle things well under pressure"
+    ],
+    "Level": null
+  },
+  {
+    "id": 40,
+    "CompanyName": "Hybrid Technologies",
+    "JobName": "[HN] 02 QA Engineer (Up to $1200)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "Database",
+      "PostgreSql"
+    ],
+    "SkillsExperience": [
+      "Khả năng hiểu sâu sắc về nghiệp vụ tổng quan hệ thống, yêu cầu cụ thể",
+      "Khả năng phát hiện lỗi sai, vấn đề của tài liệu requirement (phản ánh bởi&nbsp; Q&amp;A/comment)",
+      "Từ&nbsp;2 kinh nghiệm viết testcase UT/IT/ST, Scenario",
+      "Kinh nghiệm sử dụng các tool quản lý bug như Redmine, Jira, Backlog",
+      "Sử dụng thành thạo tool liên quan đến Database: SQL, Postgre…",
+      "<i>Khả năng thiết kế Wireframe, thiết kế cấu trúc Database, xây dựng biểu đồ workflow, Sequence diagram, Data flow, Screen transaction</i>",
+      "<i>Có chứng chỉ tiếng Nhật&nbsp;từ N3 trở lên</i>"
+    ],
+    "Level": null
+  },
+  {
+    "id": 41,
+    "CompanyName": "Robert Bosch Engineering And Business Solutions",
+    "JobName": "Junior SharePoint Developer",
+    "Salary": "",
+    "Skills": [
+      "Sharepoint",
+      "ASP.NET",
+      ".NET"
+    ],
+    "SkillsExperience": [
+      "Minimum 1-2 years of experience with technologies <strong>ASP.NET (C#) / ASP.NET (MVC), React.JS, Typescript, SharePoint, SharePoint Framework (SPFX), CAML, HTML5, CSS, JSON web API services (JSON, RESTful), Bootstrap</strong>",
+      "Minimum 1-2 years of experience in database development, preferably <strong>MSSQL</strong>",
+      "Possess solid understanding of <strong>CSOM, SSOM, JSOM </strong>and<strong> Rest API</strong>",
+      "Hands-on experience in client-side custom application development for <strong>SharePoint Online (Office 365)</strong>",
+      "Have experience with development and deployment of custom applications using Visual Studio, C# and PowerShell Scripts",
+      "Have knowledge with different <strong>ECMAScript</strong>",
+      "Hand on experience in <strong>Agile </strong>project execution",
+      "Ability to work independently and with minimal supervision",
+      "Ability to handle work tasks by priorities/deadlines between projects and operational tasks",
+      "Good <strong>English</strong> communication skills"
+    ],
+    "Level": null
+  },
+  {
+    "id": 42,
+    "CompanyName": "East Agile",
+    "JobName": "Senior Web And Mobile Developer",
+    "Salary": "",
+    "Skills": [
+      "iOS",
+      "Python",
+      "Android"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 43,
+    "CompanyName": "VDC in partnership with PYCOGROUP",
+    "JobName": "Mobile Automation Tester (All Levels)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "English",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "<strong>At least 3 years </strong>of hands-on experience in Manual &amp; Automation testing on mobile platforms (both iOS and Android)",
+      "Expert in Mobile native testing, both Manual and Automation (e.g. Appium / Expresso)",
+      "Experienced in creating well-structured automation test cases using the page-object model.",
+      "Experience with Cloud Testing platforms (e.g. Perfecto, Browserstack)",
+      "Experience with QTest or similar, JIRA, Confluence",
+      "Solid knowledge of testing methodologies covering all test levels, static test, and dynamic testing",
+      "Familiar with GIT Flow and CI/CD (e.g. Jenkins)",
+      "Familiar with mobile accessibility support",
+      "Ability to work in an agile environment",
+      "<strong>Strong English communication (verbal &amp; written)</strong>",
+      "Web Automation – Selenium Webdriver or similar",
+      "API Contract Testing and Automation – PACT, Postman, etc",
+      "Performance Testing – Jmeter, Gatling or similar",
+      "Visual UI Testing frameworks - Applitools, Sikuli, Percy, etc",
+      "CI/CD tools - SonarQube, Gradle, JFrog",
+      "Exposure to AWS and cloud-native architecture",
+      "Understanding wireless technology (e.g. 3G, 4G, CDMA, and LTE)",
+      "Mobile operating system knowledge (e.g. iOS, watchOS, Android)",
+      "ISTQB – Certified"
+    ],
+    "Level": null
+  },
+  {
+    "id": 44,
+    "CompanyName": "VDC in partnership with PYCOGROUP",
+    "JobName": "Automation Tester (Web/API) (All Levels)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "English",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "At least <strong>3 years of automation</strong> experience in <strong>API testing</strong>.",
+      "Experience with <strong>Java </strong>and any other programming languages (C#, Python, Javascript)",
+      "Expert in <strong>Selenium Webdriver</strong> based automation (or other similar testing frameworks)",
+      "Strong <strong>English communication</strong> skills (both verbal &amp; written), especially in the global software development environment",
+      "<strong>DevOps</strong>: Able to operate in a Cloud, CI/CD environment",
+      "Good ability in <strong>troubleshooting </strong>and consult the development team to fix the issues",
+      "Exposure to <strong>AWS </strong>or any other cloud services (Azure, GCP)",
+      "Experience in I<strong>dentity and Access Management (IAM)</strong> or <strong>Cyber Security</strong> (with responsibility for IAM)",
+      "<strong>Sailpoint IQ </strong>experience",
+      "<strong>Audit, Risk, Controls background/ exposure</strong>",
+      "<strong>Consultancy </strong>Experience"
+    ],
+    "Level": null
+  },
+  {
+    "id": 45,
+    "CompanyName": "VDC in partnership with PYCOGROUP",
+    "JobName": "Engineering Manager",
+    "Salary": "",
+    "Skills": [
+      "Manager",
+      "NodeJS",
+      "ReactJS"
+    ],
+    "SkillsExperience": [
+      "Microservices architectural system",
+      "Java, JavaScript, MV* patterns, Nodejs, ReactJS (including Redux)",
+      "Databases - Postgres, MongoDB",
+      "DevOps - Jenkins, Artifactory, SonarQube, GitHub, CloudFormation",
+      "Understanding of AWS (Lambda, Postgres, S3, API Gateway, CLI, SNS/SQS)",
+      "Understanding of OAuth",
+      "Formal Development methodologies",
+      "10+ years working experience in Software Development; 5+ years experience in leading cross-functional Agile teams",
+      "Fluent in English communication skills (both verbal &amp; written)",
+      "Experience in a management position at an international finance or tech company, as well as have a sound development background and experience.",
+      "Strong people leadership, team building, motivation, and coaching skills",
+      "The production of technical documentation including technical specifications, operating instructions, test plans, etc",
+      "Code and change management processes",
+      "Experience in working with multiple stakeholders, across two countries, with conflicting priorities",
+      "Deep understanding of Software Quality, DevOps environments, and Micro-Service technologies",
+      "University degree in IT field or equivalent industry experience",
+      "Agile – Certified Scrum Master (preferred)",
+      "Experience in the Banking or Financial Services industry; (preferred)"
+    ],
+    "Level": null
+  },
+  {
+    "id": 46,
+    "CompanyName": "Bkav",
+    "JobName": "ReactJS/ React Native Dev- Up to 2000$",
+    "Salary": "",
+    "Skills": [
+      "ReactJS",
+      "JavaScript",
+      "React Native"
+    ],
+    "SkillsExperience": [
+      "Yêu thích ngành Công nghệ Thông tin, yêu thích, đam mê lập trình.",
+      "<strong>Có kinh nghiệm lập trình ReactJS / React Native từ 1 năm trở lên.</strong>",
+      "Thành thạo ngôn ngữ lập trình Javascript, HTML, CSS, ES6, ES7",
+      "Có kiến thức, kinh nghiệm cao về: lập trình&nbsp;Web&nbsp;(Front-end, Back-end, Webservice)",
+      "Có kỹ năng Phân tích thiết kế hệ thống phần mềm, có kinh nghiệm phát triển các dự án phần mềm theo quy trình Agile/Scrum, CMMI"
+    ],
+    "Level": null
+  },
+  {
+    "id": 47,
+    "CompanyName": "VNPT Technology",
+    "JobName": "50 Mobile Developers (iOS/Android)",
+    "Salary": "",
+    "Skills": [
+      "iOS",
+      "Java",
+      "Android"
+    ],
+    "SkillsExperience": [
+      "Có kinh nghiệm lập trình di động: Android (Java,Kotlin), iOS (Objective-C,Swift)",
+      "Có khả năng làm việc với Rest-API và các thư viện Networking",
+      "Tốt nghiệp ĐH chuyên ngành CNTT và ĐTVT hoặc tương đương.",
+      "Có thể sử dụng tiếng Anh trong công việc",
+      "Kỹ năng làm việc nhóm",
+      "Kĩ năng giải quyết vấn đề",
+      "Trung thực, có tinh thần trách nhiệm cao.",
+      "Chủ động sáng tạo trong công việc",
+      "Ứng viên có kinh nghiệm trong phát triển ứng dụng iOS, Android",
+      "Có kinh nghiệm với kỹ thuật profiling và debugging ứng dụng di động",
+      "Có kiến thức vững chắc về các mô hình kiến trúc, ví dụ MVP, MVC, MVVM, có khả năng chọn kiến trúc tốt, sạch để đưa ra giải pháp tốt nhất cho ứng dụng",
+      "Hiểu biết hoặc kinh nghiệm làm việc với các hệ thống viễn thông"
+    ],
+    "Level": null
+  },
+  {
+    "id": 48,
+    "CompanyName": "Grab (Vietnam) Ltd.",
+    "JobName": "Senior Software Engineer, Mobile (iOS)",
+    "Salary": "",
+    "Skills": [
+      "iOS",
+      "UI-UX",
+      "Swift"
+    ],
+    "SkillsExperience": [
+      "A degree in computer science, software engineering, information technology or related fields.",
+      "At least 5 years of experience in iOS app development",
+      "Up-to-date on the modern iOS programming paradigm, including the use of Swift.",
+      "Strong UX/UI design exposure and experience in making apps work intuitively and with pixel perfect interfaces.",
+      "You have a working knowledge of several architectural approaches, design, caching, data storage and security.",
+      "Strong CS fundamentals (with competencies in algorithms and data structures).",
+      "You are highly accountable and take ownership. You also have a collaborative attitude, because ‘Your Problem Is My Problem’ (YPIMP)."
+    ],
+    "Level": null
+  },
+  {
+    "id": 49,
+    "CompanyName": "J&amp;T Express",
+    "JobName": "PHP Dev (JavaScript, Laravel, OOP)",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "JavaScript",
+      "Laravel"
+    ],
+    "SkillsExperience": [
+      "Strong knowledge of PHP web frameworks such as Laravel, Phalcon, Codeigniter",
+      "Knowledge of object-oriented PHP programming",
+      "Knowledge of Frontend technologies and platforms, such as HTML, Javascript, CSS, jQuery, Angularjs",
+      "Have knowledge of Data Structures and Algorithms, Object - Oriented Programming, Database.",
+      "Understanding &amp; proficient in using code versioning tools such as ‘Git/Subversion’.",
+      "<strong>Experiences in working with mobile developers using API (Google, Facebook)</strong>",
+      "<strong>Experience in ERP programming is an advantage</strong>",
+      "<strong>Experience building high-available web applications is a plus.</strong>"
+    ],
+    "Level": null
+  },
+  {
+    "id": 50,
+    "CompanyName": "WorldFusion Vietnam",
+    "JobName": "Web Designer (HTML/CSS)~$1,500",
+    "Salary": "",
+    "Skills": [
+      "HTML5",
+      "CSS"
+    ],
+    "SkillsExperience": [
+      "Tốt nghiệp đại học, cao đẳng chuyên ngành thiết kế",
+      "Sử dụng thành thành thạo Photoshop, Illustrator, Powerpoint và những phần mềm liên quan tới thiết kế.",
+      "<strong>Tối thiểu 02 năm kinh nghiệm việc thiết kế web, thiết kế đồ họa 2D, thiết kế UI-UX</strong>",
+      "Có khiếu thẩm mỹ tốt, nhận diện và xử lý colour palette tốt, biết sắp xếp bố cục hợp lý.",
+      "Biết sử dụng phần mềm thiết kế như sketch, photoshop. Ưu tiên ứng viên có kỹ năng sử dụng các phần mềm thiết kế khác ( after effects, illustrator, XD... etc).",
+      "Có kiến thức về HTML/CSS/JAVASCRIPT là một lợi thế.",
+      "Có kiến thức về vẽ wireframe, user stories.",
+      "Có kiến thức về tạo và trình diễn prototype.",
+      "Khả năng nắm bắt yêu cầu cụ thể của sản phẩm và đưa ra giải pháp thiết kế phù hợp.",
+      "Gửi CV kèm portfolio các sản phẩm đã làm, thiết kế web đẹp, sáng tạo"
+    ],
+    "Level": null
+  },
+  {
+    "id": 51,
+    "CompanyName": "Yojee",
+    "JobName": "Sr.Fullstack Engineer (Python/JS/Elixir)",
+    "Salary": "",
+    "Skills": [
+      "Python",
+      "JavaScript",
+      "Ruby"
+    ],
+    "SkillsExperience": [
+      "Minimum Bachelor Degree in Computer Engineering or its equivalent related experience.",
+      "Minimum 4-5 years of experience in development of various complex products.",
+      "Experienced and proficient in working with at least two languages, preferably JavaScript, TypeScript Ruby, Python or Elixir.",
+      "Experience with frontend technologies like React.js, Angular.js or vue.js.",
+      "Experience working with relational database systems (preferably PostgreSQL).",
+      "DevOps experience with AWS or Azure, Docker.",
+      "Production experience with Elixir &amp; Phoenix.",
+      "Scripting (Python, Lambda, Bash)."
+    ],
+    "Level": null
+  },
+  {
+    "id": 52,
+    "CompanyName": "Episerver",
+    "JobName": "Frontend Web Dev(JavaScript/HTML5)~$2000",
+    "Salary": "",
+    "Skills": [
+      "JavaScript",
+      "HTML5",
+      "CSS"
+    ],
+    "SkillsExperience": [
+      "Web markup, including HTML5, CSS3",
+      "Server-side CSS pre-processing platforms, such as LESS and SASS Bootstrap",
+      "Client-side scripting and JavaScript frameworks, including jQuery",
+      "Advanced JavaScript libraries and frameworks, such as AngularJS, KnockoutJS, BackboneJS, ReactJS, DurandalJS etc.",
+      "Asynchronous request handling, partial page updates, AJAX and JSON",
+      "Photoshop Creative, innovative concepts using Photoshop",
+      "Cross-browser compatibility issues and ways to work around them.",
+      "Code versioning tools, such as Git/Mercurial/SVN",
+      "Good written and verbal English communication skills",
+      "Excellent problem solving skills",
+      "Ability to work on multiple projects and in team",
+      "Experience on UX/UI design and Wire-frames",
+      "SEO principles and ensuring that application will adhere to them. Familiar with EPiServer CMS or similar CMS",
+      "Exposure to an Agile environment"
+    ],
+    "Level": null
+  },
+  {
+    "id": 53,
+    "CompanyName": "VNPT Technology",
+    "JobName": "Kỹ sư Kiểm thử Phần mềm (Tester)",
+    "Salary": "",
+    "Skills": [
+      "Tester",
+      "Software Architect",
+      "QA QC"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 54,
+    "CompanyName": "Toshiba Software Development (Viet Nam) Co, Ltd",
+    "JobName": "Kỹ Sư Phát Triển Phần Mềm - JD 125",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "C#",
+      "C++"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 55,
+    "CompanyName": "Canal Circle",
+    "JobName": "Frontend Dev (Angular, CSS, JavaScript)",
+    "Salary": "",
+    "Skills": [
+      "JavaScript",
+      "CSS",
+      "Angular"
+    ],
+    "SkillsExperience": [
+      "Khả năng thiết kế, viết code, kiểm tra đơn vị và chữa bugs các ứng dụng web và ứng dụng đa nền tảng",
+      "Nhiều kinh nghiệm về Angular, AngularJS, HTML, CSS",
+      "Nhiều kinh nghiệm trong ứng dụng web và ứng dụng đa nền tảng",
+      "Hiểu biết tốt về Firebase Firestore, chức năng đám mây Firebase",
+      "Hiểu biết tốt về phát triển nền tảng di động như iOS, Android",
+      "Kiến thức về dịch vụ web API, JSON",
+      "Trình độ tiếng Anh tốt (có thể nói và nghe trong giao tiếp cơ bản, có thể đọc và viết tài liệu bằng tiếng Anh)",
+      "Khả năng sử dụng các công cụ quản lý dự án như JIRA, Pivotal tracker và các công cụ phiên bản kiểm soát mã nguồn như GIT",
+      "Có khả năng học hỏi công nghệ mới nhanh chóng."
+    ],
+    "Level": null
+  },
+  {
+    "id": 56,
+    "CompanyName": "Canal Circle",
+    "JobName": "Fullstack Dev (Angular, Java, MySQL)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "MySQL",
+      "Angular"
+    ],
+    "SkillsExperience": [
+      "Logic, Data Structures and Algorithms",
+      "JS/TS hacker",
+      "HTML/SCSS hacker",
+      "Có kinh nghiệm trong việc phát triển sản phẩm với ít nhất 02 trong các kỹ năng sau:",
+      "Ionic",
+      "Angular",
+      "React Native",
+      "React.js",
+      "Flutter",
+      "iOS SDK",
+      "Android SDK",
+      "iOS App Store, Android Google Play Store",
+      "Docker",
+      "Git",
+      "AWS and Google Cloud Platform",
+      "IDE such as Visual Studio Code"
+    ],
+    "Level": null
+  },
+  {
+    "id": 57,
+    "CompanyName": "Toshiba Software Development (Viet Nam) Co, Ltd",
+    "JobName": "Frontend Software Engineer - JD123",
+    "Salary": "",
+    "Skills": [
+      "Angular",
+      "JavaScript",
+      "ReactJS"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 58,
+    "CompanyName": "Episerver",
+    "JobName": "Senior QA Engineer (Tester, Agile)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "Agile",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "At least 3 years of experience in manual testing.",
+      "Experienced in Automation test is an advantage.",
+      "Experience working in an Agile/Scrum development process.",
+      "Possession of excellent analytical and problem–solving skills, high sense of responsibility, good teamwork player.",
+      "Willingness to embrace and learn new technologies.",
+      "Good skills in English, both written and spoken."
+    ],
+    "Level": null
+  },
+  {
+    "id": 59,
+    "CompanyName": "GREVO",
+    "JobName": "Sr Unity Game Developer - Sign on Bonus",
+    "Salary": "",
+    "Skills": [
+      "Games",
+      "C#",
+      "Unity"
+    ],
+    "SkillsExperience": [
+      "At least 2 year of experience in game development.",
+      "Strong experience with C# and Unity3D.",
+      "Good in data structures and algorithms.",
+      "Portfolio of games which are published and playable.",
+      "Strong knowledge of communication with backend services.",
+      "Good experience in using versioning tools: SVN or GIT.",
+      "Experience in developing Native Application (iOS/Android) is a plus",
+      "Experience in working with network programming/games online is a big plus.",
+      "Experience in developing a complete game project (from ground up to submit store) is a big plus."
+    ],
+    "Level": null
+  },
+  {
+    "id": 60,
+    "CompanyName": "Vincere",
+    "JobName": "Front-end Tech Lead (ReactJS, Angular)",
+    "Salary": "",
+    "Skills": [
+      "ReactJS",
+      "JQuery",
+      "Angular"
+    ],
+    "SkillsExperience": [
+      "<strong>5+ years of experience with technologies such as Bootstrap, JQuery, AngularJS, ReactJS, and/or Vue.</strong>",
+      "In-depth knowledge about ES6",
+      "Experience in front-end tools (e.g. Webpack/ Rollup/ Snowpack, Gulp, Grunt)",
+      "Widespread understanding of different frontend architectures and where to apply them",
+      "Experience with relevant software development best practices such as TDD and CI",
+      "Ability and willingness to mentor, support, and guide other developers",
+      "Proficient in development, standards, code review, testing(unit/system), and code refactoring.",
+      "The mindset and ability to openly and constructively communicate about your work, ideas, and problems in order to find solutions together",
+      "<strong>Good English written communication skills, interpersonal skills, and multitasking capabilities.</strong>",
+      "Enjoy integrating with server-side APIs to produce dynamic web applications."
+    ],
+    "Level": null
+  },
+  {
+    "id": 61,
+    "CompanyName": "LG Development Center Vietnam",
+    "JobName": "[DA NANG] C/C++ Developer - Up To 2,000$",
+    "Salary": "",
+    "Skills": [
+      "C++",
+      "Embedded"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 62,
+    "CompanyName": "LG Development Center Vietnam",
+    "JobName": "[DA NANG] - Senior Android Developer",
+    "Salary": "",
+    "Skills": [
+      "Android",
+      "Java",
+      "Kotlin"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 63,
+    "CompanyName": "MCB Vietnam",
+    "JobName": "2 Senior PHP backend Developers(Magento)",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "MySQL",
+      "Magento"
+    ],
+    "SkillsExperience": [
+      "3+ year experience with <strong>PHP</strong>.",
+      "Experience with <strong>Magento (modular/extensions development)/ </strong>having<strong> </strong>Magento certification or Magento e-commerce integration is a plus.",
+      "Experience with <strong>MySQL, API integration, Version control (GIT)&nbsp;</strong>",
+      "Proficiency with <strong>XML</strong> (configuration, integration)",
+      "Familiar with <strong>MVC architecture</strong>",
+      "Want to educate yourself within Magento",
+      "<strong>Very good English skills</strong> in both writing and speaking",
+      "It will be a huge advantage if you also:<ul><li>Love deleting and writing codes",
+      "Do unit/integration/automation/end-to-end tests recently",
+      "Have experiences with Agile/Scrum/Kanban",
+      "Think creatively",
+      "Are self-starter, result-oriented and a strong team player"
+    ],
+    "Level": null
+  },
+  {
+    "id": 64,
+    "CompanyName": "Saletick Quốc Tế",
+    "JobName": "PHP Dev ( HTML, MySQL ) - Up to 1000$",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "MySQL",
+      "HTML5"
+    ],
+    "SkillsExperience": [
+      "Ít nhất 1 năm kinh nghiệm lập trình web với PHP, MySQL.",
+      "Có kinh nghiệm về HTML / CSS, AJAX, Javascript, Bootstrap…).",
+      "Có kiến thức tốt về OOP, MVC, SOLID, Design patterns.",
+      "Có kinh nghiệm debug (Xdebug, Debugbar, Browser tools..).",
+      "Có kinh nghiệm sử dụng các framework frontend ví dụ Angular, React, Vue…",
+      "Thành thạo sử dụng Windows/Linux, Git, Redmine, Jira.",
+      "Có kinh nghiệmsử dụng&nbsp;Cache (Memcache, Redis).",
+      "Có kinh nghiệm sử dụng các framework về search (Elasticsearch, Algolia, Solr).",
+      "Có kinh nghiệm sử dụng các tool deploy&nbsp;CI/CD (Jenkins, Travis, CircleCI)."
+    ],
+    "Level": null
+  },
+  {
+    "id": 65,
+    "CompanyName": "NFQ Asia (8bit Rockstars)",
+    "JobName": "Sr Front-end Dev (Javascript, ReactJS)",
+    "Salary": "",
+    "Skills": [
+      "JavaScript",
+      "ReactJS",
+      "VueJS"
+    ],
+    "SkillsExperience": [
+      "<strong>5+ years</strong> of overall software development experience, with an emphasis on web applications and front-end technologies",
+      "Proficient understanding of code versioning tools (Git is preferred)",
+      "In-depth understanding of in HTML/CSS, Javascript",
+      "Experience in front-end frameworks (e.g. Angular, React, Vue)",
+      "Experience in unit testing frameworks (e.g. Ava, Jest, Mocha)",
+      "Experience in booking business domain (hotel booking, car rental)",
+      "Experience in front-end tools (e.g. Grunt, Gulp, Webpack)",
+      "Strong knowledge of development based on REST API",
+      "Experience in GIS (e.g. OpenLayers)",
+      "Knowledge of Realtime Communication (Pusher, PubNub, FireBase)",
+      "In-depth understanding of the entire web development process (design, development and deployment)",
+      "Good at English communication"
+    ],
+    "Level": null
+  },
+  {
+    "id": 66,
+    "CompanyName": "Sun* Inc.",
+    "JobName": "PHP Engineer (Up to $1800)",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "JavaScript",
+      "Laravel"
+    ],
+    "SkillsExperience": [
+      "Có ít nhất 1 năm kinh nghiệm làm việc với PHP",
+      "Có kiến thức nền tảng tốt về OOP, Web Development, DBMS, ORM",
+      "Có kinh nghiệm sử dụng một trong các Framework PHP: CakePHP, Zend, CodeIgniter, Yii, Symfony, Laravel, Phalcon",
+      "Thao tác tốt với HTML, CSS, JavaScript (Jquery, AngularJS, ...), Bootstrap, JSON, XML,..",
+      "Có kinh nghiệm làm việc với MySQL hoặc NoSQL (MongoDB)",
+      "Nắm vững mô hình MVC",
+      "Có kinh nghiệm làm các dự án PHP trên 3 năm",
+      "Thành thạo HTML, CSS, JavaScript (Jquery, AngularJS, Ajax, ...), Bootstrap, JSON, XML,..",
+      "Nắm vững mô hình MVC, có kinh nghiệm với các Framework Laravel, Codelgniter, CakePHP",
+      "Thành thạo các công cụ quản lý mã nguồn: GIT, SVN,...",
+      "Có kinh nghiệm với một trong các RDBMS: MySQL, PostgreSQL, Oracle, ... có hiểu biết về Database tuning là một lợi thế",
+      "Có kinh nghiệm làm việc với Redis/Memcached",
+      "Có hiểu biết về Design Pattern",
+      "Có kinh nghiệm làm việc trong các dự án theo mô hình Agile",
+      "Có kinh nghiệm làm việc với BigData là một lợi thế.",
+      "Khả năng tuy duy, phân tích, thiết kế hệ thống, tối ưu hóa performance",
+      "Có thể làm việc dưới áp lực cao về deadline cũng như chất lượng sản phẩm",
+      "Khả năng tuy duy tốt, chủ động trong công việc, có tinh thần trách nhiệm cao để hoàn thành công việc được giao"
+    ],
+    "Level": null
+  },
+  {
+    "id": 67,
+    "CompanyName": "LG Development Center Vietnam",
+    "JobName": "Test Engineer (Sign-on Bonus)",
+    "Salary": "",
+    "Skills": [
+      "Tester",
+      "English"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 68,
+    "CompanyName": "Nittsu System Vietnam",
+    "JobName": "Java Developer - Up to 1500$",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "HTML5",
+      "CSS"
+    ],
+    "SkillsExperience": [
+      "Có tinh thần trách nhiệm trong công việc, tinh thần tập thể cao.",
+      "Có hiểu biết về lập trình hướng đối tượng",
+      "Có hiểu biết các nền tảng sau là 1 lợi thế: Java,.Net, Domain Driven Design, jQuery, CSS, HTML, knouckout js, TypeScript",
+      "Khả năng nắm bắt, nghiên cứu công nghệ mới nhanh",
+      "Chủ động, đam mê công việc, sẵn sàng chấp nhận thách thức, luôn chú ý phát triển bản thân lên tầm cao mới.",
+      "Kỹ năng giao tiếp tốt, cởi mở, thân thiện",
+      "Kỹ năng làm việc nhóm hiệu quả",
+      "Có tư duy logic và khả năng nghiên cứu tự giải quyết vấn đề",
+      "Tốt nghiệp chuyên ngành CNTT, Toán tin hoặc hiểu biết tương đương.",
+      "Ưu tiên",
+      "Ứng viên hám thích học hỏi",
+      "Có kinh nghiệp về lập trình Java EE, HTML, jQuery, CSS",
+      "Biết tiếng Nhật là 1 lợi thế."
+    ],
+    "Level": null
+  },
+  {
+    "id": 69,
+    "CompanyName": "LG Development Center Vietnam",
+    "JobName": "C/C++ Software Engineer (Sign-on Bonus)",
+    "Salary": "",
+    "Skills": [
+      "C++",
+      "OOP",
+      "C language"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 70,
+    "CompanyName": "Ngân hàng TMCP Tiên Phong | TPBank ",
+    "JobName": "03 Giám Đốc Đổi Mới Số",
+    "Salary": "",
+    "Skills": [
+      "Manager",
+      "Team Leader",
+      "English"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 71,
+    "CompanyName": "Netpower Vietnam",
+    "JobName": "03 Sr .NET Developers",
+    "Salary": "",
+    "Skills": [
+      ".NET",
+      "ReactJS",
+      "Angular"
+    ],
+    "SkillsExperience": [
+      "A minimum of 3 to 5 years professional experience with web development using Angular and .NET framework",
+      "Experience with product development and UX design;",
+      "Extensive experience with Bootstrap, Typescript, React JS, Web API, Sharepoint are plus;",
+      "Deep understanding of S.O.L.I.D principles and know how to write clean code;",
+      "Practical knowledge unit-test and TDD;",
+      "DB: MS SQL server (NoSQL is plus), Performance tuning;",
+      "Good writing English is a must. Good verbal English skills are a PLUS;",
+      "Good decision maker;",
+      "Good problem solving skills;",
+      "Good time management skills;",
+      "Self motivated and hard-working, ready to take on new challenges;",
+      "Open-minded and good at adapting to frequent changes;",
+      "Able to self-study and update yourself on new technologies;",
+      "Ability to work independently;",
+      "Professional attitude;"
+    ],
+    "Level": null
+  },
+  {
+    "id": 72,
+    "CompanyName": "Ngân hàng TMCP Tiên Phong | TPBank ",
+    "JobName": "05 Developers (Java, .NET)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      ".NET"
+    ],
+    "SkillsExperience": [
+      "Tốt nghiệp Đại học trở lên chuyên ngành Công nghệ thông tin hoặc Hệ thống thông tin tại các trường ĐH Bách Khoa, ĐH Khoa học tự nhiên, ĐH FPT, Học viện Ngân hàng…",
+      "<strong>Có tối thiểu 01 năm kinh nghiệm lập trình đối với một trong các ngôn ngữ lập trình thông dụng như Java, .NET, &nbsp;iOS, Android</strong>",
+      "Có hiểu biết cơ bản về xây dựng, quản lý, thiết kế website.",
+      "Có kỹ năng làm việc nhóm, có tinh thần trách nhiệm cao",
+      "Có hiểu biết cơ bản, có thể làm việc với một trong các hệ quản trị cơ sở dữ liệu thông dụng như: Oracle, SQL Server",
+      "Ưu tiên ứng viên có thể sử dung thành thạo tiếng Anh, hiểu biết nghiệp vụ ngân hàng"
+    ],
+    "Level": null
+  },
+  {
+    "id": 73,
+    "CompanyName": "Ngân hàng TMCP Tiên Phong | TPBank ",
+    "JobName": "03 CVCC/ Trưởng nhóm Kiến trúc Công Nghệ",
+    "Salary": "",
+    "Skills": [
+      "Software Architect",
+      "Database",
+      "English"
+    ],
+    "SkillsExperience": [
+      "Tốt nghiệp chuyên ngành Công nghệ thông tin, Toán tin ứng dụng,",
+      "Nắm rõ chiến lược và lộ trình phát triển CNTT của ngân hàng trong 5 năm tới",
+      "Có khả năng đề xuất kiến trúc giải pháp cho một số mảng nghiệp vụ chính của ngân hàng như Payment, BPM, DW, Risks, Lending...",
+      "Có khả năng phối hợp với các đơn vị khác để thực hiện công việc từ ý tưởng, tới thiết kế và triển khai vận hành",
+      "Có chuyên môn, hiểu biết sâu sắc về phân tích, thiết kế, lựa chọn các giải pháp kỹ thuật",
+      "Có ít nhất 8 năm kinh nghiệm triển khai thực tế nhiều giải pháp chính trong ngân hàng mức độ end-to-end từ nghiệp vụ tới ứng dụng và hạng tầng triển khai như thẻ, core, internet banking, data warehouse...",
+      "Ngoại ngữ (Tiếng Anh) - TOEIC tối thiểu 700 hoặc tương đương",
+      "Thành thạo về quản lý kiến trúc công nghệ, nắm vững các tiêu chuẩn, phương pháp quản trị tiên tiến trong quản lý kiến trúc tổng thể (EA)/ quản trị công nghệ (TOGAF/COBIT/ITIL/...)",
+      "Sử dụng, ứng dụng thành thạo các công cụ phân tích thiết kế giải pháp ứng dụng.",
+      "Áp dụng kiến thức để lựa chọn công nghệ trong ngành dịch vụ tài chính cũng như thiết kế và xây dựng hệ thống công nghệ cho tổ chức có khối lượng giao dịch lớn trên cơ sở phù hợp với định hướng phát triển, an toàn và hiệu quả",
+      "Chủ động trong công việc, có tư duy chiến lược, có kỹ năng đánh giá và ra quyết định"
+    ],
+    "Level": null
+  },
+  {
+    "id": 74,
+    "CompanyName": "ZIGExN VeNtura",
+    "JobName": "Ruby on Rails Dev (JavaScript) ~ $1500",
+    "Salary": "",
+    "Skills": [
+      "JavaScript",
+      "MySQL",
+      "Ruby on Rails"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 75,
+    "CompanyName": "Realland",
+    "JobName": "Backend Dev ( Python, PHP, NodeJS )",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "Python",
+      "NodeJS"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 76,
+    "CompanyName": "TPS Software",
+    "JobName": "10 Java Developer (Spring, J2EE,OOP)",
+    "Salary": "",
+    "Skills": [
+      "Spring",
+      "PostgreSql",
+      "Angular"
+    ],
+    "SkillsExperience": [
+      "Bachelor’s degree in Computer Science, Software Engineering, IT, Mathematics, or a related field of study.",
+      "<strong>At least 1+ year experience</strong> as a Junior Java developer/ <strong>At leas</strong>t <strong>3+ year experience</strong> as a Senior Java developer",
+      "Strong in <strong>Java Core and J2EE technologies</strong> (Servlets, JSPs or JSF)",
+      "Experienced in developing web applications using: <strong>Struts, Spring or Jersey API</strong>",
+      "Experience with <strong>OOP, design patterns,</strong> software development best practices",
+      "Good experience with front-end technologies like <strong>Angular, VueJS/ or Bootstrap </strong>is a plus",
+      "Knowledge of databases <strong>(DB2, MYSQL, PostgreSQL).</strong>",
+      "Proficient understanding of code version tools, such as <strong>Git, CVS, SVN</strong>",
+      "Familiarity with build tools such as <strong>Ant, Maven, Gradle</strong>"
+    ],
+    "Level": null
+  },
+  {
+    "id": 77,
+    "CompanyName": "Joblogic",
+    "JobName": "Sr. Frontend Dev (JavaScript,HTML5,CSS3)",
+    "Salary": "",
+    "Skills": [
+      "HTML5",
+      "CSS",
+      "JavaScript"
+    ],
+    "SkillsExperience": [
+      "Proficient understanding of web markup W3C, including HTML5, CSS3;",
+      "Responsive Design (Mobile First);",
+      "Understanding of server-side CSS pre-processing platforms, such as LESS or SASS/SCSS;",
+      "Excellent attention to detail / Pixel Perfect (PSD to HTML);",
+      "Proficient understanding of client-side scripting and JavaScript frameworks, including jQuery;",
+      "Good understanding of DOM Manipulation and OOP;",
+      "Good understanding of asynchronous request handling, partial page updates, and AJAX;",
+      "Basic knowledge of image authoring tools, to be able to crop, resize, or perform small adjustments on an image. Familiarity with tools such as Photoshop is a plus;",
+      "Proficient understanding of cross-browser compatibility issues and ways to work around them.",
+      "Ability to debug and fix front-end site issues using inspector tool;",
+      "JS Framework / Library such as Vue.js, React;",
+      "State Management such as Redux, VueX",
+      "Email Template, Print Template;",
+      "Bootstrap / Foundation (We use bootstrap);",
+      "Flex Layout / Grid Layout (We use FlexBox);",
+      "LESS / SASS (Mixins, Variables, Nested, Functions, Loop, etc.);",
+      "CSS / JS Animation;",
+      "A portfolio of your recent work.",
+      "Kendo UI"
+    ],
+    "Level": null
+  },
+  {
+    "id": 78,
+    "CompanyName": "Joblogic",
+    "JobName": "Sr. Fullstack Developer (.NET, MVC, SQL)",
+    "Salary": "",
+    "Skills": [
+      ".NET",
+      "MVC",
+      "SQL"
+    ],
+    "SkillsExperience": [
+      "3+ years working as a software developer building enterprise-level .NET applications",
+      "Familiar with .NET 4.x,&nbsp; MVC, Web API, SQL, Entity Framework",
+      "Web technologies including CSS, HTML, JavaScript, Bootstrap and jQuery and Ajax",
+      "Have knowledge of Unit Testing and Integration Testing; ability to write and run unit tests",
+      "Good knowledge of OOP and some design patterns",
+      "Relevant degree or equivalent experience and qualifications",
+      "Able to communicate clearly with team members and colleagues",
+      "Capable problem solver",
+      "Knowledge of web application development",
+      "NET development experience",
+      "Good English communication skills",
+      "Microsoft Azure experience is plus",
+      "Good communication skills and teamwork capabilities",
+      "Ability to communicate ideas clearly and professionally",
+      "Experience with and/or interest in full software development lifecycle activities",
+      "Requirements management, implementation",
+      "Desire and willingness to understand and embrace new technologies and methodologies"
+    ],
+    "Level": null
+  },
+  {
+    "id": 79,
+    "CompanyName": "CAR FROM JAPAN",
+    "JobName": "ReactJS developer (JavaScript, HTML5)",
+    "Salary": "",
+    "Skills": [
+      "ReactJS",
+      "HTML5",
+      "JavaScript"
+    ],
+    "SkillsExperience": [
+      "1+ năm kinh nghiệm ReactJS, nắm được các API của bản mới cập nhật (hooks, async rendering...)",
+      "Nắm vững về call api, xử lý data dưới client side",
+      "Có nền tảng vững chắc về HTML,CSS, Javascript.",
+      "Hiểu life cycle, cơ chế render cập nhật data trong ứng dụng reactJS và tối ưu hóa được performance của ứng dụng.",
+      "Nắm vững về pattern redux (các thành phần giao tiếp, flow data...).",
+      "Có kinh nghiệm làm về backend, sql là một lợi thế",
+      "Có kinh nghiệm Unit testing trong ứng dụng react dùng Jest, Enzyme, Mocha, Chai...là lợi thế.",
+      "Có kiến thức về UI/UX là lợi thế.",
+      "Có khả năng tự nghiên cứu công nghệ mới và giải quyết vấn đề nhanh là điểm cộng."
+    ],
+    "Level": null
+  },
+  {
+    "id": 80,
+    "CompanyName": "i-enter Asia",
+    "JobName": "(PHP/JavaScript) Websystem developer",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "JavaScript",
+      "NodeJS"
+    ],
+    "SkillsExperience": [
+      "Có từ 1 năm kinh nghiệm trở lên trong lĩnh vực phát triển hệ thống. (Tính kinh nghiệm từ khi làm nhân viên chính thức. Có thể tính cả kinh nghiệm khi làm freelancer)",
+      "Phát triển server side bằng&nbsp;Javascript/Typescript(Node.js), PHP, Python",
+      "Phát triển front bằng&nbsp;Vue.js/React.js/Angular và&nbsp;Typescript",
+      "HTML, CSS",
+      "Các loại Application frame work như&nbsp;Express.js, Laravel, Django",
+      "Các loại Data base liên quan như&nbsp;MySQL, SQL Server, PostgreSQL",
+      "Các loại NoSQL như&nbsp;MongoDB, Cassandra",
+      "Kỹ thuật Cloud như AWS, Azure",
+      "Lập trình hướng đối tượng, MVC",
+      "Clean Code",
+      "Striming audio, video",
+      "Có đầy đủ kiến thức về Test, có thể làm Unit Test",
+      "Sẵn sàng phát triển cải thiện kỹ năng",
+      "Sẵn sàng học thêm các ngôn ngữ lập trình mới.",
+      "Có thể giao tiếp bằng tiếng Anh."
+    ],
+    "Level": null
+  },
+  {
+    "id": 81,
+    "CompanyName": "i-enter Asia",
+    "JobName": "Senior Mobile App (iOS/ Android)",
+    "Salary": "",
+    "Skills": [
+      "iOS",
+      "PHP",
+      "Android"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 82,
+    "CompanyName": "Elisoft",
+    "JobName": "Middle/Senior iOS developer (Swift)",
+    "Salary": "",
+    "Skills": [
+      "iOS",
+      "Objective C",
+      "Swift"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 83,
+    "CompanyName": "LHV Software",
+    "JobName": "Senior DevOps (AWS,k8s,Terraform,Python)",
+    "Salary": "",
+    "Skills": [
+      "DevOps",
+      "System Engineer",
+      "AWS"
+    ],
+    "SkillsExperience": [
+      "Analytical, problem solving skills&nbsp; are your strengths.&nbsp;",
+      "Experience working on multitasking and prioritizing.",
+      "Able to work independently and collaboratively.",
+      "Know how to make good decisions, explanation and presentation.",
+      "3+ years experience in DevOps engineering environment.",
+      "Experience with CI/CD processes using self-managed tools or relevant cloud technologies (e.g Jenkins, CircleCI, Gitlab CI etc.)",
+      "Well working experience with the source control and its related concepts (Git, Gitflow, branches, tags, etc.)",
+      "Experience with automation tools such as Puppet, Ansible, Terraform",
+      "Experience in container technology and its concepts such as Docker, Kubernetes.",
+      "Strong development experience with scripting languages (Python/ Bash/ Ruby/ Groovy) and willing to learn other programming languages.",
+      "Hands-on experience in Unix environment",
+      "Knowledge about Computer Security, Application Security, and Security Standards &amp; Best Practices",
+      "Hands-on experience in networking, system administration, monitoring, infrastructure maintenance on premise or cloud environments",
+      "Good knowledge of design patterns, system architecture, and best practices",
+      "Working proficiency in English"
+    ],
+    "Level": null
+  },
+  {
+    "id": 84,
+    "CompanyName": "PowerGate Software",
+    "JobName": "5 Senior PHP Developers (800$-1500$)",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "MySQL",
+      "Magento"
+    ],
+    "SkillsExperience": [
+      "Sử dụng thành thạo và có ít nhất 2-3 năm kinh nghiệm lập trình PHP",
+      "Có kinh nghiệm với VtigerCRM là điểm cộng",
+      "Nắm vững kiến thức lập trình hướng đối tượng (OOP)",
+      "Tư duy logic tốt",
+      "Sử dụng thành thạo ít nhất một hệ quản trị cơ sở dữ liệu: MySQL, MariaDB, PostgreSQL",
+      "Có kinh nghiệm với 1 trong các Framework: Laravel, CI, Zend... là một lợi thế",
+      "Có kinh nghiệm sử dụng các hệ điều hành Linux/Unix là điểm cộng",
+      "Nắm tốt về phương pháp &amp; quy trình phát triển phần mềm Agile/Scrum",
+      "Sẵn sàng học hỏi công nghệ mới qua đào tạo và tự học",
+      "Ứng viên có thể onboard sớm"
+    ],
+    "Level": null
+  },
+  {
+    "id": 85,
+    "CompanyName": "Sutrix Solutions",
+    "JobName": "Project Manager/ Business Analyst $13th$",
+    "Salary": "",
+    "Skills": [
+      "Project Manager",
+      "Product Manager",
+      "Business Analyst"
+    ],
+    "SkillsExperience": [
+      "At least 3 years of experience in software development and experience in full lifecycle projects management.",
+      "Experience and success with truly Scrum/Agile development teams",
+      "People management skills, project management skills, organization skills, negotiation skills, time management skills.",
+      "Be able to manage client relationships and negotiate changes to commitments/requirements",
+      "Background and understanding of software development",
+      "Strong logical and critical thinking",
+      "Good analytical thinking and how to determine the root cause of the issue/problem, ability to give a good estimation.",
+      "Excellent communication skills in English (French is a big plus)"
+    ],
+    "Level": null
+  },
+  {
+    "id": 86,
+    "CompanyName": "DICOM",
+    "JobName": "Backend Developer ( PHP, Golang )",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "SQL",
+      "Golang"
+    ],
+    "SkillsExperience": [
+      "Có 1 năm kinh nghiệm với lập trình back-end go hoặc php, js, java. Sẵn sàng học thêm những kỹ năng mới (go, js, python, docker, kubernetes ...)",
+      "Có kiến thức cơ bản về version control: git",
+      "Có kiến thức cơ bản về API",
+      "Có kiến thức cơ bản về UML",
+      "Hiểu và có kinh nghiệm làm việc với SQL database",
+      "Có khả năng tạo ra những cải tiến",
+      "Hiểu biết về IOT, MQTT, Docker, Kubernetes, GraphQl là một lợi thế",
+      "Có kinh nghiệm làm việc trong môi trường Agile là một lợi thế",
+      "Tiếng Anh tốt là một lợi thế"
+    ],
+    "Level": null
+  },
+  {
+    "id": 87,
+    "CompanyName": "Sutunam",
+    "JobName": "07 PHP Developers (Magento, JavaScript)",
+    "Salary": "",
+    "Skills": [
+      "Magento",
+      "JavaScript",
+      "PHP"
+    ],
+    "SkillsExperience": [
+      "Minimum 2-year experiences in PHP and/or JavaScript web development, systems integration <strong>(for Middle)</strong>;",
+      "Minimum&nbsp;4-year&nbsp;experiences in PHP and/or JavaScript web development, systems integration <strong>(for Senior)</strong>;",
+      "Experience with internal and external applications, Unix or Linux;",
+      "Experienced in optimizing the code &amp; server for high traffic websites",
+      "Magento or framework experience (Symfony, Laravel);",
+      "Able to write well-structured, maintainable code;",
+      "Can-do-attitude and put the goals of the team before your own prestige;",
+      "You are able and hungry to take on a lot of responsibility;",
+      "Able to communicate, read, and write in English."
+    ],
+    "Level": null
+  },
+  {
+    "id": 88,
+    "CompanyName": "ORO Vietnam",
+    "JobName": "Ruby on Rails Developer (SQL, Ruby)",
+    "Salary": "",
+    "Skills": [
+      "Ruby on Rails",
+      "SQL",
+      "Ruby"
+    ],
+    "SkillsExperience": [
+      "Ruby: Rails",
+      "Database: MySQL",
+      "Server (CentOS): Setup and Maintenance",
+      "Cloud (AWS): EC2, RDS, S3, CloudFront",
+      "HTML",
+      "CSS: SCSS",
+      "JavaScript",
+      "App development：iOS,Android",
+      "1 or more years programming in other languages",
+      "JavaScript: vue, jquery",
+      "Build tools: gulp, webpack",
+      "Performance optimization",
+      "Experience with Microsoft AWS Cloud based systems",
+      "Backup &amp; restore systems",
+      "Knowledge of security",
+      "Project management",
+      "Troubleshooting &amp; report",
+      "Communication with client",
+      "System design &amp; Estimate"
+    ],
+    "Level": null
+  },
+  {
+    "id": 89,
+    "CompanyName": "DEK Technologies",
+    "JobName": "React Native Mobile Dev (Android, iOS)",
+    "Salary": "",
+    "Skills": [
+      "React Native",
+      "Android",
+      "iOS"
+    ],
+    "SkillsExperience": [
+      "Mobile app development and deployment on Android and/or iOS platforms",
+      "React Native Android/iOS:React JS, React Native, Redux, ES6",
+      "Experience with GIT source control, Firebase, Google Maps",
+      "Good knowledge in OOP, design pattern, Unit Testing",
+      "Java, Android SDK",
+      "Swift/Objective C, iOS SDK"
+    ],
+    "Level": null
+  },
+  {
+    "id": 90,
+    "CompanyName": "Simpson Strong-Tie Vietnam",
+    "JobName": "Automation Tester (QA QC, Web Apps)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "Agile",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "Bachelor Degree in Computer Science or relevant majors",
+      "Attain <strong>2+</strong> <strong>years</strong> in software automation testing",
+      "English skills are equivalent to TOEIC 600",
+      "Aptitude to develop test automation frameworks or to use test automation framework tools to automate testing",
+      "Acquire fundamental knowledge of C++, C#/.NET or other programming languages",
+      "Independence, abilities to work effectively as a team member with a minimum of supervision",
+      "Being familiar with testing techniques (white box, black box…) is preferrable",
+      "CI/CD, web application experience is a plus"
+    ],
+    "Level": null
+  },
+  {
+    "id": 91,
+    "CompanyName": "TOMOSIA Việt Nam",
+    "JobName": "PHP developer (Laravel, MySQL)",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "MySQL",
+      "Laravel"
+    ],
+    "SkillsExperience": [
+      "Có ít nhất 1 năm kinh nghiệm với PHP.",
+      "Thành thạo ít nhất 1 PHP framework (Laravel, Code Igniter, Yii...).",
+      "Ưu tiên có hiểu biết về Git, HTML, CSS, javascript.",
+      "Có kiến thức về thiết kế hệ thống, DB, API.",
+      "Tư duy lập trình tốt",
+      "Nhiệt huyết, chủ động, sáng tạo trong công việc.",
+      "Có khả năng làm việc độc lập và làm việc nhóm."
+    ],
+    "Level": null
+  },
+  {
+    "id": 92,
+    "CompanyName": "TOMOSIA Việt Nam",
+    "JobName": "Frontend Dev (VueJS, HTML5, JavaScript)",
+    "Salary": "",
+    "Skills": [
+      "VueJS",
+      "HTML5",
+      "JavaScript"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 93,
+    "CompanyName": "Floware",
+    "JobName": "Senior DevOps Engineer (Sign on Bonus)",
+    "Salary": "",
+    "Skills": [
+      "DevOps",
+      "AWS",
+      "Cloud"
+    ],
+    "SkillsExperience": [
+      "Bachelor’s degree in the field of Information Systems, Engineering, or Mathematics preferred. Industry security (e.g., CISSP), privacy (e.g., CIPP/US) or audit (e.g., CISA) certifications are a plus.",
+      "At least 3 to 5 years of relevant experience.",
+      "Experience in AWS is required.",
+      "Strong presence with extensive experience communicating with leadership and cross-functional teams.",
+      "Ability to think outside the box and inspire cross-functional teams to enable innovative, data-powered solutions.",
+      "Ability to manage multiple work initiatives and exercise good judgment as well as balance risks in ambiguous and complex situations."
+    ],
+    "Level": null
+  },
+  {
+    "id": 94,
+    "CompanyName": "Floware",
+    "JobName": "Senior Automation QA/QC (Sign on Bonus)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "Python",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "3+ years of experience Selenium Webdriver for web application automation and Appium for mobile automation",
+      "Experience in the development of test automation frameworks.",
+      "Strong at Object Oriented Programming language.",
+      "Strong at Python/Java (or any equivalent) development skills &amp; Unix scripting experience (Shell scripting).",
+      "CI/CD experience (Jenkins job configuration, etc).",
+      "Service testing experience",
+      "Plan test automation for project and participate in planning activities in medium complexity project.",
+      "Fully cover tests and design test cases clearly for different types of systems and tests.",
+      "Contribute in test automation frameworks improvements and difficult solutions.",
+      "Develop automated test scripts.",
+      "Perform code reviews."
+    ],
+    "Level": null
+  },
+  {
+    "id": 95,
+    "CompanyName": "Habros",
+    "JobName": "5 Javasript Dev",
+    "Salary": "",
+    "Skills": [
+      "JavaScript",
+      "NodeJS",
+      "React Native"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 96,
+    "CompanyName": "Lien Viet Tech",
+    "JobName": "10 Java Dev (J2EE, Database) Upto $1500",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "Database",
+      "J2EE"
+    ],
+    "SkillsExperience": [
+      "Tốt nghiệp đại học/cao đẳng/Aptech chuyên ngành công nghệ thông tin, toán tin;",
+      "Khả năng giao tiếp, truyền đạt tốt, tư duy logic;",
+      "Có khả năng làm việc độc lập, nhanh nhẹn, sáng tạo và làm việc nhóm trong môi trường áp lực cao;",
+      "Nắm vững về Java Core, J2EE và các Database phổ dụng.",
+      "Có khả năng sử dụng công nghệ&nbsp;:Spring+Hibernate, PrimeFaces",
+      "Công ty đang open nhiều level"
+    ],
+    "Level": null
+  },
+  {
+    "id": 97,
+    "CompanyName": "Lien Viet Tech",
+    "JobName": "Mobile Apps (React Native, iOS/Android)",
+    "Salary": "",
+    "Skills": [
+      "React Native",
+      "Android",
+      "iOS"
+    ],
+    "SkillsExperience": [
+      "Có ít nhất&nbsp;1 năm kinh nghiệm trong phát triển ứng dụng di&nbsp;động Android hoặc iOS.",
+      "Kỹ năng lập trình hướng đối tượng tốt.",
+      "Tư duy logic tốt và có thể học nhanh các công nghệ mới.",
+      "Có trách nhiệm cao trong công việc, chủ động, tự tổ chức và tinh thần đồng đội tốt.",
+      "Có kinh nghiệm lập trình React Native hoặc lập trình được cả 2 nền tảng iOS, Android.",
+      "Có kinh nghiệm về IBM MobileFirst (Worklight) hoặc công nghệ phát triển hybrid app khác.",
+      "Có bằng cử nhân/kỹ sư về khoa học máy tính hoặc tương đương là một lợi thế."
+    ],
+    "Level": null
+  },
+  {
+    "id": 98,
+    "CompanyName": "TechAsians",
+    "JobName": "Java Developer (Thưởng tháng lương 13)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "Linux",
+      "Spring"
+    ],
+    "SkillsExperience": [
+      "Kinh nghiệm từ 2 năm trở lên với Java core, Java web",
+      "Kinh nghiệm với Spring boot, Linux, Docker.",
+      "Có tư duy SQL tốt, ưu tiên ứng viên có kinh nghiệm làm việc với Oracle, MySQL, PostgreSQL",
+      "Ham học hỏi, sẵn sàng học thêm công nghệ mới và cùng team phát triển các sản phẩm mớI.&nbsp;<br>&nbsp;"
+    ],
+    "Level": null
+  },
+  {
+    "id": 99,
+    "CompanyName": "International Digital Services Vietnam",
+    "JobName": "Bridge Software Engineer (PHP, Java)",
+    "Salary": "",
+    "Skills": [
+      "Bridge Engineer",
+      "Java",
+      "PHP"
+    ],
+    "SkillsExperience": [
+      "Japanese language: N2~ (Required)",
+      "Have strong knowledge about Java framework (Spring, Struts).",
+      "Have strong knowledge about MVC frameworks (Laravel, CakePHP,&nbsp;Symfony, ...)",
+      "Have strong knowledge about RDBMS (MySQL, Oracle, PostgreSQL, MS SQL Server)",
+      "Good understanding of OOP concepts and design patterns",
+      "Experienced with Version control systems (Git/SVN)",
+      "Good knowledge about cloud service such as AWS, Google Cloud or MS Azure (have certificate such as AWS association or professional is big plus).",
+      "Can write basic and detail design.",
+      "Good English, teamwork and reliability"
+    ],
+    "Level": null
+  },
+  {
+    "id": 100,
+    "CompanyName": "International Digital Services Vietnam",
+    "JobName": "QC Engineer (QA QC, Tester)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "Japanese",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "Proven experience as a Quality Control / Tester or similar role",
+      "Experience in creating, executing and managing test cases using test case managing tools, bug tracking tools: Redmine, Backlog, Bugzilla, Mantis, Testlink, or JIRA",
+      "Analytical mind and problem-solving aptitude",
+      "Japanese language: ~N3",
+      "Experience in creating test specifications",
+      "Good english, teamwork and reliability",
+      "Having experience in management or leadership is big plus",
+      "Innovative and open-mind working environment regardless of gender age or experience.",
+      "Opportunities for higher positions based on performemence and contribution to company development.",
+      "Working directly with foreign customers (Japan), using new technologies and personal development opportunities.",
+      "Flexible working time: 8h30-17h30 or 9h00-18h00 (Monday - Friday).",
+      "Enjoy the benefits of social insurance, health insurance and other benefits under the labor law.",
+      "Health insurance (PVI) for both relatives (Family and children)",
+      "Annual health checkup for both relatives (Family and children)",
+      "MVP Award (4 times / year)",
+      "Certificate allowance (Zend / Java / AWS / N1-3 / ...)",
+      "Lunch is free",
+      "Birthday party / Newcomer party / Year-end party / Holidays",
+      "Travel company",
+      "Training for employees (Business Skill / Technical Skill / BSE / PG / QC)",
+      "Work Shop / Hackathon (2 times / month)",
+      "New Year Bonus",
+      "Free parking"
+    ],
+    "Level": null
+  },
+  {
+    "id": 101,
+    "CompanyName": "Active Media VietNam",
+    "JobName": "MacOS Developer (Objective C, SQL, OOP)",
+    "Salary": "",
+    "Skills": [
+      "Objective C",
+      "OOP",
+      "SQL"
+    ],
+    "SkillsExperience": [
+      "3+ years programming experience with Objective-C.",
+      "Extensive knowledge with client based applications that require End-User interactions is desired.",
+      "Understanding of databases, RESTful API, CICD.",
+      "The candidate should be able to handle all aspects of developing a feature-set independently, and also be able to integrate that into the greater project."
+    ],
+    "Level": null
+  },
+  {
+    "id": 102,
+    "CompanyName": "Panasonic Vietnam Group – Panasonic R&amp;D Center Vietnam (PRDCV)",
+    "JobName": "Data Analytics Engineer (Python/Cloud)",
+    "Salary": "",
+    "Skills": [
+      "Python",
+      "MySQL",
+      "Cloud"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 103,
+    "CompanyName": "Cloud Nine Solutions ",
+    "JobName": "02 C Developers (Linux, Embedded)",
+    "Salary": "",
+    "Skills": [
+      "C language",
+      "Linux",
+      "Embedded"
+    ],
+    "SkillsExperience": [
+      "A bachelor degree or career experience in computer science or computer engineering is preferred",
+      "Strong C programming skills and the ability to work with low power embedded systems",
+      "Experience with multi-threaded programming",
+      "Good knowledge of Linux and Linux tools",
+      "Any scripting language (bash, etc) and or perl/python",
+      "Experience with RS232, USB, RS485, CAN, SPI, TCP/IP, and HTTP protocols, a plus",
+      "Experience with ARM microprocessors. Experience with embedded Linux systems a plus",
+      "Extensive experience with software Engineering processes and tools",
+      "Thinks outside the box when developing solutions",
+      "Excellent written and verbal communication skills",
+      "A passion for creating and building things"
+    ],
+    "Level": null
+  },
+  {
+    "id": 104,
+    "CompanyName": "TIBCO Orchestra Networks Vietnam",
+    "JobName": "Developer (Java, C#)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "C#",
+      "Database"
+    ],
+    "SkillsExperience": [
+      "3-10 years of Java server-side development experience.",
+      "BS in Computer Science or related technical field.",
+      "Experience working with Java and/or C# APIs and client libraries.",
+      "Experience developing high-performance networking system software, with focus on latency and throughput performance tuning, connection scalability, and reliability.",
+      "Familiarity with database technologies (SQL, Big Data, schema design and caching).",
+      "Experience with financial applications (e.g. FIX protocol).",
+      "Experience with Big Data technologies (e.g. Hadoop ecosystem).",
+      "Experience with networking technologies (HTTP, TCP, SSL, raw sockets).",
+      "Exposure to enterprise messaging products such as JMS, Apache Kafka, IBM MQ and TIBCO.",
+      "Familiarity with source-control products (svn, git), Maven, and Jenkins."
+    ],
+    "Level": null
+  },
+  {
+    "id": 105,
+    "CompanyName": "TIBCO Orchestra Networks Vietnam",
+    "JobName": "Senior Java Developer",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "Database",
+      "English"
+    ],
+    "SkillsExperience": [
+      "5-10 years of experience in system software development required.",
+      "BS/MS in computer engineering, or related professional experience",
+      "Multi-Threading experience required.",
+      "Distributed memory fabrics.",
+      "Excellent Java skills required. Multiple language client bindings, including Java, .NET, JavaScript, and REST.",
+      "Experience in commercial software development, including all stages of the software development lifecycle required.",
+      "Experience with source control systems, defect-tracking systems, automated unit and system test frameworks, and similar tools required.",
+      "Web and application servers like Jetty, Apache, Spring, etc.",
+      "Databases, particularly real time or stream-oriented databases",
+      "Excellent written and verbal communication skills in English",
+      "High performance system development and tuning experience a plus.",
+      "Experience with cloud environments like AWS, Kubernetes, Ansible, OpenShift, etc.",
+      "Extensive network protocols experience a plus.",
+      "<i>Unix/Linux system programming required.</i>"
+    ],
+    "Level": null
+  },
+  {
+    "id": 106,
+    "CompanyName": "TIBCO Orchestra Networks Vietnam",
+    "JobName": "Technical QA Engineer (QAQC, SQL)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "SQL",
+      "Java"
+    ],
+    "SkillsExperience": [
+      "Bachelors in Computer Science or related technical field;",
+      "Ability to quickly pick up new technologies, excellent communication skills(oral/written), excellent analytical and problem-solving skills.",
+      "Collaborate within the team and across teams. Flexible in adapting to different situations, self-driven and taking initiatives in accomplishing team’s goals.",
+      "Good understanding of software development life cycle, testing methodology, process and quality control.",
+      "Proficient in any one of the programming languages – preferably Java",
+      "Proficient in any one of the scripting languages – python, javascript and shell.",
+      "Proficient in any one of the RDBMS and SQL Language",
+      "Proficient in both Windows and Linux OS Platforms.",
+      "Nice to have:",
+      "Must be familiar with basic security concepts or standards as appropriate for this position."
+    ],
+    "Level": null
+  },
+  {
+    "id": 107,
+    "CompanyName": "IFI Solution - An NTT Data Company",
+    "JobName": "10 Java Developers (Spring, J2EE)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "J2EE",
+      "Spring"
+    ],
+    "SkillsExperience": [
+      "2+ years of experience working in Java/J2EE technologies.",
+      "<strong>English proficiency equivalent to B1 certificate or TOEIC 700+</strong>",
+      "Pro-active and self-organizing",
+      "Proficient in Java/J2EE , Spring boot and Spring Cloud framework, with a good knowledge of its ecosystems",
+      "Strong understanding of object-oriented programming and principles of development (e.g. SOLID, DRY, KISS...)",
+      "Familiar with various design and architectural patterns (e.g. creational, structural, behavioral, container vs presentational components...)",
+      "Skill for writing reusable Java libraries",
+      "Knowledge of concurrency patterns in Java",
+      "Familiarity with concepts of MVC, SOAP and/or RESTful",
+      "Proficiency with SQL or MongoDB",
+      "Implementing automated testing platforms and unit tests such as Mockito, Junit",
+      "Have knowledge in Microservice architecture"
+    ],
+    "Level": null
+  },
+  {
+    "id": 108,
+    "CompanyName": "Vgroup",
+    "JobName": "[URGENT] -05 Java Developer (Spring/MVC)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "MVC",
+      "Spring"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 109,
+    "CompanyName": "HansenCX",
+    "JobName": "Software Developer (Oracle, PL/SQL)",
+    "Salary": "",
+    "Skills": [
+      "Database",
+      "SQL",
+      "Oracle"
+    ],
+    "SkillsExperience": [
+      "Minimum 2 years of application software development experience and/or appropriate tertiary qualification",
+      "Good understanding of Source Control Tools: GIT, Stash, Source Tree.",
+      "Demonstrated experience in Oracle PL/SQL, shell scripts.",
+      "Understanding of Agile environment and working knowledge of SDLC",
+      "Experience with Java or any other object-oriented language",
+      "Ability to work in the Atlassian suite of products like JIRA and Confluence is also a plus"
+    ],
+    "Level": null
+  },
+  {
+    "id": 110,
+    "CompanyName": "Citigo Software",
+    "JobName": "Senior Frontend Dev (ReactJS/VueJS)",
+    "Salary": "",
+    "Skills": [
+      "ReactJS",
+      "JavaScript",
+      "VueJS"
+    ],
+    "SkillsExperience": [
+      "Trải nghiệm với React stack (ReactJS, Redux, State Management, Functional Programming)",
+      "Hiểu biết nâng cao về Javascript ES5 &amp; ES6 +; Vue stack (Vuex, Vue Router, SPA, State Management, Functional Programming)",
+      "Kiến thức tốt với HTML5, CSS3, SASS / SCSS &amp; framework UI xây dựng trên JavaScript, HTML, CSS",
+      "Thành thạo JavaScript, bao gồm thao tác DOM và ObjectJavaScript Model",
+      "Có kinh nghiệm với công cụ Git / luồng Git; UI / UX &amp; Hành vi người dùng; API RESTful"
+    ],
+    "Level": null
+  },
+  {
+    "id": 111,
+    "CompanyName": "Galaxy Education",
+    "JobName": "(Senior) Unity Game Developer",
+    "Salary": "",
+    "Skills": [
+      "Games",
+      "C#",
+      "Unity"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 112,
+    "CompanyName": "Home Credit Vietnam ",
+    "JobName": "IT Test Automation Engineer",
+    "Salary": "",
+    "Skills": [
+      "Tester",
+      "Java",
+      "QA QC"
+    ],
+    "SkillsExperience": [
+      "Experience playing as Automation Tester position, having experience in developing test automation solutions.",
+      "Experience using technology of Selenium 2.0 (WebDriver, the Page Object Pattern) with JBehave/ Cucumber.",
+      "Experiences in testing REST/ SOAP API using tool like Postman/ SOAPUI.",
+      "Experiences in automation testing on Mobile using Appium.",
+      "Experiences with Continuous Integration using Jenkin tool with an understanding of continuous deployment.",
+      "Experience with Java as a development language for automation; Good at using Spring framework is a great advantage.",
+      "Solid experience with BDD concept.",
+      "Familiarity with Web Application structures – to be able to write automation abstraction code for web automation (reliant on CSS, JS, and the DOM).",
+      "Intermediate English level"
+    ],
+    "Level": null
+  },
+  {
+    "id": 113,
+    "CompanyName": "VTechnology",
+    "JobName": "Frontend (Angular/JS/JavaScript/HTML5)",
+    "Salary": "",
+    "Skills": [
+      "Angular",
+      "HTML5",
+      "JavaScript"
+    ],
+    "SkillsExperience": [
+      "Nắm vững kiến thức lập trình cơ bản",
+      "Lập trình hướng đối tượng,",
+      "Thao tác với các hệ quản trị cơ sở dữ liệu,",
+      "Nắm vững mô hình web MVC, MVVM",
+      "Có kinh nghiệm 01 năm trở lên với lập trình js framework (Angular / React / VueJS ...)"
+    ],
+    "Level": null
+  },
+  {
+    "id": 114,
+    "CompanyName": "Onpoint ",
+    "JobName": "FullStack Developer (Python,Ruby,Golang)",
+    "Salary": "",
+    "Skills": [
+      "Python",
+      "Ruby",
+      "Golang"
+    ],
+    "SkillsExperience": [
+      "Bachelor’s degree in computer science, information systems or a related field.",
+      "Having 1 - 3+ years of experience in web development.",
+      "Experience with multiple programming languages(Python, Ruby, Golang)",
+      "Experience with Redis, Elasticsearch has knowledge about Caching is a plus.",
+      "Experience with web API technologies: RESTful, Authentication, Authorization, and multi-devices session.",
+      "Experience with Postgresql other (Mysql, NoSQL,...) is a plus.",
+      "Experience with version control (Git)",
+      "Experience with frontend work: HTML/CSS, bootstrap, SASS,..."
+    ],
+    "Level": null
+  },
+  {
+    "id": 115,
+    "CompanyName": "Samsung Electronics HCMC CE Complex",
+    "JobName": "Linux Kernel Developer",
+    "Salary": "",
+    "Skills": [
+      "DevOps",
+      "Linux"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 116,
+    "CompanyName": "EVIZI",
+    "JobName": "[HN-DN-HCM] Tester",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "SQL",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "Bachelors degree in C.S. or related technical discipline.",
+      "2+ years work experience in development and/or testing role.",
+      "Must have automation experience using languages like Java, Python, Linux shell, etc.",
+      "Must have automation experience with tools like Selenium, Jenkins, Jmeter, Android automator, Appium, etc.",
+      "Must have a strong knowledge of web services (REST API, SOAP UI).",
+      "Must have sound understanding of QA practices and principles including test case creation and management, Defect managements and metrics, etc.",
+      "Must have knowledge of Linux.",
+      "Must have Database skills with Oracle, SQL Server, MySQL, PostgreSQL, etc.",
+      "Experience of white box testing and debugging the following: Web based application, Back end server testing (Saas), Scalability and performance.",
+      "Understanding of Cloud/SaaS technology.",
+      "Understand of how to test a product for a mass market use consumers.",
+      "A Passion for quality.",
+      "Can do/Can ship attitude.",
+      "Good English verbal and written communication skills.",
+      "Bachelors degree in C.S. or related technical discipline.",
+      "2+ years work experience in development and/or testing role.",
+      "Must have technical background and a thorough understanding of software development engineering and methodologies.",
+      "Must have Database skills with Oracle, SQL Server, MySQL, PostgreSQL, etc.",
+      "Good experience with different Operating Systems.",
+      "Proven ability to manage and prioritize multiple, diverse projects simultaneously.",
+      "Must be careful, flexible, independent and self motivated.",
+      "Good English verbal and written communication skills.",
+      "Knowledge of automated testing tools, like WinRunner, QTP, Rational Robot, JMeter, Soasta, Selenium, etc.",
+      "Good understanding of common languages like VB, JAVA, PERL, C++, etc.",
+      "Use existing tools and techniques to execute test cases and build/script new tools for performing testing/validation function.",
+      "Must have A Passion for quality. The candidate will be immersed in quality assurance and a strong understanding of how to apply this to an agile environment.",
+      "Must have High integrity, trustworthy operator that is intellectually honest yet a fundamental optimist, positive attitude.",
+      "Must have Self starter and natural leader, doesn’t wait for instructions once the objectives are clear.",
+      "Experience in both start ups and larger companies.",
+      "Passion for technology and/or mobile.",
+      "Commitment to high standards of excellence and integrity."
+    ],
+    "Level": null
+  },
+  {
+    "id": 117,
+    "CompanyName": "Sun* Inc.",
+    "JobName": "PQA Leader",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "Agile"
+    ],
+    "SkillsExperience": [
+      "Tối thiểu 5 năm tham gia vào quá trình phát triển dự án phần mềm",
+      "Có kiến thức tốt về các quy trình quản lý chất lượng: CMMI, ISO,...",
+      "Có kiến thức tốt về các mô hình Agile/ Scrum, Waterfall, V-model",
+      "Có kiến thức tốt về các hoạt động quản trị, dẫn dắt đội nhóm",
+      "Giao tiếp tốt, cẩn thận, có trách nhiệm và chịu được áp lực công việc",
+      "Có khả năng thu thập, tổng hợp và phân tích thông tin tốt",
+      "Đã từng là PQA leader của công ty là một lợi thế",
+      "Ưu tiên Tiếng Anh giao tiếp tốt"
+    ],
+    "Level": null
+  },
+  {
+    "id": 118,
+    "CompanyName": "Dat Xanh Group",
+    "JobName": "Senior Business Analyst (eCommerce)",
+    "Salary": "",
+    "Skills": [
+      "Business Analyst",
+      "Agile",
+      "Product Manager"
+    ],
+    "SkillsExperience": [
+      "A bachelor's degree in Computer Science, Business, or a related field or an MBA.",
+      "At least 5 years' experience in a&nbsp;&nbsp;role, good knowledgeof real estateis an advantage.",
+      "Experience with e-commerce website, marketplace&nbsp;",
+      "Possess excellent verbal and written communication skills.",
+      "Familiar with MS Project, JIRA/Confluence, and similar tools",
+      "Applicable knowledge of the technologies used by the team",
+      "Good skills and knowledge of servant leadership, facilitation, situational awareness, conflict resolution, continual improvement, empowerment, and increasing transparency.",
+      "Knowledge of various well-documented patterns and techniques for&nbsp;",
+      "A proven record of leading and supporting successful projects."
+    ],
+    "Level": null
+  },
+  {
+    "id": 119,
+    "CompanyName": "Getcare",
+    "JobName": "ERP/Odoo Functional Consultant (QA / QC)",
+    "Salary": "",
+    "Skills": [
+      "Tester",
+      "QA QC"
+    ],
+    "SkillsExperience": [
+      "Major in IT or Business or closely relevant",
+      "Good knowledge of Software &amp; testing process",
+      "The understanding &amp; practice of business processes: Sales, Purchase, HR2payroll, Stock, Invoicing &amp; Payments.",
+      "Previous experiences in Odoo-related positions",
+      "OO programing language",
+      "Users modeling, role-playing &amp; Interface intelligence",
+      "Sales skills (public speaking &amp; presenting, negotiation, training)",
+      "Project management",
+      "Research &amp; Analysis",
+      "Task &amp; time management",
+      "Critical thinking",
+      "Details orientation",
+      "Teamwork",
+      "Facilitation"
+    ],
+    "Level": null
+  },
+  {
+    "id": 120,
+    "CompanyName": "Home Credit Vietnam ",
+    "JobName": "Mobile Lead Product Owner",
+    "Salary": "",
+    "Skills": [
+      "Product Manager",
+      "Agile",
+      "Project Manager"
+    ],
+    "SkillsExperience": [
+      "From 3-5 years experience in product owner role of Web and Mobile App of companies such as E-Commerce, Fintech, Online - Lending, Finance/Retail Banking, IT and Services",
+      "Experience working with stakeholders, managing expectations and balancing competing priorities",
+      "Experience in people management.",
+      "Strong business and experience mindset with the ability to set strategic priorities",
+      "Proven experience in product development, user experience design, customer journeys and product lifecycle management",
+      "Experience in digital products development using Agile methodology is a big plus",
+      "Good at presentation and negotiation.",
+      "Good at English communication"
+    ],
+    "Level": null
+  },
+  {
+    "id": 121,
+    "CompanyName": "LOGIVAN",
+    "JobName": "Backend Engineer (NodeJS, DevOps, Ruby)",
+    "Salary": "",
+    "Skills": [
+      "Ruby",
+      "NodeJS",
+      "DevOps"
+    ],
+    "SkillsExperience": [
+      "Expertise in one of these languages: Ruby, Python, Java, Javascript (NodeJs)",
+      "4 years of relevant work experience as a Backend Engineer/Developer",
+      "Excellent technical problem solving skills and aptitude to learn new technologies, tools and methodologies",
+      "Strong understanding of object-oriented programming",
+      "Extensive REST API development experience",
+      "Hands on experience with relational databases like MySQL, Postgresql or NoSQL like MongoDB, ElasticSearch",
+      "Experience with at least one of these topics: caching, messaging queue, search engines, NoSQL, microservices, performance optimization.",
+      "Proficient in writing clean code, following good principles, design patterns and best practices, covered with tests",
+      "Good written and verbal communication, team player with a collaborative work ethic",
+      "English language to a good standard",
+      "Having a big picture mindset, ability to think like the end user to understand, fulfill and delight customers",
+      "Understanding of domain-driven design, event-driven architecture and having some experience with large systems",
+      "Experience in shipping applications to production: CI/CD pipeline, monitoring &amp; operation",
+      "Experience in working with cloud platforms like Heroku, Google Cloud Platform, or Amazon Web Services",
+      "Experience with DevOps, containerization / Docker / Kubernetes"
+    ],
+    "Level": null
+  },
+  {
+    "id": 122,
+    "CompanyName": "mgm technology partners Vietnam",
+    "JobName": "Frontend Developer (JavaScript, ReactJS)",
+    "Salary": "",
+    "Skills": [
+      "JavaScript",
+      "HTML5",
+      "ReactJS"
+    ],
+    "SkillsExperience": [
+      "Strong skills in frontend development",
+      "TypeScript, ReactJS, Redux is an advantage",
+      "Understanding of software development tools, processes and architecture",
+      "Degree in engineering or natural sciences (university or technical college)",
+      "Very good English both written and spoken",
+      "Sense of responsibility, communication skills and team spirit",
+      "Willingness to learn and build a deep understanding",
+      "A passion for software development, new trends and technologies in IT",
+      "From 2+ years of professional experience in international software projects"
+    ],
+    "Level": null
+  },
+  {
+    "id": 123,
+    "CompanyName": "KMS Technology",
+    "JobName": "Senior .NET Engineer (BONUS)",
+    "Salary": "",
+    "Skills": [
+      ".NET",
+      "ReactJS",
+      "Angular"
+    ],
+    "SkillsExperience": [
+      "At least intermediate level of English level",
+      "Likely having 2+ years of experience depending on how fast of your learning and developing technical capability",
+      "Ability to self-learn and adapt to new technologies quickly",
+      "Proficient&nbsp;.NET/ .NET Core",
+      "Strong experience with T-SQL (MS SQL Server)",
+      "Good knowledge of OOP",
+      "Basic knowledge or experience of some design patterns",
+      "Performs effectively &amp; independently in software implementation activities (designing, coding, verification, unit testing, integration testing, and debugging…)",
+      "Good at JavaScript skills – having experience of any JavaScript framework e.g. Knockout, ReactJS, Angular,",
+      "Basic knowledge or experience of using cloud platform (Azure/AWS/GCP)",
+      "Familiar with Agile development methodologies (Scrum, XP, Kanban)"
+    ],
+    "Level": null
+  },
+  {
+    "id": 124,
+    "CompanyName": "KMS Technology",
+    "JobName": "Senior NodeJS Developer (BONUS)",
+    "Salary": "",
+    "Skills": [
+      "NodeJS",
+      "ReactJS",
+      "AWS"
+    ],
+    "SkillsExperience": [
+      "At least intermediate level of English level",
+      "Likely having 2+ years of experience depending on how fast of your learning and developing technical capability",
+      "Ability to self-learn and adapt to new technologies quickly",
+      "Strong experience with NodeJS",
+      "Knowledge or experience with AWS services",
+      "Understanding of practices for high code quality: maintainability, re-usability, code review, unit testing, etc.",
+      "Understanding of design patterns, object-oriented programming, architecture patterns",
+      "3+ year of experience on NodeJS platform",
+      "Have experience in building web application at backend using popular NodeJS web frameworks such as Express/Koa/LoopBack, etc.",
+      "Have experience in building web application at front-end frameworks such as ReactJS/Angular/VueJS, etc.",
+      "Strong motivation to drive impact by making product improvements. Comfort with collaboration, open communication and reaching across functional borders.",
+      "Understand practices for high code quality: maintainability, reusability, code reviewing, unit testing, etc.",
+      "Understanding of design patterns, object-oriented programming, architecture patterns",
+      "Good problem-solving skills.",
+      "Proactiveness (self-starter), good communication and fast learning"
+    ],
+    "Level": null
+  },
+  {
+    "id": 125,
+    "CompanyName": "ELSA",
+    "JobName": "Senior iOS Developer (AI product)",
+    "Salary": "",
+    "Skills": [
+      "iOS",
+      "English"
+    ],
+    "SkillsExperience": [
+      "Computer science (or related) university degree",
+      "Minimum 5 years of experience in professional iOS development, with solid knowledge of Swift",
+      "Experience working in a team of mobile developers",
+      "Have contributed to release at least one iOS app in the App Store."
+    ],
+    "Level": null
+  },
+  {
+    "id": 126,
+    "CompanyName": "KMS Technology",
+    "JobName": "Senior Automation Tester (BONUS)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "English",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "Strong domain knowledge on web/mobile app testing expertise",
+      "3+ years of experience in creating and running automated tests on a web/mobile app using app testing frameworks like Selenium/Appium/XCTest/ XCUiTest",
+      "Solid testing experiences (test strategy, test approach, test plan, test techniques included black box, risk-based, exploratory, Non-UI testing, etc.)",
+      "Good knowledge of the software development process, especially the software testing process",
+      "Methodical and detail-oriented, with solid analytical skills and problem-solving ability",
+      "Strong dedication to quality and a positive, collaborative attitude and approach to testing",
+      "Being a senior member of the engineering team, self-motivated; able to find opportunities for improvement and tackle them without external direction",
+      "Hand-on experience in JavaScript and Java language is a plus",
+      "Hand-on experience in using test tools like TestNG/ Jasmine/ Mocha/ Nightwatch/ Protractor/ caWebdriverIO etc.",
+      "Experience using .NET Core, C# 7.0 above",
+      "Knowing how to write SQL in Postgre",
+      "Experience on BDD testing approach and using BDD framework like Specflow, spec run or Cucumber is a plus",
+      "Experience with selenium grid is a plus, knowing Linux command is a plus",
+      "Experience in using Jenkins, know-how set up a pipeline is a plus"
+    ],
+    "Level": null
+  },
+  {
+    "id": 127,
+    "CompanyName": "Sunbytes",
+    "JobName": "WordPress Developer (PHP)",
+    "Salary": "",
+    "Skills": [
+      "Wordpress",
+      "English",
+      "PHP"
+    ],
+    "SkillsExperience": [
+      "At least&nbsp;5 years Wordpress development experience",
+      "Intermediate English",
+      "Able to handle multiple tasks in multiple projects at the same time",
+      "Able to adapt new workflows",
+      "Careful, highly organized and self-learning attitude",
+      "Transparent in knowledge and communication",
+      "Good soft skills: team player, not afraid to provide feedback to colleagues, etc.",
+      "Available for long term"
+    ],
+    "Level": null
+  },
+  {
+    "id": 128,
+    "CompanyName": "Sun* Inc.",
+    "JobName": "IT Project Manager (Up to $2500)",
+    "Salary": "",
+    "Skills": [
+      "Project Manager",
+      "Agile"
+    ],
+    "SkillsExperience": [
+      "Ít nhất 02 năm kinh nghiệm ở vị trí tương đương, đã từng quản lý các dự án quy mô từ 10 - 15 nhân sự trở lên",
+      "Có kiến thức nền tảng về phát triển phần mềm và kinh nghiệm ở vị trí developer hoặc phân tích nghiệp vụ",
+      "Kỹ năng quản lý công việc, giám sát quy trình tốt và linh hoạt trong giải quyết vấn đề",
+      "Có khả năng build team và training nhân sự",
+      "Tính chủ động cao trong công việc và chịu áp lực tốt",
+      "Có kinh nghiệm làm việc với mô hình Agile/Scrum là một lợi thế",
+      "Tiếng Anh giao tiếp tốt là một lợi thế.&nbsp;"
+    ],
+    "Level": null
+  },
+  {
+    "id": 129,
+    "CompanyName": "Hahalolo",
+    "JobName": "SENIOR .NET Developer (ASP.NET,C#)",
+    "Salary": "",
+    "Skills": [
+      ".NET",
+      "C#",
+      "ASP.NET"
+    ],
+    "SkillsExperience": [
+      "Có 3 năm kinh nghiệm lập trình trên nền .Net",
+      "Tốt nghiệp đại học, chuyên ngành CNTT, Toán Tin ứng dụng hoặc Tốt nghiệp hệ thống Apptech, NIIT.",
+      "Sử dụng tốt ngôn ngữ C#, HTML5/CSS3",
+      "Thành thạo ASP.NET",
+      "Lập trình tốt với javascript.",
+      "CSDL thành thạo với: MS SQL Server.",
+      "Có kiến thức vững chắc về REST, RPC APIs và MVC",
+      "Có kinh nghiệm và hiểu biết về kiến trúc ứng dụng, phát triển ứng dụng mô hình client/server.",
+      "Có khả năng giải quyết vấn đề độc lập cao.",
+      "Luôn nghiêm túc trong công việc."
+    ],
+    "Level": null
+  },
+  {
+    "id": 130,
+    "CompanyName": "Sun* Inc.",
+    "JobName": "Front-end Engineer (Up to $1800)",
+    "Salary": "",
+    "Skills": [
+      "ReactJS",
+      "VueJS"
+    ],
+    "SkillsExperience": [
+      "Thành thạo với JavaScript và hiểu sâu về cách trình duyệt hoạt động",
+      "Có ít nhất 02 năm kinh nghiệm thực tiễn với ReactJS/ VueJS/Angular 6+",
+      "Kỹ năng cứng với HTML, CSS",
+      "Kinh nghiệm với: HTTP, API, REST, JSON, unit test, XSS, CSRF, sync vs. async, promise, immutability, pure function",
+      "Kinh nghiệm sử dụng GitHub",
+      "Linh hoạt trong công việc và xử lý tình huống",
+      "Hiểu về mạng xã hội và API",
+      "Có kiến thức quản lý dự án và phần mềm theo dõi công việc",
+      "Kỹ năng lập luận về cấu trúc dữ liệu, sự phức tạp và các phương pháp kỹ thuật khả thi để giải quyết vấn đề",
+      "Kinh nghiệm làm việc trong dự án áp dụng mô hình Agile bao gồm TDD, lập trình cặp, chu kỳ phát hành ngắn",
+      "Kinh nghiệm debug và tối ưu hóa code cho hiệu suất ứng dụng thông qua các công cụ"
+    ],
+    "Level": null
+  },
+  {
+    "id": 131,
+    "CompanyName": "LOGIVAN",
+    "JobName": "Business Analyst",
+    "Salary": "",
+    "Skills": [
+      "Business Analyst",
+      "English"
+    ],
+    "SkillsExperience": [
+      "Bachelors' degree in technology or related scientific discipline, or business. Ongoing post-graduate education and training in the fields of technology, products, data and statistics is essential.",
+      "Minimum of 2 years experience in working with technology products. Proven track record of achievement.",
+      "Excited to learn about trucking and freight transportation",
+      "Working level English language required",
+      "Moderate level Vietnamese language is essential, higher standards of fluency are an advantage"
+    ],
+    "Level": null
+  },
+  {
+    "id": 132,
+    "CompanyName": "Viettel Group",
+    "JobName": "Android Developer (Java/ Kotlin)",
+    "Salary": "",
+    "Skills": [
+      "Android",
+      "Java",
+      "Kotlin"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 133,
+    "CompanyName": "Viettel Group",
+    "JobName": "Web /Frontend Developer (ReactJs)",
+    "Salary": "",
+    "Skills": [
+      "ReactJS",
+      "JavaScript",
+      "Java"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 134,
+    "CompanyName": "Relyon IT Services",
+    "JobName": "Java API Developer (Spring, MySQL)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "MySQL",
+      "Spring"
+    ],
+    "SkillsExperience": [
+      "Bachelor or Master in Computer Science or related field or equivalent experience.",
+      "Have very strong knowledge, at least 4 year experienced, in developing high scalable Java-based backend web service using the Spring framework, Java/Linux stack, JPA, Hibernate, MySQL and the relevant technologies",
+      "Have basic knowledge, at least 1 year experienced, in develop frontend application for at least one the following areas: Android native app, iOS native app or Modern Web using HTML5, CSS 3, ES6 and React JS/Angular 2x or the similar",
+      "Deep understanding of Object-Oriented programming, OOP design patterns and the SOLID principles",
+      "Strong experience in Git source control, Git Flow branching model, CI/CD pipeline using TeamCity or equivalent",
+      "Strong problem-solving skills, able to work individually as well as in team",
+      "Collaboration and culture fit in Agile experience will be an advantage",
+      "Good English reading and writing skills",
+      "Experience in developing distributed system based on Microservices architecture, Event-driven architecture using Spring Cloud, Netflix stack, Kafka, Redis, ELK, Apache Camel, Camunda BPM etc. is a big plus",
+      "Experience in AWS, Ansible, Packer, Docker, Rancher, K8s is a big plus",
+      "Experienced in automated testing frameworks is a plus",
+      "Good English listening and speaking is a big plus",
+      "Experience working in banking and financial domain is a plus"
+    ],
+    "Level": null
+  },
+  {
+    "id": 135,
+    "CompanyName": "Global Fashion Group",
+    "JobName": "Principal Software Engineer",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "Java",
+      "AWS"
+    ],
+    "SkillsExperience": [
+      "Proven track record in leading an agile team of Software Engineers, bonus point for leading a distributed team",
+      "You have hands-on experience in building and deploying microservices ideally on Kubernetes",
+      "You have solid MySQL knowledge",
+      "You were responsible for operations of your large scale product environment and worked closely together with DevOps/SRE",
+      "You are a PHP expert, but have an eye on Java's development, too",
+      "You are a continuous learner and like to find new ways to do things",
+      "Good communication skills, spoken and written English",
+      "A hands-on, can-do attitude",
+      "AWS experience",
+      "Exposure to e-commerce environments"
+    ],
+    "Level": null
+  },
+  {
+    "id": 136,
+    "CompanyName": "Nimble",
+    "JobName": "Technical Product Owner",
+    "Salary": "",
+    "Skills": [
+      "Product Manager",
+      "Agile",
+      "Project Manager"
+    ],
+    "SkillsExperience": [
+      "<strong>4 years or more of professional experience in a similar role.</strong>",
+      "<strong>Must have professional software development experience, </strong>preferably<strong> web development.</strong>",
+      "Degree in Computer Science or related fields is preferred.",
+      "Passion and experience in web and mobile applications, startups and cutting edge technology.",
+      "Not being afraid to roll up your sleeves to get things done.",
+      "Understanding of agile development.",
+      "High attention to details.",
+      "Ability to organize your own work and create work for others.",
+      "Looking for a leadership role, hence soft skills such as negotiation and evaluating/proposing creative alternatives are required.",
+      "Very articulate, opinionated, decisive and is at ease to interact with clients."
+    ],
+    "Level": null
+  },
+  {
+    "id": 137,
+    "CompanyName": "GNT VN., LTD",
+    "JobName": "05 Mid/Sr Manual Testers (Up to $1800)",
+    "Salary": "",
+    "Skills": [
+      "Tester",
+      "English",
+      "QA QC"
+    ],
+    "SkillsExperience": [
+      "University degree in Software Engineering or equivalent.",
+      "<strong>At least 2+ years of experience in Manual Testing.</strong>",
+      "<strong>Excellent in creating test case, test plan.</strong>",
+      "<strong>Confident to execute multiple types of manual test.</strong>",
+      "<strong>Experience in Automation Testing is a big plus.</strong>",
+      "Strong at requirement analysis &amp; clarification, and collaboration with multiple teams in a project.",
+      "Able to do the estimation, define test plan, test case and work with test management tools.",
+      "Familiarization with defect tracking and test management tools.",
+      "Understand Agile methodology and Scrum process.",
+      "<strong>Upper-intermediate or higher level of spoken and written English.</strong>"
+    ],
+    "Level": null
+  },
+  {
+    "id": 138,
+    "CompanyName": "DIAG",
+    "JobName": "Senior FullStack Software Engineer (PHP)",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "Python",
+      "VueJS"
+    ],
+    "SkillsExperience": [
+      "\"Product Engineering\" mindset.",
+      "Pragmatism and obsession for simplicity, efficiency, and performance.",
+      "Extensive experience in similar roles building technically complex products <strong>in any web programming language</strong>. Successful candidates usually have <strong>5 years</strong> of experience or more.",
+      "An expert level at <strong>server-side</strong>, <strong>client-side</strong> or <strong>full stack development</strong>. Your final role within the team will depend on your skills and internal training will be provided.",
+      "Obsession for <strong>quality</strong> and <strong>testing</strong>.",
+      "Eager to <strong>learn new technologies</strong> and frameworks.",
+      "Strong <strong>communication skills</strong> (in English).",
+      "Experience with <strong>Python</strong> or other general purpose language.",
+      "DevOps experience with the <strong>GCP</strong> suite.",
+      "Experience with Event-oriented Architecture. We have an Apache Kafka.",
+      "Experience working with high-performing, Agile development teams.",
+      "People who like to build stuff (we really like people who maintain/contribute to open source projects).",
+      "Want to learn about the HealthCare industry and have an impact on how doctors can diagnose their patients."
+    ],
+    "Level": null
+  },
+  {
+    "id": 139,
+    "CompanyName": "Nimble",
+    "JobName": "Sr. iOS Developers (Objective C, Swift)",
+    "Salary": "",
+    "Skills": [
+      "Swift",
+      "Objective C",
+      "iOS"
+    ],
+    "SkillsExperience": [
+      "<strong>5 or more years&nbsp;of professional&nbsp;iOS development experience</strong>.&nbsp;Experience in both Objective-C and Swift is ideal. If you do not have experience in Swift, you&nbsp;must be open to learn and work on it.",
+      "<strong>Proven ability to lead large mobile projects end-to-end</strong>&nbsp;from architecture to implementation and deployment.",
+      "Advanced experience in writing automated tests for mobile applications.",
+      "Enjoy working on challenging solutions and systems.",
+      "Believe that building great applications is not only about delivering code that “works”, but involves thinking about reusability, maintainability, security and performance.",
+      "A \"Can do attitude\" and a product mindset.",
+      "Confidence in communicating in English.",
+      "Due to COVID-19 and international travel restriction, we are able to process candidates who are currently residing in Vietnam only. If you are living outside of Vietnam, we will get in touch with you once the travel ban is lifted."
+    ],
+    "Level": null
+  },
+  {
+    "id": 140,
+    "CompanyName": "Global Insurance Corporation",
+    "JobName": "Application Developer (.NET, C#, Java)",
+    "Salary": "",
+    "Skills": [
+      ".NET",
+      "C#",
+      "Java"
+    ],
+    "SkillsExperience": [
+      "BA/BS in business, computer science, or related field, or equivalent experience.",
+      "1 year experience in Software development",
+      "Experience in software development for insurance, bank …",
+      "Experience in MVC and different programming framework/ languages: .NET, C#, Java…",
+      "Excellent communication skills, problem solving and crisis management skills, and strong analytical skills with the ability to work as an effective member of a team."
+    ],
+    "Level": null
+  },
+  {
+    "id": 141,
+    "CompanyName": "Nimble",
+    "JobName": "Senior Android Developers (Kotlin, Java)",
+    "Salary": "",
+    "Skills": [
+      "Android",
+      "Java",
+      "Kotlin"
+    ],
+    "SkillsExperience": [
+      "<strong>5 or more years of professional Android development experience. </strong>Experience in Kotlin is ideal. If you do not have experience in Kotlin, you must be open to learn and work on it.",
+      "<strong>Proven ability to lead large mobile projects end-to-end</strong>&nbsp;from architecture to implementation and deployment.",
+      "Advanced experience in writing automated tests for mobile applications.",
+      "Enjoy working on challenging solutions and systems.",
+      "Believe that building great applications is not only about delivering code that “works”, but involves thinking about reusability, maintainability, security and performance.",
+      "A \"Can do attitude\" and a product mindset.",
+      "Confidence in communicating in English.",
+      "Work start working in Ho Chi Minh city",
+      "Due to COVID-19 situation and our inability to process visa and work permit, right now we are not open to candidates residing outside of Vietnam. We will get in touch with you when international travel is possible again."
+    ],
+    "Level": null
+  },
+  {
+    "id": 142,
+    "CompanyName": "Panasonic Vietnam Group – Panasonic R&amp;D Center Vietnam (PRDCV)",
+    "JobName": "AI Engineer (Python/Computer Vision)",
+    "Salary": "",
+    "Skills": [
+      "Python",
+      "C++"
+    ],
+    "SkillsExperience": [
+      "Vietnamese nationality",
+      "Good programming skill in one of languages C/C++/C#/Python",
+      "Familiar with Computer vision/machine learning/deep learning&nbsp;or graphic programming (2D &amp; 3D, OpenGL, Pointcloud, etc.)",
+      "Experiences with common frameworks (OpenCV, Caffe, Tensor Flow, etc.)",
+      "Software design skill (UML, Object oriented design)",
+      "Experience in development and optimization of AI/Deep Learning/Machine Learning into embedded system such as Jetson TX board, FPGA board, ARM board, DSP board is a plus."
+    ],
+    "Level": null
+  },
+  {
+    "id": 143,
+    "CompanyName": "Brycen Vietnam",
+    "JobName": "Software Developer (Java .NET C#) - HUẾ",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "C#",
+      ".NET"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 144,
+    "CompanyName": "GoSell",
+    "JobName": "QC Engineer (QA QC, Tester)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "At least 4+ year experience working as Manual Tester.",
+      "At least 2+ year experience working as Automation Tester.",
+      "Solid understanding of HTML, CSS, JavaScript,Java.",
+      "Knowledge of using API testing tool Jmeter/Post Man/SoapUI",
+      "Can do automation test for web, App (Android+iOS)",
+      "Knowledge of SQL, Database",
+      "Knowledge of browser developer tools",
+      "Good at manual testing web and mobile applications",
+      "Good at writing test case, bug description.",
+      "Effective written and verbal communication skills",
+      "Proven diagnostic and debugging skills",
+      "Strong troubleshooting abilities, disciplined and detailed oriented",
+      "Good skills in bug defect.",
+      "Experience with e-commerce",
+      "Knowledge of Agile, used to work in Scrum team"
+    ],
+    "Level": null
+  },
+  {
+    "id": 145,
+    "CompanyName": "Ngân Hàng Á Châu | ACB",
+    "JobName": "IT - Senior ETL Specialist",
+    "Salary": "",
+    "Skills": [
+      "Database",
+      "C#",
+      ".NET"
+    ],
+    "SkillsExperience": [
+      "Graduate majoring related to IT or MIS",
+      "Knowledge of banking (products, services, process,..)&nbsp;",
+      "Knowledge of MIS, Data Warehouse&nbsp;",
+      "Knowledge of database management and data mining&nbsp;",
+      "Knowledge of Data Model, Dimensional Model&nbsp;",
+      "Proficient programming languages: C#, VB.NET, SQL, PL / SQL, Visual Fox&nbsp;",
+      "Proficient Database: Oracle, SQL Server, Visual Fox, MS Access&nbsp;",
+      "Proficient ETL tools: DataStage, SSIS, ODI, Infomatica…&nbsp;",
+      "Can using Data Modeling tools: Erwin, Power Designer…",
+      "Foreign language: English (can read documents and communicate)&nbsp;",
+      "Skills to use the support software: Microsoft Office, Microsoft Project ...&nbsp;",
+      "Communications Capability&nbsp;",
+      "Problem Solving Capability&nbsp;",
+      "Skills to collect, filter, analyze and evaluate information.&nbsp;",
+      "Ability to teamwork",
+      "At least 02 years working experience in banking data processing or related fields in MIS,&nbsp;",
+      "Data Warehouse",
+      "Willing to learn more, adapt quickly to new things&nbsp;",
+      "Proactive, Hard work, careful, patient, friendly."
+    ],
+    "Level": null
+  },
+  {
+    "id": 146,
+    "CompanyName": "Wata Solutions",
+    "JobName": "Mid to Sr. JAVA Developer (J2EE/Spring)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "J2EE",
+      "Spring"
+    ],
+    "SkillsExperience": [
+      "Overall 2+ years of Java/J2EE/Spring or .NET or PHP software development experience.",
+      "Have experience working with Oracle Database or MySQL or MSSQL.",
+      "Strong knowledge of Spring, Spring MVC, Spring security for Java job, or ASP.Net MVC for .Net job, Spring Data, Spring Batch.",
+      "Strong proficiency in programming languages, databases, web technologies, and RESTful API integration techniques.",
+      "Ability to communicate clearly and concisely, both orally and in writing, as an advocate for technology solutions.",
+      "Strong analytical and problem-solving skills, with proven ability to design pragmatic solutions.",
+      "Experience in design patterns, SOLID oop design, clean code.",
+      "Experience JBoss Application Server",
+      "Ability to research, adapt quickly to new technologies",
+      "Eager to learn new technologies.",
+      "Soft-skill",
+      "Good English Communication skills",
+      "Teamwork skills",
+      "Good at investigating and solving incident and problem skill",
+      "Self-motivated and Self-directed.",
+      "Can-do-attitude and put the goals of the team before your own prestige.",
+      "You are able and hungry to take on a lot of responsibility."
+    ],
+    "Level": null
+  },
+  {
+    "id": 147,
+    "CompanyName": "NFQ Asia (8bit Rockstars)",
+    "JobName": "Lead DevOps Engineer (AWS, Cloud)",
+    "Salary": "",
+    "Skills": [
+      "DevOps",
+      "AWS",
+      "Cloud"
+    ],
+    "SkillsExperience": [
+      "Strong understanding of all <strong>Amazon AWS, GCP, Azure Cloud Services.</strong>",
+      "Practical experienced with multiple <strong>Infrastructure as Code</strong> like <strong>CloudFormation/Terraform</strong> for infrastructure provisioning in cloud environments.",
+      "<strong>Containerize Orchestration</strong> – Experience in container technology and its concepts such as <strong>Docker, Kubernetes.</strong>",
+      "Hands-on experience in operating and maintaining high intensive RDBMS/NoSQL databases and search engines (<strong>e.g MySQL, MongoDB, Elasticsearch, etc</strong>.).",
+      "Well working experience with the source control and its related concepts (<strong>Git, Gitflow, branches, tags, etc.</strong>)",
+      "Have knowledge and work experiences with one of the following monitor systems such as Telegraf, InfluxDB, Grafana, AWS Cloudwatch, Prometheus",
+      "Logging system such as <strong>Elastic Stack</strong> (ELK/EFK), Graylog is a plus.",
+      "Error exception tracking &amp; APM tracing such as Sentry, NewRelic APM, Datadog APM, Elasticsearch APM is a big plus",
+      "Extensive experience in setting up and maintaining <strong>CI/CD</strong> processes using self-managed tools or relevant cloud technologies (e.g <strong>Jenkins, CircleCI,</strong> etc.)",
+      "Strong DevOps mindset and excellent team player (<strong>Calm, Cooperative, Problem-solving focus, no Ego, Trust, and Respect</strong>)",
+      "Knowledge of algorithms, data structures, complexity analysis, and software design.",
+      "Knowledge about Computer Security, Application Security, and Security Standards &amp; Best Practices (e.g OWASP, ISO 27000, etc.)",
+      "Advanced Database tuning and debugging skills (slow queries identification, performance tuning, security hardening, high-availability setup)"
+    ],
+    "Level": null
+  },
+  {
+    "id": 148,
+    "CompanyName": "Capgemini Vietnam",
+    "JobName": "Solution Architect (AWS, Microservices)",
+    "Salary": "",
+    "Skills": [
+      "Software Architect",
+      "Java",
+      "AWS"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 149,
+    "CompanyName": "Capgemini Vietnam",
+    "JobName": "Solution Architect (Cloud, Azure, .NET)",
+    "Salary": "",
+    "Skills": [
+      "Software Architect",
+      ".NET",
+      "Cloud"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 150,
+    "CompanyName": "Capgemini Vietnam",
+    "JobName": "20 Cloud Engineers/Technical Leads(AWS)",
+    "Salary": "",
+    "Skills": [
+      "Team Leader",
+      "AWS",
+      "Cloud"
+    ],
+    "SkillsExperience": [
+      "3+ Hands-on experience as a Cloud engineer",
+      "Experience with a cloud platform: AWS, Azure, GCP.",
+      "Experience with various AWS technologies: EC2, Auto Scaling, ELB, ECS, VPC, IAM, S3, EBS, EFS, Glacier, Cloud Watch, Cloud Formation, AWS Route53, RDS, Aurora.",
+      "Good understanding of cloud networking and security.",
+      "Ability to estimate usage costs and identify operational cost control mechanisms.",
+      "Good understanding of REST/SOAP APIs and distributed systems.",
+      "Proficient in troubleshooting skills with proven abilities in resolving complex technical issues.",
+      "Familiar with general DevOps with Security first approach.",
+      "Experience in working in an Agile development environment.",
+      "Good English communication skill."
+    ],
+    "Level": null
+  },
+  {
+    "id": 151,
+    "CompanyName": "Capgemini Vietnam",
+    "JobName": "Solution Architect (Cloud: GCP, Java)",
+    "Salary": "",
+    "Skills": [
+      "Software Architect",
+      "Java",
+      "Cloud"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 152,
+    "CompanyName": "CÔNG TY TNHH WISOL HÀ NỘI",
+    "JobName": "2 .NET Developer (C#, SQL)",
+    "Salary": "",
+    "Skills": [
+      ".NET",
+      "C#",
+      "SQL"
+    ],
+    "SkillsExperience": [
+      "At least 1 year of experience as a software developer.",
+      "Good at C# and .NET framework.",
+      "Experience in databases such as Oracle, MSSQL",
+      "Experience in design and development of&nbsp;ASP.NET,&nbsp;Web Service, Winforms, WPF",
+      "Good at English"
+    ],
+    "Level": null
+  },
+  {
+    "id": 153,
+    "CompanyName": "Neolab HCM",
+    "JobName": "iOS Developer (Objective C, SQL)",
+    "Salary": "",
+    "Skills": [
+      "iOS",
+      "Objective C",
+      "SQL"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 154,
+    "CompanyName": "Neolab HCM",
+    "JobName": "Frontend Developer (Javascript,VueJS)",
+    "Salary": "",
+    "Skills": [
+      "JavaScript",
+      "UI-UX",
+      "VueJS"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 155,
+    "CompanyName": "Spiraledge",
+    "JobName": "iOS Developer",
+    "Salary": "",
+    "Skills": [
+      "iOS",
+      "Objective C",
+      "Swift"
+    ],
+    "SkillsExperience": [
+      "Strong knowledge of iOS / MAC OSX. At least one app in App Store and at least three year of dedicated iOS experience.",
+      "Good skill in XCode – IDE, Interface builder.",
+      "Objective C background, Swift, knowledge of OOP programming, design pattern.",
+      "Thorough understanding of iOS Objective-C, Swift memory management.",
+      "Extensive knowledge and use of iOS Cocoa framework.",
+      "Understanding user experience and device interaction (Apple Watch, Samsung watch, WearOS watch)",
+      "At least two years of building Apple Watch app experience",
+      "Excellent problem solving, critical thinking and good communication skills.",
+      "Ability and desire to learn new skills and take on new tasks.",
+      "English fluency, especially in writing, reading."
+    ],
+    "Level": null
+  },
+  {
+    "id": 156,
+    "CompanyName": "FDS Software",
+    "JobName": "Web Developer(JavaScript,NodeJS,ReactJS)",
+    "Salary": "",
+    "Skills": [
+      "JavaScript",
+      "NodeJS",
+      "ReactJS"
+    ],
+    "SkillsExperience": [
+      "Thành thạo NodeJS/Python, JavaScript, ReactJS.",
+      "Có <strong>trên 1 năm</strong> kinh nghiệm lập trình web application với các ngôn ngữ trên.",
+      "Ngoài ra ứng viên biết tiếng Nhật, đã có kinh nghiệm lập trình mobile và làm việc với các dự án logistics, fintech là một lợi thế."
+    ],
+    "Level": null
+  },
+  {
+    "id": 157,
+    "CompanyName": "FLIX",
+    "JobName": "Hybrid Mobile (React Native/iOS/Android)",
+    "Salary": "",
+    "Skills": [
+      "React Native",
+      "Android",
+      "iOS"
+    ],
+    "SkillsExperience": [
+      "<strong>Tối thiểu 1 năm kinh nghiệm&nbsp;trong việc phát triển ứng dụng&nbsp;Hybrid với React Native (Non - Manager)</strong>",
+      "Độ tuổi ứng tuyển từ 22 - 28",
+      "Có kiến thức tốt về iOS &amp; Android applications (Swift, Java)",
+      "Có kinh nghiệm về tích hợp web service (SOAP, REST, JSON, XML).",
+      "Hiểu biết tốt về thiết kế UI/UX",
+      "Hiểu biết tốt về thiết kế responsive cho mobile web và tương thích với đa trình duyệt và phát triển các ứng dụng có độ tải tốt.",
+      "Có kinh nghiệm với việc kết nối APIs với các hệ thống ERP/CRM",
+      "Có kiến thức hoặc kinh nghiệm về các hệ thống ERP/CRM là 1 một lợi thế",
+      "Sử dụng Git/ Redmine khi làm việc",
+      "Có khả năng làm việc đa đạng và tinh thần đồng đội cao."
+    ],
+    "Level": null
+  },
+  {
+    "id": 158,
+    "CompanyName": "Wata Solutions",
+    "JobName": "Ruby On Rails Dev (PHP/NodeJS/Golang)",
+    "Salary": "",
+    "Skills": [
+      "Ruby",
+      "Ruby on Rails",
+      "PHP"
+    ],
+    "SkillsExperience": [
+      "At least 1 year<strong> </strong>of <strong>experience in Ruby and Ruby on Rails </strong>or<strong> PHP </strong>or <strong>GoLang</strong> or<strong> Nodejs.</strong>",
+      "Good knowledge at <strong>OOP.</strong>",
+      "Basic understanding of front-end technologies, such as <strong>HTML, JavaScript, CSS and jQuery.</strong>",
+      "Have knowledge/experience with <strong>Version Control systems</strong>.",
+      "Experience with <strong>Git/Bitbucket/Jira.</strong>",
+      "Familiar with agile practices such as<strong> Scrum/Kanban.</strong>",
+      "<strong>[Big plus] </strong>Experience in<strong> SOLID, code clean, Concurrent Programming - Async vs multi-threaded.</strong>",
+      "<strong>[Big plus]&nbsp;</strong>Experience<strong> </strong>in<strong> design pattern</strong>",
+      "<strong>[Plus] Knowledge about unit testing, UI testing is a plus.</strong>",
+      "<strong>[Plus] </strong>Experience in <strong>MVC/MVP/MVVP/VIPER model.</strong>",
+      "Have a strong sense of ownership, open-minded, and eager to learn new technologies.",
+      "Having a production mindset and good problem-solving.",
+      "Good at English communication.",
+      "Ability to research, adapt quickly to new technologies",
+      "Can-do-attitude and put the goals of the team before your own prestige.",
+      "You are able and hungry to take on a lot of responsibility."
+    ],
+    "Level": null
+  },
+  {
+    "id": 159,
+    "CompanyName": "POPS Worldwide",
+    "JobName": "05 Senior BackEnd Engineer (Java,NodeJS)",
+    "Salary": "",
+    "Skills": [
+      "NodeJS",
+      "JavaScript",
+      "Java"
+    ],
+    "SkillsExperience": [
+      "At least 5 years of experience in Backend technologies and programming languages such as Java, NodeJS, JavaScript, NoSQL (MongoDB), RDBMS (MySQL, PostgreSQL), Docker, Restful API, RabbitMQ (or Kafka)",
+      "Have experiences of Google Cloud Platform (or AWS) is a plus",
+      "Good teamwork and reliability",
+      "Have experiences of Agile software development process",
+      "Good communication in English with colleagues and other departments in order to understand needs and discuss on solutions",
+      "Bachelor's degree in Software Engineer/ Computer Science or relevant areas"
+    ],
+    "Level": null
+  },
+  {
+    "id": 160,
+    "CompanyName": "Earable Vietnam",
+    "JobName": "Junior Backend Engineer (Python/MySQL)",
+    "Salary": "",
+    "Skills": [
+      "Python",
+      "MySQL",
+      "NoSQL"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 161,
+    "CompanyName": "POPS Worldwide",
+    "JobName": "DevOps Engineer (GCP, AWS)",
+    "Salary": "",
+    "Skills": [
+      "DevOps",
+      "English",
+      "AWS"
+    ],
+    "SkillsExperience": [
+      "At least 2 years of experience in DevOps",
+      "Strong background in Linux / Unix",
+      "Have experienced with GCP or AWS",
+      "Have experienced with Nginx, SysAdmin, Redis, Message Queue (Kafka or Pub/Sub), Database (MongoDB, MySQL or similar)",
+      "Have experienced with automation tool such as Bamboo, Jenkin, Ansible, Terraform, and cloud-related tools on GCP (or AWS)",
+      "Have experience with application containerization and orchestrator such as Kubernetes, Docker Swarm, Openshift, etc.",
+      "English communication skill"
+    ],
+    "Level": null
+  },
+  {
+    "id": 162,
+    "CompanyName": "Mobio",
+    "JobName": "Back-end Developer (Python, NoSQL)",
+    "Salary": "",
+    "Skills": [
+      "Python",
+      "NoSQL"
+    ],
+    "SkillsExperience": [
+      "Có hiểu biết cơ bản về cơ sở dữ liệu và hệ thống.",
+      "Có kiến thức về lập trình hướng đối tượng.",
+      "Có kinh nghiệm làm việc với ngôn ngữ lập trình Python &gt; 6 tháng.",
+      "Có kinh nghiệm làm việc với cơ sở dữ liệu No-SQL: MongoDB, Cassandra, ElasticSearch,…",
+      "Có kiến thức HTML, Javascript, CSS là 1 lợi thế.",
+      "Có khả năng đọc hiểu tài liệu tiếng Anh.",
+      "Có tư duy lập trình tốt, khả năng nắm bắt nhanh công nghệ.",
+      "Có khả năng phối hợp theo nhóm tốt.",
+      "Năng động, sáng tạo, nhiệt tình và chịu được áp lực cao trong công việc."
+    ],
+    "Level": null
+  },
+  {
+    "id": 163,
+    "CompanyName": "Tower  Hanoi",
+    "JobName": "UI-UX Designer (MobileApps)",
+    "Salary": "",
+    "Skills": [
+      "Designer",
+      "UI-UX"
+    ],
+    "SkillsExperience": [
+      "Từ 01&nbsp;năm kinh nghiệm trong lĩnh vực thiết kế Mobile Apps.",
+      "Tốt nghiệp các chương trình Graphic Arts, Multimedia Arts, hoặc Interactive Design là 1 lợi thế.",
+      "Có kiến thức tốt trong thiết kế UI/UX cho Mobile App.",
+      "Có thế mạnh về <strong>MÀU SẮC</strong>, linh hoạt trong cách sắp xếp, <strong>BỐ CỤC</strong> màu sắc.",
+      "Có khả năng thiết kế nhiều lựa chọn khác nhau cho cùng 1 vấn đề.",
+      "Luôn luôn cập nhật xu hướng thiết kế UI/UX mới trên các nền tảng khác nhau.",
+      "Thành thạo các công cụ thiết kế như Photoshop, Illustrator,...",
+      "Cẩn thận, tỉ mỉ trong công việc.",
+      "Cung cấp Porfolio tham khảo."
+    ],
+    "Level": null
+  },
+  {
+    "id": 164,
+    "CompanyName": "VinHMS",
+    "JobName": "Business Analyst",
+    "Salary": "",
+    "Skills": [
+      "Business Analyst",
+      "Product Manager"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 165,
+    "CompanyName": "VinHMS",
+    "JobName": "Project Manager",
+    "Salary": "",
+    "Skills": [
+      "Project Manager",
+      "Product Manager",
+      "ASP.NET"
+    ],
+    "SkillsExperience": [
+      "Excellent scope management skills",
+      "Excellent analytical and problem solving skills",
+      "Excellent soft skills for communications at all business levels as well as relationship management with product owner team and stakeholders",
+      "Present direction, project plan, high-level overview to the various business teams – ability to create presentations audience-specific",
+      "Report on project progress: weekly status reports, monthly project reviews, etc",
+      "Coordination: running testing teams",
+      "Knowledge of project management tool like Asana",
+      "Knowledge of hospitality industry is a plus",
+      "Understand of software security is a plus",
+      "8+ years experience with software development",
+      "4+ years experience with project management",
+      "Experience with CI/CD workflow",
+      "Knowledge at least one of following programing language: PHP, C#/ASP.NET, Java, NodeJS",
+      "Running Scrum: Run daily standups, assist with Blockers, drive improvement",
+      "A selfless nature that puts the needs of the team ahead of your own",
+      "Willingness to work in a fast paced and agile development environment.",
+      "Ability to show past work is a plus"
+    ],
+    "Level": null
+  },
+  {
+    "id": 166,
+    "CompanyName": "ZALORA Group",
+    "JobName": "Frontend Developer (Javascript, NodeJS)",
+    "Salary": "",
+    "Skills": [
+      "JavaScript",
+      "NodeJS",
+      "ReactJS"
+    ],
+    "SkillsExperience": [
+      "3+ relevant experience.",
+      "Experience building web apps, PWAs and their accompanying APIs",
+      "Experience using React or a similar declarative UI library",
+      "Experience using Redux or a similar state management library",
+      "Experience using Webpack or a similar assets bundling tool",
+      "Proficiency in web development fundamentals (Javascript ES6+, performant HTML CSS, etc...).",
+      "Testing and writing testable code",
+      "Monitoring and writing observable, traceable code (performance, errors, etc…)",
+      "Server-side development with NodeJS and PHP or another server technology",
+      "Bonus points for experience with or deep interest in Elm—we are migrating to this",
+      "Bonus points for experience with functional programming and declarative paradigm—we are migrating to this"
+    ],
+    "Level": null
+  },
+  {
+    "id": 167,
+    "CompanyName": "NATURE ORIGIN",
+    "JobName": "IT Project Leader (English, Java)",
+    "Salary": "",
+    "Skills": [
+      "Project Manager",
+      "English",
+      "Java"
+    ],
+    "SkillsExperience": [
+      "Graduated from university in Software development, computer science or very closely bachelor’s degree in related fields;",
+      "<strong>At least 5-Year experience</strong> about programming, data analyzing or software design.",
+      "<strong>Good English is must;</strong>",
+      "<strong>Strong experience in Java Spring boot, JPA programming;</strong>",
+      "Experience in designing JAVA software, analyze and model system and business requirements;",
+      "Experience in Agile software development tools;",
+      "Experience with agile software development processes and tools;",
+      "Experienced in using common tools like as Microsoft Office, Postman, Redmine;",
+      "Good knowledge about RDBMS Database such as PostgreSQL, MySQL (Queries, procedures, functions or indexes);",
+      "Efficient with UML Design tools or System concept draw tools (Visio, UML, e Draw or similar/related tools).",
+      "Familiar with NoSQL Database such as MongoDB, Hadoop and Elastic Search – Optional",
+      "Have been involved in CRM software development projects as analyst roles;",
+      "Strong interpersonal and presentation skills;",
+      "Ready to work overtime if needed."
+    ],
+    "Level": null
+  },
+  {
+    "id": 168,
+    "CompanyName": "NashTech",
+    "JobName": "Software Engineer (C#, .NET Core)",
+    "Salary": "",
+    "Skills": [
+      "C#",
+      "SQL",
+      ".NET"
+    ],
+    "SkillsExperience": [
+      "University degree in Computer Sciences, or equivalent",
+      "<strong>1+ year</strong> experience in .NET competence; competent in C#, NET Framework, .NET Core, MVC, Web API, Entity Framework and SQL Server",
+      "Good knowledge of OOP, clean code.",
+      "Basic knowledge and able to write Unit Tests",
+      "Basic knowledge of HTML, CSS, JavaScript. Having experience of any JavaScript front-end framework e.g. Angular, React, Vue… is a plus",
+      "Basic knowledge of security and performance"
+    ],
+    "Level": null
+  },
+  {
+    "id": 169,
+    "CompanyName": "NashTech",
+    "JobName": "QC Engineer (Manual, Web Testing)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "Agile",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "University level with bachelor degree in Computer Science.",
+      "Has 1-3 years of experience in software testing.",
+      "Has basic knowledge in the testing concept.",
+      "Good communication skills",
+      "Attention to detail",
+      "Analytical mind and problem solving aptitude",
+      "ISTQB/ISEB Certificate or equivalence.",
+      "Experience in working with agile/scrum methodology.",
+      "Ability to work independently with minimal supervision.",
+      "Have knowledge of Automated Test &amp; Performance Test is a plus."
+    ],
+    "Level": null
+  },
+  {
+    "id": 170,
+    "CompanyName": "NashTech",
+    "JobName": "Senior Automation Engineer",
+    "Salary": "",
+    "Skills": [
+      "Tester",
+      "Agile",
+      "QA QC"
+    ],
+    "SkillsExperience": [
+      "University level with bachelor’s degree in computer science.",
+      "Understand the different kind of Test automation frameworks and automated testing approach.",
+      "Have 3+ years of experience in automation testing for web or mobile applications.",
+      "Experience in building the automation test framework using <strong>Selenium</strong> WebDriver",
+      "Proficiency in using automation test by scripting with any object-oriented programming language",
+      "Experience in working with agile/scrum methodology at least 1 year.",
+      "Good English communication (3/5)",
+      "ISTQB Certificate or equivalence.",
+      "Experience in leading a team.",
+      "Experience in working with the CI/CD processes and tools (Jenkins, Git, or equivalent)",
+      "Experience in Automated API Testing, Performance Testing and Security Testing",
+      "Excellent problem solving skills and attention to detail."
+    ],
+    "Level": null
+  },
+  {
+    "id": 171,
+    "CompanyName": "NashTech",
+    "JobName": "PHP Software Engineer (Laravel)",
+    "Salary": "",
+    "Skills": [
+      "Laravel",
+      "PHP",
+      "AWS"
+    ],
+    "SkillsExperience": [
+      "University degree in Computer Sciences, or equivalent.",
+      "<strong>1+ year</strong> experience in LAMP competence (Linux, Apache/Nginx, MySQL, PHP).",
+      "Basic knowledge of OOP, SOLID principles.&nbsp;",
+      "Basic knowledge of PHP development, at least one PHP framework (Laravel/Symfony).",
+      "Basic knowledge of web service development (SOAP, REST).&nbsp;",
+      "Basic knowledge of Unit Testing.&nbsp;",
+      "Basic knowledge of security in web development.&nbsp;",
+      "Experience in HTML, CSS, JavaScript, Ajax (object oriented with JavaScript, HTML standard compliance, newer HTML5/CSS3).",
+      "Good to have additional skills:<ul><li>Experienced on one JavaScript Front-end framework (Angular/React/Vue).",
+      "Experienced on WordPress or Drupal."
+    ],
+    "Level": null
+  },
+  {
+    "id": 172,
+    "CompanyName": "Esoft Vietnam., Ltd",
+    "JobName": "Senior .Net Developer (C#, .NET Core)",
+    "Salary": "",
+    "Skills": [
+      ".NET",
+      "English",
+      "ASP.NET"
+    ],
+    "SkillsExperience": [
+      "Fluent in English",
+      "5+ years C# backend experience (Senior level)",
+      "Hands-on experience with <strong>.NET Core, ASP.NET (Core), Entity Framework (Core), SQL Server</strong>",
+      "Experience with backend-to-frontend communication best practices&nbsp;",
+      "(API design, thinking “what the frontend will need”)",
+      "Experience with HTTP REST API’s",
+      "Work well in distributed/remote&nbsp;teams",
+      "Experience with CI/CD (continuous integration/continuous delivery) &amp;&nbsp;code review",
+      "Experience with writing integration/unit tests",
+      "Take-home C# .NET Core Web API task (Christian Sommerlund will define)",
+      "(We have done this with VN Java developers in the past)"
+    ],
+    "Level": null
+  },
+  {
+    "id": 173,
+    "CompanyName": "Be Group",
+    "JobName": "Product Ops Owner",
+    "Salary": "",
+    "Skills": [
+      "Business Analyst",
+      "Product Manager"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 174,
+    "CompanyName": "OLLI",
+    "JobName": "Senior AI Researcher (Python/C++)",
+    "Salary": "",
+    "Skills": [
+      "Python",
+      "C++",
+      "English"
+    ],
+    "SkillsExperience": [
+      "A solid foundation on machine learning and deep learning.",
+      "Hands-on experience with deep learning toolkits such as TensorFlow, Torch or Keras.",
+      "Experience in Python (preferred) and/or C++.",
+      "Fluent in both Vietnamese and English.",
+      "B.Sc degree in computer science or related fields",
+      "Experience with SOTA models (Resnet, VGG, Transformer, BERT, Tacotron, DeepSpeech)",
+      "Experience with Text To Speech (TTS) is a big plus",
+      "Hands-on experience with common AI tasks: Classification, Intent Detection &amp; Slot Filling, Named Entity Recognition.",
+      "Experience with developing and training Vietnamese NLP neural network models.",
+      "PhD or Master degree in the relevant fields.",
+      "Ability to work independently without supervision (set up tasks, targets and milestones).",
+      "Eagerness to go above and beyond the assigned tasks to help bring about a better product and service.",
+      "Ability to see ahead when it comes to system design.",
+      "Willingness to see things from the end-users’ perspective.",
+      "Not being afraid to break and start over from scratch.",
+      "Able to share positive feedback and help the team grow."
+    ],
+    "Level": null
+  },
+  {
+    "id": 175,
+    "CompanyName": "InfoPlus",
+    "JobName": "HCMC Interface Developer (Junior Dev)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "English",
+      "J2EE"
+    ],
+    "SkillsExperience": [
+      "Have knowledge of&nbsp;<strong>Java:</strong><i>Socket programming, J2EE ...</i>",
+      "At least&nbsp;<strong>2~3</strong>&nbsp;years of experience",
+      "<strong>Good handling of all types of databases</strong>:&nbsp;<i>Oracle, MS SQL Server ...</i>",
+      "Various interface program experience (<i>Socket, http/https, Restful/json,&nbsp;</i>..)",
+      "Experience in&nbsp;<i><strong>Linux/Unix</strong></i>&nbsp;system application development",
+      "Experienced in&nbsp;<i><strong>WEB/WAS</strong></i>&nbsp;(<i>apache, tomcat, WebLogic, WebSphere</i>...).",
+      "Must be able to communicate in <strong>English.</strong>",
+      "Có kiến thức về <strong>Java</strong>: Lập trình Socket, J2EE ...",
+      "Có ít nhất 2 ~ 3 năm kinh nghiệm",
+      "<strong>Xử lý tốt các loại CSDL</strong>: Oracle, MS SQL Server ...",
+      "Có kinh nghiệm về interface program (Socket, http / https, Restful / json, ..)",
+      "Có kinh nghiệm phát triển ứng dụng hệ thống <strong>Linux / Unix</strong>",
+      "Có kinh nghiệm về <strong>WEB / WAS</strong> (apache, tomcat, WebLogic, WebSphere ...).",
+      "Phải có khả năng <strong>giao tiếp được bằng tiếng Anh</strong> trong khi làm việc."
+    ],
+    "Level": null
+  },
+  {
+    "id": 176,
+    "CompanyName": "OPSWAT Software Vietnam",
+    "JobName": "Senior Engineer (Malware Analyst,C++,Go)",
+    "Salary": "",
+    "Skills": [
+      "C++",
+      "Python",
+      "Golang"
+    ],
+    "SkillsExperience": [
+      "Previous experience in backend development",
+      "<strong>3+ years C++, Golang and/or Python</strong> programming experience in Linux and Windows operating system",
+      "Outstanding communication skills, experience in collaboration with engineer teams in multiple countries",
+      "Experience working with SQL and NoSQL databases",
+      "Experience working with Linux and Docker",
+      "Experience developing and consuming RESTful APIs and RPC",
+      "Experience with agile development, rapid release cycles, and supporting customer-oriented solutions",
+      "Cybersecurity domain experience, especially malware analysis or network security.",
+      "Experience with CI/CD",
+      "Experience working in antimalware relative industry",
+      "Experience in system level development",
+      "Experience in x86 and x64 assembling language",
+      "Experience in VMware and/or hypervisor environment"
+    ],
+    "Level": null
+  },
+  {
+    "id": 177,
+    "CompanyName": "Fortna Vietnam",
+    "JobName": "Java Developers (English, SQL)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "SQL",
+      "English"
+    ],
+    "SkillsExperience": [
+      "Bachelor’s degree in computer science or related field",
+      "Knowledge of Software Development Life-Cycle (SDLC) methodologies",
+      "Understanding what is important when designing code for a time-sensitive, high transaction based processing experience",
+      "Excellent oral and written communication skills and the ability to articulate to project members and stakeholders; must be a team player who works well with technical and non-technical resources",
+      "Knowledgeable in object-orientated analysis and design (OOAD) such as general design patterns and core object-oriented patterns.",
+      "Experience with Java, Socket Programming, RPM Package",
+      "Manager, auto-build tools, SQL and Oracle, pthreads, XML, XSLT and ActiveMQ .",
+      "Experience with other open-source operating systems and development tools.",
+      "Strong interpersonal, organizational, time management and problem-solving skill"
+    ],
+    "Level": null
+  },
+  {
+    "id": 178,
+    "CompanyName": "TIBCO Orchestra Networks Vietnam",
+    "JobName": "Data Science Engineer (Java, SQL)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "Database",
+      "SQL"
+    ],
+    "SkillsExperience": [
+      "2-5 years of relevant experience;",
+      "BS/MS in computer engineering or similar;",
+      "Understand and love code, data, and math;",
+      "Excellent Java programming skills;",
+      "Proficiency with relational databases and writing complex SQL queries;",
+      "Demonstrated understanding of mainstream stats and ML methods;",
+      "Experience in developing and deploying machine learning models;",
+      "Experience in commercial software development, including all stages of the software development lifecycle and tools such as Git, Maven, Jenkins, JIRA;",
+      "Experience with source control systems, defect-tracking systems, automated unit and system test frameworks, and similar tools required;",
+      "Experience with cloud environments such as AWS and Azure is a plus;",
+      "Excellent written and verbal communication skills in English;",
+      "Must be familiar with basic security concepts or standards as appropriate for this position."
+    ],
+    "Level": null
+  },
+  {
+    "id": 179,
+    "CompanyName": "ELCA",
+    "JobName": "Senior Java Architect",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "Software Architect"
+    ],
+    "SkillsExperience": [
+      "Honest, collaborative, team work, quality mindset, can-do attitude",
+      "Expert in web development with standard frameworks such as: Spring, Hibernate/JPA …",
+      "Experience with variety of technical stacks as: Microservices, Angular, React, CI/CD, Docker, Openshift, Automation Test, …",
+      "Excellent problem solving; strong passion for challenges, learning and sharing",
+      "Open-minded and strong team spirit",
+      "Service oriented mindset",
+      "Strong interest in following the technologies trend",
+      "Bachelor’s degree in Computer Science.",
+      "Minimum 10 years of experience in software analysis, design and development.",
+      "Very good communication in English"
+    ],
+    "Level": null
+  },
+  {
+    "id": 180,
+    "CompanyName": "Synnex FPT",
+    "JobName": "Backend Dev (NodeJS, JavaScript, SQL)",
+    "Salary": "",
+    "Skills": [
+      "JavaScript",
+      "SQL",
+      "NodeJS"
+    ],
+    "SkillsExperience": [
+      "Nam/Nữ; Tốt nghiệp các trường Đại học chuyên ngành CNTT, Điện tử - Viễn thông hoặc các ngành liên quan",
+      "Thành thạo một trong các ngôn ngữ lập trình: NodeJS, Python, JavaScript….",
+      "Thành thạo một trong các hệ quản trị cơ sở dữ liệu quan hệ: PostgreSQL, SQL Server, Oracle, MySQL;",
+      "Am hiểu kiến trúc Micro services, sử dụng thành thạo Docker / Docker Swarm / K8s là 1 lợi thế;"
+    ],
+    "Level": null
+  },
+  {
+    "id": 181,
+    "CompanyName": "Fairdos Game Studio",
+    "JobName": "Game Developer (Unity, C#, up to $1500)",
+    "Salary": "",
+    "Skills": [
+      "Games",
+      "C#",
+      "Unity"
+    ],
+    "SkillsExperience": [
+      "Experience with <strong>object-oriented programming</strong>.",
+      "Experience with <strong>game design pattern</strong>.",
+      "Be familiar with Jira, Confluence, and Git.",
+      "Experience with <strong>Typescript is preferred</strong> (or at least master C# /Javascript)",
+      "Good in English speaking and writing are prefered (or at least writing)",
+      "Prove yourself, certificate doesn't matter."
+    ],
+    "Level": null
+  },
+  {
+    "id": 182,
+    "CompanyName": "Fairdos Game Studio",
+    "JobName": "QC Specialist (Tester, up to $1200)",
+    "Salary": "",
+    "Skills": [
+      "QA QC",
+      "Games",
+      "Tester"
+    ],
+    "SkillsExperience": [
+      "Identify issues and give detailed descriptions, make recommendations, and report on compliance.",
+      "Create an effective, efficient testing protocol to be used across all products.",
+      "Control working time for planned testing to match with the deadline of the product.",
+      "Testing product under development in order to detect and describe all abnormal behaviors (bugs) regarding game functions, graphics, logic, design, and content. Make product high quality before release",
+      "Build in-house test-case playbooks.",
+      "Could be available when the product has critical issues.",
+      "Good communication skills",
+      "Good in English speaking and writing (or at least writing)",
+      "Self-management, deadline commitment.",
+      "Prove yourself, certificate doesn't matter."
+    ],
+    "Level": null
+  },
+  {
+    "id": 183,
+    "CompanyName": "ASCEND",
+    "JobName": "Mobile Team-lead (Android&amp;iOS)",
+    "Salary": "",
+    "Skills": [
+      "Team Leader",
+      "Android",
+      "iOS"
+    ],
+    "SkillsExperience": [
+      "Bachelor's Degree or higher in Computer Science, Computer Engineering or related fields",
+      "At least 5 years or above experience for Mobile application development (majority in Android)",
+      "Proven experiences in team management",
+      "Can develop both Android and iOS is an advantage.",
+      "Good command of English communication skills",
+      "Ability to work as a team, proactive, well organized, willing to learn new things, and focus on objectives",
+      "Strong problem solving and analytical skills",
+      "Understand Agile development practices",
+      "Strong knowledge in modern technology eg Kotlin,...",
+      "Mobile (IOS and Android) UI/ UX Design experience",
+      "Object-oriented programming (OOP)",
+      "Design Pattern (Micro Service)",
+      "Code revision systems, GIT is a plus",
+      "Project tracking tools, JIRA is a plus"
+    ],
+    "Level": null
+  },
+  {
+    "id": 184,
+    "CompanyName": "ASCEND",
+    "JobName": "Senior/ Team-lead Java",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "MySQL",
+      "ReactJS"
+    ],
+    "SkillsExperience": [
+      "Strong in Java (Springboot,...)",
+      "Good DB skill",
+      "Experience with API (Open API/Swagger)",
+      "Nice to have Angular, Flux/Redux, AWS/GCP, CI/CD",
+      "Good English in verbal and writing"
+    ],
+    "Level": null
+  },
+  {
+    "id": 185,
+    "CompanyName": "SEN Platform",
+    "JobName": "Sr. Java Developer (Spring, JavaScript)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "JavaScript",
+      "Spring"
+    ],
+    "SkillsExperience": [
+      "3 - 5 năm kinh nghiệm đã từng làm Back-End Java (Spring), AWS và Google Cloud.",
+      "Tốt nghiệp ngành Khoa học máy tính/ Toán/ Toán Tin... hoặc các ngành liên quan",
+      "Kinh nghiệm và kiến thức vững về Javascript (jQuery), AngularJS, HTML5, CSS, Bootstrap 3",
+      "Kỹ năng phân tích, giải quyết vấn đề và kỹ năng quản lý thời gian xuất sắc đảm bảo tiến độ công việc và uy tín với đối tác nước ngoài.",
+      "Có Kinh nghiệm quản lý team Developer và Tester là lợi thế"
+    ],
+    "Level": null
+  },
+  {
+    "id": 186,
+    "CompanyName": "Vintech JSC",
+    "JobName": "[VinAI] AI on Edge Engineer",
+    "Salary": "",
+    "Skills": [
+      "C++",
+      "Python",
+      "C language"
+    ],
+    "SkillsExperience": [
+      "Bachelor degree or above, major in Computer Science, Mathematics or related fields.",
+      "Experience with machine learning frameworks (like PyTorch, Tensorflow or Keras) and libraries (like scikit-learn or Weka).",
+      "Fluent in C/C++ programming languages, and corresponding build systems (bazel, CMake, soong).",
+      "Have experience in implementing a ML model from scratch.",
+      "Have knowledge in system programming (bit-level manipulations, concurrency, real-time systems)",
+      "Have experience in parallel programming, such as CUDA/OpenCL.",
+      "Have extensive experience in debugging segmentation faults."
+    ],
+    "Level": null
+  },
+  {
+    "id": 187,
+    "CompanyName": "DXC Vietnam",
+    "JobName": "Senior Android Developer",
+    "Salary": "",
+    "Skills": [
+      "Android",
+      "Java"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 188,
+    "CompanyName": "DXC Vietnam",
+    "JobName": "ServiceNow Engineer (NET/Javascript)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "JavaScript",
+      ".NET"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 189,
+    "CompanyName": "Vietmap",
+    "JobName": "BackEnd Developer (C#, .NET Core)",
+    "Salary": "",
+    "Skills": [
+      ".NET",
+      "C#",
+      "SQL"
+    ],
+    "SkillsExperience": [
+      "At least 1 year working with C#&nbsp;.NET&nbsp;Core: RESTful API, MVC, Lambda Expression",
+      "At least 1 year working with RDBMS: MS SQL Server/MySQL",
+      "At least 1 year working with NoSQL: MongoDB",
+      "Strong skills in development tools: Visual Studio, Visual Studio Code, SQL Server Management, Bitbucket/GitHub, Jira",
+      "Be able to&nbsp;analyze, design and implement new features for existing applications",
+      "Microservices architecture",
+      "RabbitMQ",
+      "Nginx domain configuration and load balancing",
+      "AWS: S3, EC2, Lambda",
+      "Google Firebase: Push notification, Realtime database",
+      "Deploy .NET Core applications on Ubuntu",
+      "Good at troubleshooting and communication skills",
+      "Be able to read/research document in English",
+      "Be able to discuss with foreign customers in English"
+    ],
+    "Level": null
+  },
+  {
+    "id": 190,
+    "CompanyName": "Vintech JSC",
+    "JobName": "[VinSoftware] Salesforce Developer",
+    "Salary": "",
+    "Skills": [
+      "Cloud",
+      "English"
+    ],
+    "SkillsExperience": [
+      "Bachelor's degree in Computer Science, Information Technology or related degrees",
+      "Basic programming skills",
+      "2 years of experience in programming and implementing information technology projects",
+      "6 months of experience in software design and development for Salesforce.com (Sales Cloud, Service Cloud, Marketing Cloud, Lightning Platform, ...)",
+      "Development skill set including custom object creation, workflow, trigger, Apex, VisualForce, Force.com IDE, migration tool, SOQL, and web services; Salesforce Lightning and Salesforce DX",
+      "Proficient of Git",
+      "Ability to communicate and read English documents",
+      "Having a Salesforce certificate is an advantage"
+    ],
+    "Level": null
+  },
+  {
+    "id": 191,
+    "CompanyName": "DXC Vietnam",
+    "JobName": "IT Business Analyst",
+    "Salary": "",
+    "Skills": [
+      "Business Analyst",
+      "English"
+    ],
+    "SkillsExperience": [],
+    "Level": null
+  },
+  {
+    "id": 192,
+    "CompanyName": "DXC Vietnam",
+    "JobName": "Java Developers -J2EE,Spring All levells",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "J2EE",
+      "Spring"
+    ],
+    "SkillsExperience": [
+      "Bachelor’s degree in Computer Science or equivalent work experience",
+      "Minimum 1-year experience in Java programming",
+      "Solid knowledge of Core Java, Servlet/JSP, JDBC, Webservice RESTful / SOAP, Hibernate, Spring, Spring MVC, Spring Boot, Microservices, Oracle, MSSQL and understanding of OOP, design and architectural patterns",
+      "Solid understanding in working in one or more of vendor implementations such as Apache Tomcat, JBOSS, IBM WebSphere, BEA WebLogic",
+      "Familiar with Responsive web design, HTML5, CSS3, BootStrap",
+      "Familiarity with build tools such as Ant, Maven, and Gradle",
+      "Proficient understanding of code versioning tools, such as Git",
+      "Good command of English communication (oral and written)",
+      "Good analytical, presentation, interpersonal and collaboration skills, strong team working ability.",
+      "Experience programming any Javascript framework: AngularJS/React/ BackboneJS/Knockout JS is preferred",
+      "Experience programming with NodeJS, NoSQL MongoDB/Cassandra is preferred",
+      "Experience working with DevOps Jenkins, Docker, Puppet / Chef is advantageous"
+    ],
+    "Level": null
+  },
+  {
+    "id": 193,
+    "CompanyName": "Netacom",
+    "JobName": "Devops",
+    "Salary": "",
+    "Skills": [
+      "DevOps",
+      "System Engineer"
+    ],
+    "SkillsExperience": [
+      "Preferably a degree in computer science, software engineering, information technology or related fields",
+      "Possess a solid understanding of the OSI networking model",
+      "Possess analytical skills, mental resilience and the ability to think systematically under stressful conditions",
+      "Highly accountable and takes ownership. Outstanding work ethic, high-integrity, team player, and a lifelong learner",
+      "Experience in one or more of Python, Go... or scripting experience in Shell",
+      "Implement DevOps practices: Infrastructure as Code (TerraForm), automation build (Jenkins), CI/CD pipeline, orchestration, monitoring",
+      "Knowledge of Containerization, Docker and/or Kubernetes"
+    ],
+    "Level": null
+  },
+  {
+    "id": 194,
+    "CompanyName": "M_Service (MoMo)",
+    "JobName": "Data Scientist (Machine Learning/Python)",
+    "Salary": "",
+    "Skills": [
+      "Java",
+      "Python",
+      "Database"
+    ],
+    "SkillsExperience": [
+      "2+ years of industrial experience in Machine Learning, Financial Services or related fields",
+      "Good understanding of mathematical foundations of Machine Learning algorithms.",
+      "A builder - You go the extra mile to bring your prototypes to production.",
+      "Strong product ownership - You take a high responsibility for what you build. You keep a high bar for product quality.",
+      "Strong collaboration skills - You reach out to help other team members.",
+      "MS/PhD degree in Computer Science or a related technical field.",
+      "Experience with credit scoring or financial service models."
+    ],
+    "Level": null
+  },
+  {
+    "id": 195,
+    "CompanyName": "FPT Software",
+    "JobName": "Senior .NET Developer (AI Chatbot, .NET)",
+    "Salary": "",
+    "Skills": [
+      ".NET",
+      "Team Leader",
+      "DevOps"
+    ],
+    "SkillsExperience": [
+      "Bachelor’s degree required, Information Technology, Computer Science or related field.",
+      "Extensive experience in the IT industry.",
+      "3+ years of experience in design of IT systems, design patterns, and frameworks.",
+      "Minimum 3 years experienced in software development, strong on Chatbot/AI Chatbot, .Net Framework, .NET Core and Azure Cloud. More than 2 year experiences with Team Leader position.",
+      "Excellent knowledge and experiences with .NET, .NET Core.",
+      "Experience working with AI, Chatbot, RPA, Customer Experience, SignalR, Socket Application development is a plus.",
+      "Experience working with Azure cloud &amp; development technologies.",
+      "DevOps engineering experience, especially Azure DevOps is preferred.",
+      "Azure certifications is preferred.",
+      "Strong analytical problem solving skills.",
+      "Strong English communication skills (both verbal and written) (TOEIC &gt;= 650, or equivalent level), have ability to write technical design document."
+    ],
+    "Level": null
+  },
+  {
+    "id": 196,
+    "CompanyName": "FPT Software",
+    "JobName": "Solution Architect (Fullstack _ReactJS)",
+    "Salary": "",
+    "Skills": [
+      "Software Architect",
+      "AngularJS",
+      "ReactJS"
+    ],
+    "SkillsExperience": [
+      "Bachelor’s degree required, Information Technology, Computer Science or related field.",
+      "Extensive experience in the IT industry.",
+      "5+ years of experience in architecture and design of IT systems, design patterns, and frameworks.",
+      "Minimum 5 years experienced in software development, strong on Web Full-stack development with ReactJS, AngularJS, .Net Framework, .NET Core and Azure Cloud. More than 2 year experiences with SA/Technical Lead position on Microsoft Technologies.",
+      "Excellent knowledge and experiences with .NET, .NET Core.",
+      "Experience working with AI, Chatbot, RPA, Customer Experience, SignalR, Socket Application development is a plus.",
+      "Experience working with Azure cloud &amp; development technologies / Experience architecting solutions built on Azure is preferred.",
+      "DevOps engineering experience, especially Azure DevOps is preferred.",
+      "Azure certifications is preferred.",
+      "Strong analytical problem solving skills.",
+      "Strong English communication skills (both verbal and written) (TOEIC &gt;= 800, or equivalent level), have ability to write technical design document, write proposal on software architecture/solution and present to client.",
+      "Willingness to go onsite short – long term in U.S OR when requested."
+    ],
+    "Level": null
+  },
+  {
+    "id": 197,
+    "CompanyName": "Emotiv Technology Vietnam",
+    "JobName": "Junior QA Engineer/Tester Engineer",
+    "Salary": "",
+    "Skills": [
+      "Tester",
+      "English",
+      "QA QC"
+    ],
+    "SkillsExperience": [
+      "Bachelor's Degree in Computer Science, Engineering or a related field",
+      "At least 2 years of experience in QA",
+      "Experience writing clear and concise bug reports, test plans, test cases",
+      "Excellent verbal and written communication skills",
+      "Experience with JIRA or similar task management system",
+      "Experience with Confluence or similar documentation system",
+      "Experience with testing on Windows and Mac",
+      "Solid understanding of Agile methodology and the Software Development Life Cycle",
+      "Comfortable with short release cycles",
+      "Experience with Jenkins build system",
+      "Experience with testing on Ubuntu, iOS and Android",
+      "Experience with hardware and firmware testing",
+      "Experience with Python or other scripting languages"
+    ],
+    "Level": null
+  },
+  {
+    "id": 198,
+    "CompanyName": "DFO Global Performance Commerce",
+    "JobName": "Head of Application Development (UI-UX)",
+    "Salary": "",
+    "Skills": [
+      "UI-UX",
+      "Manager"
+    ],
+    "SkillsExperience": [
+      "Previous experience working with gamification<br>&nbsp;",
+      "Strong desire to work with and develop apps<br>&nbsp;",
+      "Recruit and develop extraordinary talent by coaching, managing, and mentoring a team of UI/UX design talent&nbsp;<br>&nbsp;",
+      "Proven ability to gather, analyze and derive actionable insights from various data sources<br>&nbsp;",
+      "Excellent technical abilities and relevant knowledge and skills within platforms such as Google Analytics, Google Ads, Facebook ads/Business Manager, MailChimp, Zapier, Hubspot, and Pardot<br>&nbsp;",
+      "Strong quantitative and analytical skills and a data-driven approach to problem solving<br>&nbsp;",
+      "Proven history of impactfully using trials and paywalls, gamification, and human psychology to drive acquisition with low or no touch sales channels"
+    ],
+    "Level": null
+  },
+  {
+    "id": 199,
+    "CompanyName": "FPT Software",
+    "JobName": "Senior Android~Bonus upto 1 month salary",
+    "Salary": "",
+    "Skills": [
+      "Android",
+      "Java",
+      "Kotlin"
+    ],
+    "SkillsExperience": [
+      "At least 2 years experience working in Android Development",
+      "Proficiency in programming languages: Java/Android, Kotlin",
+      "Strong working experience in one of Android Application Layer (3rd app, System app)",
+      "Strong working experience in one of Android Service Framework Layer (AIDL, IPC, Binder, Serializable, Parcelable)",
+      "Experience in Agile Software Development (Scrum Practice)",
+      "Strong organizational, analytical and problem-solving skills",
+      "Good English",
+      "Good English communication and Effective communication skills",
+      "Experience with MVVM, MVC, MVP Patterns",
+      "Experience working with software design tools",
+      "Experience with source control management tools (Git, SVN)",
+      "Proactive, can work in team or independently",
+      "Experience in Agile Software Development (Scrum Practice)",
+      "Strong organizational, analytical and problem-solving skills",
+      "Experience working with Jira / Redmine systems"
+    ],
+    "Level": null
+  },
+  {
+    "id": 200,
+    "CompanyName": "Hasaki",
+    "JobName": "PHP Developer (Laravel, MySQL)",
+    "Salary": "",
+    "Skills": [
+      "PHP",
+      "MySQL",
+      "Laravel"
+    ],
+    "SkillsExperience": [
+      "Có kỹ năng giao tiếp tốt.",
+      "Có khả năng làm việc độc lập và theo nhóm.",
+      "Có khả năng học hỏi nhanh, tìm hiểu công nghệ mới để áp dụng trong dự án.",
+      "Có ít nhất 2 năm kinh nghiệm làm việc với PHP/MySQL và sử dụng thành thạo các framework như Laravel",
+      "Có khả năng phân tích, thiết kế, lập trình hướng đối tượng.",
+      "Thành thạo HTML/Javascript/jQuery/CSS/AJAX",
+      "Thành thạo ít nhất 1 library/framework để phát triển front-end : Bootstrap, Angular2, VueJS,ReactJS,v.v...",
+      "Thành thạo việc xây dựng và sử dụng web service ( XML, JSON)",
+      "Sử dụng thành thạo Git."
+    ],
+    "Level": null
+  }
+]

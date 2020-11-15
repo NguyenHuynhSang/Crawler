@@ -11,6 +11,7 @@ namespace ConsoleApp1
         public int id { set; get; }
         public string CompanyName { set; get; }
         public string JobName { set; get; }
+        public string Salary { set; get; }
         public List<String> Skills { set; get; }
 
         public List<String> SkillsExperience { set; get; }
@@ -25,16 +26,5 @@ namespace ConsoleApp1
         }
     }
 
-    public class WorkList
-    {
-        public List<ItWorkModel> WorkModels { set; get; }
-
-        public WorkList()
-        {
-            WorkModels = new List<ItWorkModel>();
-        }
-
-
-    }
-
+  
 }

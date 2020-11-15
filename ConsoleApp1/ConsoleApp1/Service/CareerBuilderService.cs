@@ -58,8 +58,19 @@ namespace ConsoleApp1.Service
 
             _driver.Navigate().GoToUrl(base_url);
             jobLinkList = new Queue<string>();
+            Check();
         }
 
+
+
+        public void Check()
+        {
+            var dataJson = File.ReadAllText("../../../Output/CareerBuilder.json");
+            var data = JsonConvert.DeserializeObject<List<CareerBuilderModel>>(dataJson).Count();
+            Console.WriteLine("Actual recond:"+data);
+
+
+        }
 
 
 
@@ -74,6 +85,11 @@ namespace ConsoleApp1.Service
 
 
         }
+
+
+        /// <summary>
+        /// Ghi ra json
+        /// </summary>
 
         private void WriteFile()
         {
@@ -170,7 +186,9 @@ namespace ConsoleApp1.Service
                     string replacement = Regex.Replace(result, @"\t|\n|\r", "");
                     //var replace2= Regex.Replace(replacement, "\\\"", "\"");
                     CareerBuilderModel cc = new CareerBuilderModel();
-                    //đùa nhau à
+                   
+
+                    //  fix lỗi khi parse json, nên dùng regex
                     result = result.Replace("First Alliances' client", "First Alliances client");
                     result = result.Replace("First Alliances' Client", "First Alliances client");
                     result = result.Replace("First Alliances's Client", "First Alliances client");
@@ -183,13 +201,10 @@ namespace ConsoleApp1.Service
                     }
                     catch (Exception)
                     {
+                        // bỏ qua những record bị lỗi
                         extractCouter++;
                         continue;
                     }
-             
-
-               
-                  
                     Console.WriteLine("Extractor" + extractCouter);
                     extractCouter++;
 
@@ -197,7 +212,7 @@ namespace ConsoleApp1.Service
                 }
 
             } while (thread_CrawData.IsAlive);
-     
+            
             WriteFile();
 
         }

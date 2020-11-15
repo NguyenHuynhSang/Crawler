@@ -17,9 +17,15 @@ using System.Threading;
 using System.Threading.Tasks;
 using ConsoleApp1.shared;
 using ConsoleApp1.Service;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ConsoleApp1
 {
+    public class Container
+    {
+        public string link { set; get; } // link child page
+        public string salary { set; get; } // lấy ra salary 
+    }
     public class ItViecService
     {
 
@@ -32,20 +38,25 @@ namespace ConsoleApp1
         private CUrl itWorkCurl;
 
         public readonly string outputDataPath = @"../../../OutPut/";
-        public List<String> pageLinkList;
-        public WorkList WorkList;
+        public Queue<Container> pageLinkList;
+        public List<ItWorkModel> itWorkModels;
+
+        private Thread crawlThread;
+        private Thread extractThread;
+        WebDriverWait _wait;
 
 
-        public ItViecService(IWebDriver webDriver)
+
+        public ItViecService()
         {
-            WorkList = new WorkList();
+            itWorkModels = new List<ItWorkModel>();
             this._driver = new ChromeDriver();
 
-            pageLinkList = new List<string>();
+            pageLinkList = new Queue<Container>();
             itWorkCurl = new CUrl();
             itWorkCurl.ReadFile(itWorkPath);
             _driver.Navigate().GoToUrl("https://itviec.com/it-jobs");
-            Process();
+            _wait = new WebDriverWait(_driver, TimeSpan.FromMinutes(1));
 
         }
 
@@ -53,69 +64,70 @@ namespace ConsoleApp1
         public void Process()
         {
             Login();
-            //CrawTask();
-        }
-
-        private void ExtractContent() 
-        {
-            
-        }
-        private void WriteFile()
-        {
+            crawlThread = new Thread(ExtractLink);
+            extractThread = new Thread(ExtractPage);
+            crawlThread.Start();
+             extractThread.Start();
 
         }
+
+
 
 
 
         private int counter = 0;
-        public void LoadToEnd()
+        private int currentPage = 1;
+        public void ExtractLink()
         {
-            var login_btn = _driver.FindElement(By.XPath("//a[@class='pageMenu__link']"));
+            ////    wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath(@"//input[@name='user[email]' and contains(@class,'form-control')]")));
+            //IJavaScriptExecutor js = (IJavaScriptExecutor)_driver;
+            //string script = @"document.getElementsByName('user[email]')[0].setAttribute('value', 'abc@gmail.com')";
+            //js.ExecuteScript(script);
 
-            login_btn.Click();
-
-            WebDriverWait wait = new WebDriverWait(_driver, new TimeSpan(0, 0, 5));
-            //    wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath(@"//input[@name='user[email]' and contains(@class,'form-control')]")));
-            IJavaScriptExecutor js = (IJavaScriptExecutor)_driver;
-            string script = @"document.getElementsByName('user[email]')[0].setAttribute('value', 'abc@gmail.com')";
-            js.ExecuteScript(script);
-
-            Console.WriteLine("Task 1");
-            
-            while (IsElementPresent(By.Id("show_more")))
+            //Console.WriteLine("Task 1");
+            do
             {
                 try
                 {
-                    var btnNextPage = _driver.FindElement(By.Id("show_more"));
-                    if (btnNextPage.Enabled)
-                    {
-                        btnNextPage.Click();
-                        
-                        var a= new WebDriverWait(_driver, TimeSpan.FromSeconds(120)).Until(
-                        d => ((IJavaScriptExecutor)d).ExecuteScript("return document.readyState").Equals("complete"));
-                 
+                    var a = _wait.Until(
+                       d => ((IJavaScriptExecutor)d).ExecuteScript("return document.readyState").Equals("complete"));
 
-                    }
+                    var itemLinks = _driver.FindElements(By.XPath(@"//*[starts-with(@class, ""job"")]/div/div[2]/div[1]/div/h2/a"));
+                    Console.WriteLine("current page:" + currentPage);
+                    //foreach (var item in itemLinksDiv)
+                    //{
+                    //    Console.WriteLine(item.GetAttribute("href"));
+                    //}
 
-                    var itemLinks = Regex.Matches(_driver.PageSource, @"(?<=<h2 class=""title"")(.*?)(?=</h2>)", RegexOptions.Singleline);
+                    //   var itemLinks = Regex.Matches(_driver.PageSource, @"(?<=<h2 class=""title"")(.*?)(?=</h2>)", RegexOptions.Singleline);
                     for (int i = counter; i < itemLinks.Count; i++)
                     {
-                        pageLinkList.Add(itemLinks[i].Value);
+                        Container c = new Container();
+                        var link = itemLinks[i].GetAttribute("href");
+                        c.link = link;
+                        
+                        pageLinkList.Enqueue(c);
                         counter++;
 
                     }
+                    Console.WriteLine("total recond:" + counter);
+                    Console.WriteLine("actual recond:" + itemLinks.Count);
+                    var btnNextPage = _driver.FindElement(By.XPath(@"//*[@id=""show_more""]/a"));
+                    btnNextPage.Click();
+                    currentPage++;
 
-
+                    Console.WriteLine("-----------");
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-
-                    
+                    Console.WriteLine("exception but can ignore");
+                    continue;
                     //    Thread.Sleep(50);
                 }
+            } while (IsElementPresent(By.Id("show_more")));
 
 
-            }
+            Console.WriteLine("FINISH");
 
 
         }
@@ -128,7 +140,7 @@ namespace ConsoleApp1
             var loginBtn = _driver.FindElement(By.XPath(@"//*[@id=""pageMenuToggle""]/ul[2]/li[1]/a"));
             loginBtn.Click();
 
-          
+
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath(@"//*[@id=""sign-in-modal""]")));
 
 
@@ -140,13 +152,6 @@ namespace ConsoleApp1
 
             var submit = _driver.FindElement(By.XPath(@"//*[@id=""signin-tab""]/form/div[5]/input[3]"));
             submit.Click();
-            //_driver.FindElement(By.XPath("//a[@class='pageMenu__headerLink' and @data-toggle='modal']")).Click();
-
-            //WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(60));
-            //var passwordElement = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[@id=""signin-tab""]/form/div[2]/input")));
-            //passwordElement.Click();
-            //passwordElement.Clear();
-            //_driver.FindElement(By.Name("user[email]")).SendKeys("abc");
 
 
         }
@@ -154,38 +159,13 @@ namespace ConsoleApp1
 
         private bool isComplete = false;
         private int processCounter = 0;
-        public async void CrawItViec()
+        public void WriteFile()
         {
 
-            //_driver.FindElement(By.Name("user[password]")).Clear();
-            //_driver.FindElement(By.Name("user[password]")).Click(); // Keep this click statement even if you are using click before clear.
-            //_driver.FindElement(By.Name("user[password]")).SendKeys("manish");
-
-
-
-
-
-        
-
-
-
-            using (StreamWriter file = File.CreateText(outputDataPath + "itviec.data.json"))
-            {
-                JsonSerializer serializer = new JsonSerializer();
-                //serialize object directly into file stream
-                var json = JsonConvert.SerializeObject(this.WorkList.WorkModels);
-                // json= Regex.Replace(json, @"\r\n?|\n", "");
-
-
-                serializer.Serialize(file, json);
-
-            }
-
-
-            //    var itemLink = Regex.Matches(source, @"(?<=<h2 class=""title"")(.*?)(?=</h2>)", RegexOptions.Singleline);
-
-
-            //_driver.FindElement(By.Name("user[email]")).Click();
+            JsonSerializer serializer = new JsonSerializer();
+            //serialize object directly into file 
+            var json = JsonConvert.SerializeObject(itWorkModels, Newtonsoft.Json.Formatting.Indented);
+            File.WriteAllText(@"../../../Output/Itviec.json", json);
 
         }
 
@@ -193,7 +173,9 @@ namespace ConsoleApp1
 
 
 
-        private void CrawTask()
+        private int extractCounter = 1;
+        bool checkIfComplete = true;
+        private void ExtractPage()
         {
 
             //  Console.WriteLine("Task 2 process");
@@ -201,82 +183,70 @@ namespace ConsoleApp1
 
             /// Read curl
             /// 
-
-
-            if (processCounter == pageLinkList.Count)
+            do
             {
-                if (isComplete)
+                while (pageLinkList.Count != 0)
                 {
-                    return;
-                }
-
-            }
-            else
-            {
-                List<string> ChildPageList = new List<string>();
-                for (int i = processCounter; i < pageLinkList.Count; i++)
-                {
-
-                    var link = Regex.Match(pageLinkList[i].ToString(), @"(?<=href="")(.*?)(?="">)", RegexOptions.Singleline);
-                    Console.WriteLine("counter:   " + processCounter + "/t" + link);
-
-
-                    string url = itViet_url + link;
-                    itWorkCurl.BaseURL = itViet_url + link;
-                    var item = GetPageSource(itWorkCurl);
-                    processCounter++;
-
-                    ItWorkModel companyJob = new ItWorkModel();
-                    string jobName = Regex.Match(item, @"(?<=<h1 class='job_title'>)(.*?)(?=</h1>)", RegexOptions.Singleline).Value;
-                    var divSkillTag = Regex.Match(item, @"(?<=<div class='tag-list'>).*?(?=</div>)", RegexOptions.Singleline).Value;
-
-                    var divCompanyName = Regex.Match(item, @"(?<=<h3 class='name'>)(.*?)(?=</h3>)", RegexOptions.Singleline).Value;
-                    var companyName = Regex.Match(divCompanyName, @"(?<="">).*?(?=</a>)", RegexOptions.Singleline).Value;
-
-
-                    var skills = Regex.Matches(divSkillTag, @"(?<=<span>).*?(?=</span>)", RegexOptions.Singleline).ToList();
-                    var skillsAndExperienceDiv = Regex.Match(item, @"(?=<div class='skills_experience').*?(?=</div>)", RegexOptions.Singleline);
-
-                    var skillAndExperience = Regex.Matches(skillsAndExperienceDiv.Value, @"(?<=<li>).*?(?=</li>)", RegexOptions.Singleline).ToList();
-
-
-                    companyJob.id = processCounter;
-                    companyJob.JobName = jobName;
-                    companyJob.CompanyName = companyName;
-
-
-
-                    Console.WriteLine("*********************");
-                    Console.WriteLine(companyName);
-                    Console.WriteLine(jobName);
-
-
-                    foreach (var item2 in skills)
+                    try
                     {
-                        companyJob.Skills.Add(item2.Value);
-                        Console.Write(item2 + "-");
-                    }
+                        Console.WriteLine("Extractor :" + extractCounter);
+                        extractCounter++;
+                        var item = pageLinkList.Dequeue();
+                        //   Console.WriteLine("counter:   " + processCounter + "/t" + link);
+                        itWorkCurl.BaseURL = item.link;
+                        var pageSource = GetPageSource(itWorkCurl);
+                        processCounter++;
 
-                    foreach (var item3 in skillAndExperience)
+                        ItWorkModel companyJob = new ItWorkModel();
+                        string jobName = Regex.Match(pageSource, @"(?<=<h1 class='job_title'>)(.*?)(?=</h1>)", RegexOptions.Singleline).Value;
+                        var divSkillTag = Regex.Match(pageSource, @"(?<=<div class='tag-list'>).*?(?=</div>)", RegexOptions.Singleline).Value;
+                        var divCompanyName = Regex.Match(pageSource, @"(?<=<h3 class='name'>)(.*?)(?=</h3>)", RegexOptions.Singleline).Value;
+                        var companyName = Regex.Match(divCompanyName, @"(?<="">).*?(?=</a>)", RegexOptions.Singleline).Value;
+
+
+                        var skills = Regex.Matches(divSkillTag, @"(?<=<span>).*?(?=</span>)", RegexOptions.Singleline).ToList();
+                        var skillsAndExperienceDiv = Regex.Match(pageSource, @"(?=<div class='skills_experience').*?(?=</div>)", RegexOptions.Singleline);
+
+                        var skillAndExperience = Regex.Matches(skillsAndExperienceDiv.Value, @"(?<=<li>).*?(?=</li>)", RegexOptions.Singleline).ToList();
+
+                        var salary = Regex.Match(pageSource, @"(?<=span class='salary-text'>).*?(?=</span>)", RegexOptions.Singleline).Value;
+                        companyJob.id = processCounter;
+                        companyJob.JobName = jobName;
+                        companyJob.CompanyName = companyName;
+                        companyJob.Salary = salary;
+                        foreach (var item2 in skills)
+                        {
+                            companyJob.Skills.Add(item2.Value);
+                            Console.Write(item2 + "-");
+                        }
+
+                        foreach (var item3 in skillAndExperience)
+                        {
+                            companyJob.SkillsExperience.Add(item3.ToString());
+                            Console.WriteLine("- " + item3);
+                        }
+                        this.itWorkModels.Add(companyJob);
+                        if (extractCounter>200)
+                        {
+                            checkIfComplete = false;
+                            break;
+                        }
+
+                    }
+                    catch (Exception)
                     {
-                        companyJob.SkillsExperience.Add(item3.ToString());
-                        Console.WriteLine("- " + item3);
+
+                        Console.WriteLine("Extract exception");
                     }
-                    this.WorkList.WorkModels.Add(companyJob);
-
-                    Console.WriteLine("*********************");
-
-
 
                 }
 
 
+            } while (crawlThread.IsAlive && checkIfComplete);
 
-            }
+            Console.WriteLine("All finish");
 
-
-            CrawTask();
-
+            WriteFile();
         }
 
 
@@ -291,6 +261,7 @@ namespace ConsoleApp1
             }
             catch (NoSuchElementException)
             {
+                Console.WriteLine("Element not present");
                 isComplete = true;
                 return false;
             }
@@ -299,14 +270,16 @@ namespace ConsoleApp1
         public string GetPageSource(CUrl cUrl)
         {
             string result = "";
-
-            string aaa = cUrl.BaseURL.Replace("\\", "");
             var client = new RestClient(cUrl.BaseURL);
             var request = new RestRequest(Method.GET);
-
+           
             foreach (var item in cUrl.Header)
             {
                 request.AddHeader(item.Key, item.Value);
+            }
+            foreach (var item in _driver.Manage().Cookies.AllCookies)
+            {
+                request.AddCookie(item.Name, item.Value); 
             }
             // request.AddParameter("application/x-www-form-urlencoded", test.FormContent, ParameterType.RequestBody);
             IRestResponse response = client.Execute(request);
@@ -330,26 +303,7 @@ namespace ConsoleApp1
 
 
 
-        public string ReturnSourcePage(string url, CUrl cUrl)
-        {
-            string result = "NOT FOUND!!!";
 
-
-            var client = new RestClient(url);
-            var request = new RestRequest(Method.POST);
-
-            foreach (var item in cUrl.Header)
-            {
-                request.AddHeader(item.Key, item.Value);
-            }
-            // request.AddParameter("application/x-www-form-urlencoded", test.FormContent, ParameterType.RequestBody);
-            IRestResponse response = client.Execute(request);
-
-            Console.WriteLine(response.ContentEncoding);
-            return response.ContentEncoding;
-
-
-        }
 
 
 
