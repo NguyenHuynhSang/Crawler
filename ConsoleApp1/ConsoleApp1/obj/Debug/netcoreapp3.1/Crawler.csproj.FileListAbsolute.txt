@@ -16,3 +16,4 @@ D:\Git\Crawler\Crawler\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Crawler.c
 D:\Git\Crawler\Crawler\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Crawler.dll
 D:\Git\Crawler\Crawler\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Crawler.pdb
 D:\Git\Crawler\Crawler\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Crawler.genruntimeconfig.cache
+D:\Git\Crawler\Crawler\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Crawler.csprojAssemblyReference.cache
