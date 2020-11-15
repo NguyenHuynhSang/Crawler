@@ -36,38 +36,20 @@ namespace ConsoleApp1.Service
             {
                 request.AddHeader(item.Key, item.Value);
             }
-            // request.AddParameter("application/x-www-form-urlencoded", test.FormContent, ParameterType.RequestBody);
+            request.AddParameter("application/x-www-form-urlencoded", cUrl.FormContent, ParameterType.RequestBody);
             IRestResponse response = client.Execute(request);
 
-
-            using (StreamWriter file = File.CreateText(outputDataPath + "vietnamwork_it_job.data.json"))
-            {
-                JsonSerializer serializer = new JsonSerializer();
-                //serialize object directly into file stream
-                serializer.Serialize(file, JsonConvert.DeserializeObject(response.Content));
-            }
-
-
-
             // ép kiểu result về model
-             this.vietNameWorkModle = JsonConvert.DeserializeObject<VietNameWorkModle>(response.Content);
+            this.vietNameWorkModle = JsonConvert.DeserializeObject<VietNameWorkModle>(response.Content);
+            JsonSerializer serializer = new JsonSerializer();
+            //serialize object directly into file 
+            var json = JsonConvert.SerializeObject(vietNameWorkModle, Newtonsoft.Json.Formatting.Indented);
+            File.WriteAllText(outputDataPath + "vietnamwork_it_job.data.json", json);
+            Console.WriteLine("FINISH");
         }
 
 
-        public void a(int a)
-        {
-
-        }
-
-        public int b()
-        {
-
-            return 1;
-        }
-        public void c()
-        {
-            
-        }
+      
 
 
         private string GetPageSource(CUrl cUrl)
@@ -81,7 +63,7 @@ namespace ConsoleApp1.Service
             {
                 request.AddHeader(item.Key, item.Value);
             }
-            // request.AddParameter("application/x-www-form-urlencoded", test.FormContent, ParameterType.RequestBody);
+            request.AddParameter("application/x-www-form-urlencoded", cUrl.FormContent, ParameterType.RequestBody);
             IRestResponse response = client.Execute(request);
             result = response.Content.Replace("\n", "");
             
