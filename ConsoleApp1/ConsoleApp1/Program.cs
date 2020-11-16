@@ -1,4 +1,5 @@
 ﻿using ConsoleApp1.Service;
+using Crawler.Model;
 using Newtonsoft.Json;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -38,18 +39,20 @@ namespace ConsoleApp1
         public static ItViecService itViecService;
         public static VietNamWorkService vietNamWorkService;
         public static CareerBuilderService careerBuilderService;
+        public static BaseCrawlService topcvService;
 
 
-        
         static void Main(string[] args)
         {
-            itViecService = new ItViecService();
+          //  itViecService = new ItViecService();
             //  vietNamWorkService = new VietNamWorkService();
            // careerBuilderService = new CareerBuilderService();
-          itViecService.Process();
-          //  vietNamWorkService.CrawlData();
-      
-      
+         // itViecService.Process();
+            //  vietNamWorkService.CrawlData();
+            topcvService = new TopcvService();
+            topcvService.Process();
+
+
 
         }
 
