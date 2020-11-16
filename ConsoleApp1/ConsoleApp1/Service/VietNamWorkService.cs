@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Crawler.Model;
+using Newtonsoft.Json;
 using RestSharp;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,7 @@ namespace ConsoleApp1.Service
 
         public VietNameWorkModle vietNameWorkModle { set; get; }
 
-
+      
         
 
         public VietNamWorkService()

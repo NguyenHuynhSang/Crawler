@@ -5,22 +5,64 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
-
+using ConsoleApp1.shared;
+using System.Linq;
+using Newtonsoft.Json;
+using System.IO;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 namespace Crawler.Model
 {
     public class TopcvService : BaseCrawlService
     {
-        
+        List<TopCvModel> topCvModels;
         public TopcvService():base()
         {
             this.loginUrl = @"https://www.topcv.vn/login";
             this.jobListUrl = @"https://www.topcv.vn/tim-viec-lam-it-phan-mem-c10026";
-           
+            topCvModels = new List<TopCvModel>();
+            _wait= new OpenQA.Selenium.Support.UI.WebDriverWait(_driver, TimeSpan.FromSeconds(30.00));
         }
 
+        private int counter = 1;
+        private int currentPage = 1;
         protected override void CrawlData()
         {
-            
+            var next_page=_driver.FindElements(By.XPath(@"//*[@id=""box-job-result""]/div[2]/nav/ul/li")).Last();
+
+            while (next_page.GetAttribute("class")!= "disabled")
+            {
+                Console.WriteLine("Page" + currentPage);
+                _wait.Until(driver1 => ((IJavaScriptExecutor)_driver).ExecuteScript("return document.readyState").Equals("complete"));
+                var listlistDiv= _driver.FindElements(By.XPath(@"//*[@id=""box-job-result""]/div[1]/div"));
+                for (int i = 1; i <= listlistDiv.Count; i++)
+                {
+
+                    var jobName= _driver.FindElement(By.XPath(@"//*[@id=""box-job-result""]/div[1]/div["+i+"]/div/div[2]/h4/a/span")).Text;
+                    var companyName= _driver.FindElement(By.XPath(@"//*[@id=""box-job-result""]/div[1]/div["+i+ "]/div/div[2]/div[1]/a")).Text;
+                    var salary = _driver.FindElement(By.XPath(@"//*[@id=""box-job-result""]/div[1]/div[" + i + "]/div/div[2]/div[2]/div[1]/span")).Text;
+                    var id = counter;
+
+                    TopCvModel job = new TopCvModel();
+                    job.JobName = jobName;
+                    job.CompanyName = companyName;
+                    job.Salary = salary;
+                    job.ID = id;
+                    topCvModels.Add(job);
+
+                    Console.WriteLine("EXtractor" + counter);
+                    counter++;
+                   
+
+                }
+
+             
+                next_page.Click();
+                next_page = _driver.FindElements(By.XPath(@"//*[@id=""box-job-result""]/div[2]/nav/ul/li")).Last();
+                currentPage++;
+            }
+            Console.WriteLine("Process end");
+            WriteToFile();
           
         }
 
@@ -51,6 +93,15 @@ namespace Crawler.Model
 
 
          
+        }
+
+        protected override void WriteToFile()
+        {
+            Newtonsoft.Json.JsonSerializer serializer = new JsonSerializer();
+            //serialize object directly into file 
+            var json = JsonConvert.SerializeObject(topCvModels, Newtonsoft.Json.Formatting.Indented);
+            File.WriteAllText(outPutPath+"Topcv.json", json);
+            Console.WriteLine("WRITE END");
         }
     }
 }

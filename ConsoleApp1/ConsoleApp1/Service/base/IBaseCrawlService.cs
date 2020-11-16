@@ -4,6 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using OpenQA.Selenium.Support.UI;
 
 namespace ConsoleApp1.Service
 {
@@ -12,10 +15,15 @@ namespace ConsoleApp1.Service
         protected  readonly string email = @"nguyentuoc123789a@gmail.com";
         protected readonly string passWord = @"abc123456";
 
+        protected readonly string outPutPath = @"../../../Output/";
+
         protected string loginUrl;
         protected string jobListUrl;
-        protected IWebDriver _driver;
+        
 
+
+        protected IWebDriver _driver;
+        protected WebDriverWait _wait;
          public BaseCrawlService()
         {
             _driver = new ChromeDriver();
@@ -28,6 +36,7 @@ namespace ConsoleApp1.Service
         public void Process() 
         {
             Login();
+            CrawlData();
 
 
         }
@@ -35,6 +44,7 @@ namespace ConsoleApp1.Service
         protected abstract void Login();
         protected abstract void CrawlData();
         protected abstract void ExtractContent();
+        protected abstract void WriteToFile();
 
 
     }
