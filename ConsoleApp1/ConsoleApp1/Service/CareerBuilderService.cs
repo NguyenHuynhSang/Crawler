@@ -47,13 +47,13 @@ namespace ConsoleApp1.Service
 
 
         /// <summary>
-        ///  so sánh số recond thực tế so với recond lấy ra
+        ///  so sánh số record thực tế so với record lấy ra
         /// </summary>
         private void Check()
         {
             var dataJson = File.ReadAllText("../../../Output/CareerBuilder.json");
             var data = JsonConvert.DeserializeObject<List<CareerBuilderModel>>(dataJson).Count();
-            Console.WriteLine("Actual recond:" + data);
+            Console.WriteLine("Actual record:" + data);
         }
 
 
@@ -138,7 +138,7 @@ namespace ConsoleApp1.Service
         }
 
         private int extractCouter = 1;
-        bool moreCondition = true;
+        bool morecordition = true;
 
         /// <summary>
         /// do trang con có 1 script cần truyền param vào là chuỗi json thông tin của job nên chỉ cần lấy param đó ra
@@ -171,7 +171,7 @@ namespace ConsoleApp1.Service
                     catch (Exception)
                     {
                         // bỏ qua những record bị lỗi
-                        Console.WriteLine("bỏ qua recond do lỗi ép kiểu");
+                        Console.WriteLine("bỏ qua record do lỗi ép kiểu");
                         extractCouter++;
                         continue;
                     }

@@ -151,7 +151,6 @@ namespace ConsoleApp1
                     for (int i = counter; i < jobLinkLists.Count; i++)
                     {
                         Container c = new Container();
-
                         var link = jobLinkLists[i].GetAttribute("href");
                         c.link = link;
                         c.salary = salary[i].Text;
@@ -159,8 +158,8 @@ namespace ConsoleApp1
                         counter++;
 
                     }
-                    Console.WriteLine("total recond:" + counter);
-                    Console.WriteLine("actual recond:" + jobLinkLists.Count);
+                    Console.WriteLine("total record:" + counter);
+                    Console.WriteLine("actual record:" + jobLinkLists.Count);
                     var btnNextPage = _driver.FindElement(By.XPath(@"//*[@id=""show_more""]/a"));
                     btnNextPage.Click();
                     currentPage++;
