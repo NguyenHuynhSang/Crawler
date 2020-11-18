@@ -36,23 +36,20 @@ namespace ConsoleApp1
     class Program
     {
   
-        public static ItViecService itViecService;
-        public static VietNamWorkService vietNamWorkService;
-        public static CareerBuilderService careerBuilderService;
+        public static BaseCrawlService itViecService;
+        public static BaseCrawlService vietNamWorkService;
+        public static BaseCrawlService careerBuilderService;
         public static BaseCrawlService topcvService;
 
 
         static void Main(string[] args)
         {
-            //  itViecService = new ItViecService();
+              itViecService = new ItViecService();
             //  vietNamWorkService = new VietNamWorkService();
             // careerBuilderService = new CareerBuilderService();
-            // itViecService.Process();
+             itViecService.Process();
             //  vietNamWorkService.CrawlData();
-            topcvService = new TopcvService();
-
-            topcvService.Process();
-
+          
          
             //BaseCrawlService carviet = new ItViecService();
             //carviet.Process();
