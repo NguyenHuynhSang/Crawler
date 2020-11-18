@@ -53,7 +53,8 @@ namespace ConsoleApp1
 
             //topcvService.Process();
 
-            BaseCrawlService carviet = new CareerBuilderService();
+         
+            BaseCrawlService carviet = new ItViecService();
             carviet.Process();
 
 

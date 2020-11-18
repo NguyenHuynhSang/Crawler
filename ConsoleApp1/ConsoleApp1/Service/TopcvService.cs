@@ -75,10 +75,7 @@ namespace Crawler.Model
           
         }
 
-        protected override void ExtractContent()
-        {
-            throw new NotImplementedException();
-        }
+      
 
         protected override void Login()
         {
