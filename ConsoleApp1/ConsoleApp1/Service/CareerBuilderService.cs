@@ -33,7 +33,7 @@ namespace ConsoleApp1.Service
 
 
 
-        public CareerBuilderService()
+        public CareerBuilderService() : base()
         {
             this.jobListUrl = @"https://careerbuilder.vn/viec-lam/cntt-phan-mem-c1-vi.html";
             careerBuilderModels = new List<CareerBuilderModel>();
@@ -41,7 +41,7 @@ namespace ConsoleApp1.Service
             base_curl.ReadFile(curl_path);
             _driver.Navigate().GoToUrl(jobListUrl);
             jobLinkList = new Queue<string>();
-            Check();
+
         }
 
 
@@ -113,9 +113,7 @@ namespace ConsoleApp1.Service
         {
             try
             {
-
-                IWait<IWebDriver> wait = new OpenQA.Selenium.Support.UI.WebDriverWait(_driver, TimeSpan.FromSeconds(30.00));
-                wait.Until(driver1 => ((IJavaScriptExecutor)_driver).ExecuteScript("return document.readyState").Equals("complete"));
+                _wait.Until(driver1 => ((IJavaScriptExecutor)_driver).ExecuteScript("return document.readyState").Equals("complete"));
                 Console.WriteLine("********** current page**********" + pageIndex);
                 Console.WriteLine("========URL:" + _driver.Url);
                 ExtractLink();
