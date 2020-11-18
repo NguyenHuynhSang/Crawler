@@ -14,16 +14,13 @@ namespace ConsoleApp1.shared
                 webDriver.FindElement(by);
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
                 Console.WriteLine("Element does't exitst by: ", by.ToString());
+                Console.WriteLine("Ex detail: ", ex.ToString());
             }
             return false;
         }
-
-        
-
-
     }
 }

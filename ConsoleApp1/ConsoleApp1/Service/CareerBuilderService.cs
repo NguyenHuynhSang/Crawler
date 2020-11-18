@@ -21,23 +21,13 @@ using System.Xml.Linq;
 
 namespace ConsoleApp1.Service
 {
-    /// <summary>
-    /// 1 task crawl pagesource về ( bỏ vào hết 1 list)
-    ///  1 task lấy dữ liệu ra
-    /// 
-    /// 
-    /// </summary>
-    /// 
 
-
-
-    public class CareerBuilderService:BaseCrawlService
+    public class CareerBuilderService : BaseCrawlService
     {
 
-        private static string base_url = @"https://careerbuilder.vn/viec-lam/cntt-phan-mem-c1-vi.html";
         private static CUrl base_curl;
         private static string curl_path = @"../../../cUrl/Careerbuilder.curl";
-        public Queue<String> jobLinkList;// lấy ra ds job từ thread craw bỏ vào hàng đợi cho thread kia xử lý 
+        public Queue<String> jobLinkList;// lấy ra ds job từ thread crawl bỏ vào hàng đợi cho thread kia xử lý 
         public List<CareerBuilderModel> careerBuilderModels;
 
 
@@ -45,13 +35,11 @@ namespace ConsoleApp1.Service
 
         public CareerBuilderService()
         {
+            this.jobListUrl = @"https://careerbuilder.vn/viec-lam/cntt-phan-mem-c1-vi.html";
             careerBuilderModels = new List<CareerBuilderModel>();
             base_curl = new CUrl();
             base_curl.ReadFile(curl_path);
-
-     
-
-            _driver.Navigate().GoToUrl(base_url);
+            _driver.Navigate().GoToUrl(jobListUrl);
             jobLinkList = new Queue<string>();
             Check();
         }
@@ -65,9 +53,7 @@ namespace ConsoleApp1.Service
         {
             var dataJson = File.ReadAllText("../../../Output/CareerBuilder.json");
             var data = JsonConvert.DeserializeObject<List<CareerBuilderModel>>(dataJson).Count();
-            Console.WriteLine("Actual recond:"+data);
-
-
+            Console.WriteLine("Actual recond:" + data);
         }
 
 
@@ -78,7 +64,7 @@ namespace ConsoleApp1.Service
         /// To-do: nhấn next page liên tục do đến hết
         /// web paging dạng cuộn 
         /// </summary>
-   
+
 
         private static int counter = 1;
         private void ExtractLink()
@@ -101,8 +87,8 @@ namespace ConsoleApp1.Service
 
 
 
-      
- 
+
+
 
         private string GetPageSource(CUrl cUrl)
         {
@@ -127,7 +113,7 @@ namespace ConsoleApp1.Service
         {
             try
             {
-                
+
                 IWait<IWebDriver> wait = new OpenQA.Selenium.Support.UI.WebDriverWait(_driver, TimeSpan.FromSeconds(30.00));
                 wait.Until(driver1 => ((IJavaScriptExecutor)_driver).ExecuteScript("return document.readyState").Equals("complete"));
                 Console.WriteLine("********** current page**********" + pageIndex);
@@ -153,6 +139,10 @@ namespace ConsoleApp1.Service
 
         private int extractCouter = 1;
         bool moreCondition = true;
+
+        /// <summary>
+        /// do trang con có 1 script cần truyền param vào là chuỗi json thông tin của job nên chỉ cần lấy param đó ra
+        /// </summary>
         protected override void ExtractContent()
         {
             do
@@ -164,6 +154,7 @@ namespace ConsoleApp1.Service
                     var item = jobLinkList.Dequeue();
                     base_curl.BaseURL = item;
                     var pageSource = GetPageSource(base_curl);
+                    // lấy ra param thứ 3 của script
                     var result = Regex.Match(pageSource, @"(?<='dispatch', 'p_detail_page',).*?(?=\);)", RegexOptions.Singleline).Value;
 
                     string replacement = Regex.Replace(result, @"\t|\n|\r", "");
@@ -201,7 +192,7 @@ namespace ConsoleApp1.Service
             JsonSerializer serializer = new JsonSerializer();
             //serialize object directly into file 
             var json = JsonConvert.SerializeObject(careerBuilderModels, Newtonsoft.Json.Formatting.Indented);
-            File.WriteAllText(this.outPutPath+"CareerBuilder.json", json);
+            File.WriteAllText(this.outPutPath + "CareerBuilder.json", json);
         }
     }
 }

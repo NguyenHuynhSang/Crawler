@@ -17,7 +17,6 @@ namespace ConsoleApp1.Service
         /// </summary>
         protected readonly string email = @"nguyentuoc123789a@gmail.com";
         protected readonly string passWord = @"abc123456";
-
         protected readonly string outPutPath = @"../../../Output/";
 
         /// <summary>
@@ -37,7 +36,7 @@ namespace ConsoleApp1.Service
         protected Thread extractThread;
 
         /// <summary>
-        /// Nếu trang cần dùng driver thì contructor trang con gọi base, k thì thôi
+        /// Nếu trang cần dùng selenium thì contructor trang con gọi base, k thì thôi
         /// </summary>
         public BaseCrawlService()
         {
@@ -49,7 +48,7 @@ namespace ConsoleApp1.Service
 
        
         /// <summary>
-        /// Trang nào k cần dùng đến 2 thread thì overite lại
+        /// Trang nào k cần dùng đến 2 thread thì overwrite lại
         /// </summary>
         public virtual void Process()
         {
@@ -73,6 +72,9 @@ namespace ConsoleApp1.Service
         {
             Console.WriteLine("No need to extract content");
         }
+        /// <summary>
+        /// ghi ra file json
+        /// </summary>
         protected abstract void WriteToFile();
 
 
