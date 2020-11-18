@@ -8,6 +8,10 @@ using System.Text;
 
 namespace ConsoleApp1.Service
 {
+    /// <summary>
+    /// Web gọi api, respose trả về là json, nên chỉ cần copy thủ công file cUrl (bash) vào thư mục cUrl
+    /// 
+    /// </summary>
    public class VietNamWorkService
     {
         public  readonly string cUrlPath = @"../../../cUrl/vietnamwork_it_job.curl";

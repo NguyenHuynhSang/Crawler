@@ -44,13 +44,17 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-          //  itViecService = new ItViecService();
+            //  itViecService = new ItViecService();
             //  vietNamWorkService = new VietNamWorkService();
-           // careerBuilderService = new CareerBuilderService();
-         // itViecService.Process();
+            // careerBuilderService = new CareerBuilderService();
+            // itViecService.Process();
             //  vietNamWorkService.CrawlData();
-            topcvService = new TopcvService();
-            topcvService.Process();
+            //topcvService = new TopcvService();
+
+            //topcvService.Process();
+
+            BaseCrawlService carviet = new CareerBuilderService();
+            carviet.Process();
 
 
 

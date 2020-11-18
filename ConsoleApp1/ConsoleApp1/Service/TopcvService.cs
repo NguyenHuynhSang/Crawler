@@ -11,6 +11,8 @@ using Newtonsoft.Json;
 using System.IO;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using OpenQA.Selenium.Chrome;
+
 namespace Crawler.Model
 {
     public class TopcvService : BaseCrawlService
@@ -21,7 +23,14 @@ namespace Crawler.Model
             this.loginUrl = @"https://www.topcv.vn/login";
             this.jobListUrl = @"https://www.topcv.vn/tim-viec-lam-it-phan-mem-c10026";
             topCvModels = new List<TopCvModel>();
-            _wait= new OpenQA.Selenium.Support.UI.WebDriverWait(_driver, TimeSpan.FromSeconds(30.00));
+         
+        }
+        // use main thread only
+        public override void Process()
+        {
+            Login();
+            CrawlData();
+            ExtractContent();
         }
 
         private int counter = 1;
@@ -103,5 +112,7 @@ namespace Crawler.Model
             File.WriteAllText(outPutPath+"Topcv.json", json);
             Console.WriteLine("WRITE END");
         }
+
+       
     }
 }

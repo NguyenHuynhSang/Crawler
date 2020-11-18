@@ -61,15 +61,6 @@ namespace ConsoleApp1
         }
 
 
-        public void Process()
-        {
-            Login();
-            crawlThread = new Thread(ExtractLink);
-            extractThread = new Thread(ExtractPage);
-            crawlThread.Start();
-             extractThread.Start();
-
-        }
 
 
 
@@ -79,12 +70,6 @@ namespace ConsoleApp1
         private int currentPage = 1;
         public void ExtractLink()
         {
-            ////    wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath(@"//input[@name='user[email]' and contains(@class,'form-control')]")));
-            //IJavaScriptExecutor js = (IJavaScriptExecutor)_driver;
-            //string script = @"document.getElementsByName('user[email]')[0].setAttribute('value', 'abc@gmail.com')";
-            //js.ExecuteScript(script);
-
-            //Console.WriteLine("Task 1");
             do
             {
                 try
@@ -95,12 +80,6 @@ namespace ConsoleApp1
                     var item = _driver.FindElements(By.XPath(@"//*[starts-with(@class, ""job"")]/div/div[2]/div[1]/div/h2/a"));
                     var salary= _driver.FindElements(By.XPath(@"//*[starts-with(@class, ""job"")]/div/div[2]/div[1]/div/div[1]/span[2]"));
                     Console.WriteLine("current page:" + currentPage);
-                    //foreach (var item in itemLinksDiv)
-                    //{
-                    //    Console.WriteLine(item.GetAttribute("href"));
-                    //}
-
-                    //   var itemLinks = Regex.Matches(_driver.PageSource, @"(?<=<h2 class=""title"")(.*?)(?=</h2>)", RegexOptions.Singleline);
                     for (int i = counter; i < item.Count; i++)
                     {
                         Container c = new Container();
@@ -179,11 +158,6 @@ namespace ConsoleApp1
         private void ExtractPage()
         {
 
-            //  Console.WriteLine("Task 2 process");
-
-
-            /// Read curl
-            /// 
             do
             {
                 while (pageLinkList.Count != 0)
@@ -285,19 +259,6 @@ namespace ConsoleApp1
 
 
         }
-
-        /// <summary>
-        /// Chia 2 tiến trình 1 crawl 1 xử lý
-        /// 
-        /// </summary>
-        /// 
-
-
-
-
-
-
-
 
 
     }

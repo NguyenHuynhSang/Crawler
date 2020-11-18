@@ -31,21 +31,16 @@ namespace ConsoleApp1.Service
 
 
 
-    public class CareerBuilderService
+    public class CareerBuilderService:BaseCrawlService
     {
 
         private static string base_url = @"https://careerbuilder.vn/viec-lam/cntt-phan-mem-c1-vi.html";
         private static CUrl base_curl;
         private static string curl_path = @"../../../cUrl/Careerbuilder.curl";
-        private readonly IWebDriver _driver;
-        public Queue<String> jobLinkList;
+        public Queue<String> jobLinkList;// lấy ra ds job từ thread craw bỏ vào hàng đợi cho thread kia xử lý 
         public List<CareerBuilderModel> careerBuilderModels;
 
-        // lấy ra tất cả cái link jobdetail 
-        private Thread thread_CrawData;
 
-        // lấy ra dữ liệu jobdetail dựa vào từng links
-        private Thread Thread_ExtractData;
 
 
         public CareerBuilderService()
@@ -54,7 +49,7 @@ namespace ConsoleApp1.Service
             base_curl = new CUrl();
             base_curl.ReadFile(curl_path);
 
-            _driver = new ChromeDriver();
+     
 
             _driver.Navigate().GoToUrl(base_url);
             jobLinkList = new Queue<string>();
@@ -63,7 +58,10 @@ namespace ConsoleApp1.Service
 
 
 
-        public void Check()
+        /// <summary>
+        ///  so sánh số recond thực tế so với recond lấy ra
+        /// </summary>
+        private void Check()
         {
             var dataJson = File.ReadAllText("../../../Output/CareerBuilder.json");
             var data = JsonConvert.DeserializeObject<List<CareerBuilderModel>>(dataJson).Count();
@@ -73,43 +71,6 @@ namespace ConsoleApp1.Service
         }
 
 
-
-
-        public void Process()
-        {
-            thread_CrawData = new Thread(CrawlData);
-            Thread_ExtractData = new Thread(ExtractContent);
-            thread_CrawData.Start();
-            Thread_ExtractData.Start();
-
-
-
-        }
-
-
-        /// <summary>
-        /// Ghi ra json
-        /// </summary>
-
-        private void WriteFile()
-        {
-
-            JsonSerializer serializer = new JsonSerializer();
-            //serialize object directly into file 
-            var json = JsonConvert.SerializeObject(careerBuilderModels, Newtonsoft.Json.Formatting.Indented);
-            File.WriteAllText(@"../../../Output/CareerBuilder.json", json);
-
-        }
-
-
-
-        public void CrawlData()
-        {
-            NextPage();
-        }
-
-
-
         private static int pageIndex = 1;
 
 
@@ -117,33 +78,7 @@ namespace ConsoleApp1.Service
         /// To-do: nhấn next page liên tục do đến hết
         /// web paging dạng cuộn 
         /// </summary>
-        private void NextPage()
-        {
-            try
-            {
-                IWait<IWebDriver> wait = new OpenQA.Selenium.Support.UI.WebDriverWait(_driver, TimeSpan.FromSeconds(30.00));
-                wait.Until(driver1 => ((IJavaScriptExecutor)_driver).ExecuteScript("return document.readyState").Equals("complete"));
-                Console.WriteLine("********** current page**********" + pageIndex);
-                Console.WriteLine("========URL:" + _driver.Url);
-                ExtractLink();
-                var btnNextPage = _driver.FindElement(By.ClassName("next-page"));
-                if (btnNextPage.Displayed)
-                {
-                    btnNextPage.Click();
-                    pageIndex++;
-                }
-
-                NextPage();
-
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Exception");
-                return;
-            }
-
-
-        }
+   
 
         private static int counter = 1;
         private void ExtractLink()
@@ -166,56 +101,8 @@ namespace ConsoleApp1.Service
 
 
 
-        private int extractCouter = 1;
-        bool moreCondition = true;
-        private void ExtractContent()
-        {
-
-
-            do
-            {
-                while (jobLinkList.Count != 0)
-                {
-
-                
-                    var item = jobLinkList.Dequeue();
-                    base_curl.BaseURL = item;
-                    var pageSource = GetPageSource(base_curl);
-                    var result = Regex.Match(pageSource, @"(?<='dispatch', 'p_detail_page',).*?(?=\);)", RegexOptions.Singleline).Value;
-
-                    string replacement = Regex.Replace(result, @"\t|\n|\r", "");
-                    //var replace2= Regex.Replace(replacement, "\\\"", "\"");
-                    CareerBuilderModel cc = new CareerBuilderModel();
-                   
-
-                    //  fix lỗi khi parse json, nên dùng regex
-                    result = result.Replace("First Alliances' client", "First Alliances client");
-                    result = result.Replace("First Alliances' Client", "First Alliances client");
-                    result = result.Replace("First Alliances's Client", "First Alliances client");
-                    result = result.Replace("First Alliances's client", "First Alliances client");
-                    result = result.Replace("  L'amour Bakery", "  Lamour Bakery");
-                    try
-                    {
-                        var job = JsonConvert.DeserializeObject<CareerBuilderModel>(result);
-                        careerBuilderModels.Add(job);
-                    }
-                    catch (Exception)
-                    {
-                        // bỏ qua những record bị lỗi
-                        extractCouter++;
-                        continue;
-                    }
-                    Console.WriteLine("Extractor" + extractCouter);
-                    extractCouter++;
-
-
-                }
-
-            } while (thread_CrawData.IsAlive);
-            
-            WriteFile();
-
-        }
+      
+ 
 
         private string GetPageSource(CUrl cUrl)
         {
@@ -236,10 +123,85 @@ namespace ConsoleApp1.Service
             return result;
         }
 
+        protected override void CrawlData()
+        {
+            try
+            {
+                
+                IWait<IWebDriver> wait = new OpenQA.Selenium.Support.UI.WebDriverWait(_driver, TimeSpan.FromSeconds(30.00));
+                wait.Until(driver1 => ((IJavaScriptExecutor)_driver).ExecuteScript("return document.readyState").Equals("complete"));
+                Console.WriteLine("********** current page**********" + pageIndex);
+                Console.WriteLine("========URL:" + _driver.Url);
+                ExtractLink();
+                var btnNextPage = _driver.FindElement(By.ClassName("next-page"));
+                if (btnNextPage.Displayed)
+                {
+                    btnNextPage.Click();
+                    pageIndex++;
+                }
+
+                CrawlData();
+
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Exception");
+                return;
+            }
+
+        }
+
+        private int extractCouter = 1;
+        bool moreCondition = true;
+        protected override void ExtractContent()
+        {
+            do
+            {
+                while (jobLinkList.Count != 0)
+                {
 
 
+                    var item = jobLinkList.Dequeue();
+                    base_curl.BaseURL = item;
+                    var pageSource = GetPageSource(base_curl);
+                    var result = Regex.Match(pageSource, @"(?<='dispatch', 'p_detail_page',).*?(?=\);)", RegexOptions.Singleline).Value;
+
+                    string replacement = Regex.Replace(result, @"\t|\n|\r", "");
+                    //var replace2= Regex.Replace(replacement, "\\\"", "\"");
+                    CareerBuilderModel cc = new CareerBuilderModel();
 
 
+                    // lỗi gây ra nếu json attribute value có chứa ' nên k  dùng thư viện có sẵn ép sang đc
+                    try
+                    {
+                        var job = JsonConvert.DeserializeObject<CareerBuilderModel>(result);
+                        careerBuilderModels.Add(job);
+                    }
+                    catch (Exception)
+                    {
+                        // bỏ qua những record bị lỗi
+                        Console.WriteLine("bỏ qua recond do lỗi ép kiểu");
+                        extractCouter++;
+                        continue;
+                    }
+                    Console.WriteLine("Extractor" + extractCouter);
+                    extractCouter++;
 
+
+                }
+
+            } while (crawlThread.IsAlive);
+
+            WriteToFile();
+        }
+
+        protected override void WriteToFile()
+        {
+            Console.WriteLine("write to file");
+            JsonSerializer serializer = new JsonSerializer();
+            //serialize object directly into file 
+            var json = JsonConvert.SerializeObject(careerBuilderModels, Newtonsoft.Json.Formatting.Indented);
+            File.WriteAllText(this.outPutPath+"CareerBuilder.json", json);
+        }
     }
 }
