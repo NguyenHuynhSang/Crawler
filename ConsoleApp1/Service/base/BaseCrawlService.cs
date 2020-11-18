@@ -24,6 +24,9 @@ namespace ConsoleApp1.Service
         /// đường dẫn login nếu cần thiết
         /// </summary>
         protected string loginUrl;
+        /// <summary>
+        /// tên file json trả về
+        /// </summary>
         protected string resultFileName="";
         /// <summary>
         /// base url của ds job
