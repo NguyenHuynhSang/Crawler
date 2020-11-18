@@ -67,6 +67,21 @@ namespace ConsoleApp1.Service
 
         }
 
+        protected virtual void WriteToFile(Object obj = null)
+        {
+            if (obj == null)
+            {
+                Console.WriteLine("[ERROR] No input data for write");
+                return;
+            }
+
+            Newtonsoft.Json.JsonSerializer serializer = new JsonSerializer();
+            //serialize object directly into file 
+            var json = JsonConvert.SerializeObject(obj, Newtonsoft.Json.Formatting.Indented);
+            resultFileName = String.IsNullOrEmpty(resultFileName) ? ((Func<string>)(() => "UNNAMED" + DateTime.Now.ToString()))() : resultFileName;
+            File.WriteAllText(outPutPath + resultFileName, json);
+            Console.WriteLine("[COMPLETE] WRITE Complete");
+        }
         protected virtual void Login() { Console.WriteLine("Website no need to login!!!"); }
         protected virtual void CrawlData()
         {
@@ -79,21 +94,7 @@ namespace ConsoleApp1.Service
         /// <summary>
         /// ghi ra file json chuẩn format
         /// </summary>
-        protected virtual void WriteToFile(Object obj = null)
-        {
-            if (obj==null)
-            {
-                Console.WriteLine("[ERROR] No input data for write");
-                return;
-            }
-
-            Newtonsoft.Json.JsonSerializer serializer = new JsonSerializer();
-            //serialize object directly into file 
-            var json = JsonConvert.SerializeObject(obj, Newtonsoft.Json.Formatting.Indented);
-            resultFileName= String.IsNullOrEmpty(resultFileName) ? ((Func<string>)(() => "UNNAMED"+DateTime.Now.ToString()))():resultFileName;
-            File.WriteAllText(outPutPath + resultFileName, json);
-            Console.WriteLine("[COMPLETE] WRITE Complete");
-        }
+    
 
 
     }

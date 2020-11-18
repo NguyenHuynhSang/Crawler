@@ -137,7 +137,7 @@ namespace ConsoleApp1.Service
         }
 
         private int extractCouter = 1;
-        bool morecordition = true;
+   
 
         /// <summary>
         /// do trang con có 1 script cần truyền param vào là chuỗi json thông tin của job nên chỉ cần lấy param đó ra

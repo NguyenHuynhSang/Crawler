@@ -23,36 +23,33 @@ using System.Xml;
 namespace ConsoleApp1
 {
 
-    public enum webSource
-    {
-        VietNamWork = 1,
-        ITViet = 2,
-
-    }
+  
 
 
 
 
     class Program
     {
-  
-        public static BaseCrawlService itViecService;
-        public static BaseCrawlService vietNamWorkService;
-        public static BaseCrawlService careerBuilderService;
-        public static BaseCrawlService topcvService;
 
-
+        public   enum EWEB
+        {
+            CareerBuilderService,
+            TopcvService,
+            VietNamWorkService,
+            ItViecService
+        }
         static void Main(string[] args)
         {
-              itViecService = new ItViecService();
-            //  vietNamWorkService = new VietNamWorkService();
-            // careerBuilderService = new CareerBuilderService();
-             itViecService.Process();
-            //  vietNamWorkService.CrawlData();
-          
-         
-            //BaseCrawlService carviet = new ItViecService();
-            //carviet.Process();
+            List<BaseCrawlService> crawlServices = new List<BaseCrawlService>()
+            {
+                new CareerBuilderService(),
+                new TopcvService(),
+                new VietNamWorkService(),
+                new ItViecService()
+
+            };
+            crawlServices[0].Process();
+
 
 
 
